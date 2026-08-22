@@ -1,0 +1,110 @@
+"use client";
+
+import Image from "next/image";
+import Link from "next/link";
+import { useCart } from "@/context/CartContext";
+import { useRouter } from "next/navigation";
+
+export default function CartPage() {
+  const { cart, removeFromCart, updateQuantity, cartTotal } = useCart();
+  const router = useRouter();
+
+  if (cart.length === 0) {
+    return (
+      <div className="max-w-7xl mx-auto px-4 py-32 text-center min-h-[60vh]">
+        <h1 className="font-serif text-4xl font-bold text-brand-charcoal mb-6">Your Cart is Empty</h1>
+        <p className="text-brand-charcoal/70 mb-8">Looks like you haven't added anything to your cart yet.</p>
+        <Link href="/category/all" className="inline-block bg-brand-gold text-brand-charcoal px-8 py-3 rounded-sm font-bold tracking-wider uppercase text-sm hover:bg-yellow-600 transition-colors shadow-lg">
+          Start Shopping
+        </Link>
+      </div>
+    );
+  }
+
+  return (
+    <div className="max-w-7xl mx-auto px-4 py-16 w-full min-h-[60vh]">
+      <h1 className="font-serif text-4xl font-bold text-brand-charcoal mb-10">Shopping Cart</h1>
+      
+      <div className="grid lg:grid-cols-3 gap-12">
+        {/* Cart Items */}
+        <div className="lg:col-span-2 space-y-6">
+          {cart.map((item) => (
+            <div key={item.id} className="flex gap-6 p-4 border border-brand-charcoal/10 rounded-sm bg-white">
+              <Link href={`/product/${item.slug}`} className="relative w-24 h-32 flex-shrink-0 bg-brand-offwhite">
+                <Image src={item.imageSrc} alt={item.name} fill className="object-cover" />
+              </Link>
+              
+              <div className="flex-grow flex flex-col justify-between py-2">
+                <div className="flex justify-between items-start">
+                  <div>
+                    <Link href={`/product/${item.slug}`} className="font-serif text-lg text-brand-charcoal hover:text-brand-gold transition-colors block mb-1">
+                      {item.name}
+                    </Link>
+                    <p className="text-brand-charcoal/70 font-bold">₹{item.price}</p>
+                  </div>
+                  <button 
+                    onClick={() => removeFromCart(item.id)}
+                    className="text-sm text-red-500 hover:text-red-700 underline"
+                  >
+                    Remove
+                  </button>
+                </div>
+                
+                <div className="flex items-center gap-4">
+                  <span className="text-sm text-brand-charcoal/70">Quantity:</span>
+                  <div className="flex items-center border border-brand-charcoal/20 rounded-sm">
+                    <button 
+                      onClick={() => updateQuantity(item.id, item.quantity - 1)}
+                      className="px-3 py-1 text-brand-charcoal hover:bg-brand-offwhite"
+                    >
+                      -
+                    </button>
+                    <span className="px-4 py-1 font-medium">{item.quantity}</span>
+                    <button 
+                      onClick={() => updateQuantity(item.id, item.quantity + 1)}
+                      className="px-3 py-1 text-brand-charcoal hover:bg-brand-offwhite"
+                    >
+                      +
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Order Summary */}
+        <div className="lg:col-span-1">
+          <div className="bg-brand-offwhite p-6 rounded-sm border border-brand-charcoal/5 sticky top-24">
+            <h2 className="font-serif text-2xl font-bold text-brand-charcoal mb-6">Order Summary</h2>
+            
+            <div className="space-y-4 mb-6 text-brand-charcoal">
+              <div className="flex justify-between">
+                <span>Subtotal</span>
+                <span className="font-bold">₹{cartTotal.toFixed(2)}</span>
+              </div>
+              <div className="flex justify-between">
+                <span>Shipping</span>
+                <span className="text-brand-charcoal/70">Calculated at checkout</span>
+              </div>
+            </div>
+            
+            <div className="border-t border-brand-charcoal/10 pt-4 mb-8">
+              <div className="flex justify-between items-center text-lg">
+                <span className="font-bold">Total</span>
+                <span className="font-serif text-2xl font-bold text-brand-charcoal">₹{cartTotal.toFixed(2)}</span>
+              </div>
+            </div>
+            
+            <button 
+              onClick={() => router.push('/checkout')}
+              className="w-full bg-brand-charcoal text-brand-cream py-4 rounded-sm font-bold tracking-wider uppercase text-sm hover:bg-black transition-colors"
+            >
+              Proceed to Checkout
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}

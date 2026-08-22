@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bananana — Headless E-commerce Project
 
-## Getting Started
+## 1. Environment Setup
 
-First, run the development server:
+Copy `.env.local.example` to `.env.local` and configure your credentials:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+WORDPRESS_URL="http://localhost:8080" # The local Docker instance or production URL
+WC_CONSUMER_KEY="ck_your_consumer_key"
+WC_CONSUMER_SECRET="cs_your_consumer_secret"
+WPGRAPHQL_URL="http://localhost:8080/graphql"
+REVALIDATE_SECRET="your_secret_token"
+RAZORPAY_KEY_ID="rzp_test_..."
+RAZORPAY_SECRET="your_razorpay_secret"
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 2. Local WordPress + WooCommerce Setup
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+A full local environment is provided via Docker.
+1. Run `docker-compose up -d` to spin up WordPress, MySQL, and WP-CLI.
+2. Wait ~20 seconds for the database to initialize.
+3. Run `bash wp-setup.sh`. This script will:
+   - Install and activate WooCommerce
+   - Install WPGraphQL & WPGraphQL for WooCommerce
+   - Install Advanced Custom Fields (ACF)
+   - Seed all required product categories (Wrapz, Premium Kasavu, Daily Wear, etc.)
+4. Visit `http://localhost:8080/wp-admin` to configure WooCommerce settings.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 3. Deployment
 
-## Learn More
+**Frontend (Next.js)**:
+- Deploy to Vercel. 
+- Ensure all environment variables listed in step 1 are configured in the Vercel project settings.
+- Setup a webhook in WooCommerce (`/wp-json/wc/v3/webhooks`) pointing to `https://your-vercel-domain.com/api/revalidate?secret=your_secret_token` on the `product.updated` event for on-demand Incremental Static Regeneration (ISR).
 
-To learn more about Next.js, take a look at the following resources:
+**Backend (WordPress)**:
+- Deploy to a managed WordPress host (e.g. WP Engine, Kinsta, Cloudways).
+- Update the `WORDPRESS_URL` and `WPGRAPHQL_URL` on Vercel to point to the production host.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 4. Content Management
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Adding a new Product**:
+1. Go to Products > Add New in WP Admin.
+2. Select the category (e.g. "Premium Kasavu Mundu").
+3. Set Product Data to "Variable product".
+4. Add Attributes: `Size (Waist in inches)` and `Color/Print`.
+5. Generate variations and set stock/price per variation.
+6. Publish. The Next.js frontend will revalidate automatically via the webhook.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Managing Homepage Content**:
+- Global settings and homepage banners are managed via Advanced Custom Fields (ACF) Options page.
+# bananana
