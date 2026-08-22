@@ -49,14 +49,7 @@ export default function ProductCard({ title, price, imageSrc, slug, label, id }:
           fill
           className="object-cover transition-transform duration-700 group-hover:scale-105"
         />
-        <div className="absolute inset-0 bg-black/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-4">
-          <button 
-            onClick={handleAddToCart}
-            className="bg-brand-gold text-brand-charcoal text-xs font-bold uppercase tracking-wider px-6 py-3 rounded-sm transform translate-y-4 group-hover:translate-y-0 transition-all duration-300 shadow-lg hover:bg-yellow-600"
-          >
-            Add to Cart
-          </button>
-        </div>
+        <div className="absolute inset-0 bg-black/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
       </div>
       <div>
         <h3 className="font-serif text-lg text-brand-charcoal mb-1 group-hover:text-brand-gold transition-colors">{title}</h3>
