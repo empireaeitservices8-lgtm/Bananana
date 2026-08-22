@@ -7,7 +7,7 @@ import toast from "react-hot-toast";
 
 interface ProductCardProps {
   title: string;
-  price: number;
+  price: string | number;
   imageSrc: string;
   slug: string;
   label?: string;
@@ -25,7 +25,7 @@ export default function ProductCard({ title, price, imageSrc, slug, label, id }:
       addToCart({
         id,
         name: title,
-        price,
+        price: price.toString(),
         imageSrc,
         slug
       });
