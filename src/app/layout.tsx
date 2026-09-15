@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${playfairDisplay.variable}`}>
-      <body className="antialiased min-h-screen flex flex-col bg-brand-cream text-brand-charcoal">
+      <body className="antialiased min-h-screen flex flex-col bg-brand-cream text-brand-charcoal overflow-x-hidden">
         <Providers>
           <Toaster position="bottom-right" />
           <Header />

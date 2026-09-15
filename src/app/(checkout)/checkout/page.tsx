@@ -214,6 +214,7 @@ export default function CheckoutPage() {
                   </div>
                   <div className="flex-grow">
                     <p className="font-medium text-brand-charcoal">{item.name}</p>
+                    {item.size && <p className="text-xs text-brand-charcoal/70">Size: {item.size}</p>}
                     <p className="text-sm text-brand-charcoal/70">Qty: {item.quantity}</p>
                   </div>
                   <p className="font-bold">₹{parseFloat(item.price) * item.quantity}</p>

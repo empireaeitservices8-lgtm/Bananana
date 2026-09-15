@@ -2,7 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import ProductCard from "@/components/product/ProductCard";
 import AddToCartForm from "@/components/product/AddToCartForm";
-import { getProductBySlug, getProducts } from "@/lib/woocommerce/api";
+import ProductDetailsAccordion from "@/components/product/ProductDetailsAccordion";
+import CustomerReviews from "@/components/product/CustomerReviews";
+import { getProductBySlug, getProducts, getProductReviews } from "@/lib/woocommerce/api";
 import { notFound } from "next/navigation";
 
 export default async function ProductDetailPage({ params }: { params: Promise<{ slug: string }> }) {
@@ -15,6 +17,12 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
 
   // Fetch some related products
   const relatedProducts = await getProducts(`?include=${product.related_ids?.join(',') || ''}&per_page=4`);
+
+  // Fetch product reviews
+  const initialReviews = await getProductReviews(product.id).catch(() => []);
+
+  // Filter out size attribute to pass the rest as product details
+  const detailsAttributes = product.attributes?.filter((attr: any) => !attr.name.toLowerCase().includes('size')) || [];
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-8 w-full">
@@ -32,7 +40,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
         <div className="flex flex-col-reverse md:flex-row gap-4">
           <div className="flex md:flex-col gap-4 overflow-x-auto md:w-20 flex-shrink-0">
             {product.images?.map((img: any, i: number) => (
-              <button key={img.id} className={`relative aspect-[3/4] w-20 flex-shrink-0 rounded-sm overflow-hidden border-2 ${i === 0 ? 'border-brand-gold' : 'border-transparent'}`}>
+              <button key={`${img.id}-${i}`} className={`relative aspect-[3/4] w-20 flex-shrink-0 rounded-sm overflow-hidden border-2 ${i === 0 ? 'border-brand-gold' : 'border-transparent'}`}>
                 <Image src={img.src} alt={img.alt || product.name} fill className="object-cover" />
               </button>
             ))}
@@ -70,23 +78,6 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
             dangerouslySetInnerHTML={{ __html: product.short_description || product.description }}
           />
 
-          {/* Attributes / Variants */}
-          {product.attributes && product.attributes.map((attr: any) => (
-             <div key={attr.id} className="mb-8">
-               <div className="flex justify-between items-center mb-4">
-                 <h3 className="font-bold uppercase tracking-wider text-sm">{attr.name}</h3>
-                 {attr.name.toLowerCase().includes('size') && <button className="text-sm font-bold text-brand-gold hover:underline">Size Guide</button>}
-               </div>
-               <div className="flex flex-wrap gap-3">
-                 {attr.options.map((opt: string) => (
-                   <button key={opt} className="border border-brand-charcoal/20 rounded-sm py-2 px-4 text-sm font-medium hover:border-brand-charcoal transition-colors focus:ring-2 focus:ring-brand-gold focus:outline-none">
-                     {opt}
-                   </button>
-                 ))}
-               </div>
-             </div>
-          ))}
-
           <AddToCartForm 
             product={{
               id: product.id,
@@ -94,11 +85,12 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
               price: product.price,
               imageSrc: product.images?.[0]?.src || "/images/placeholder.png",
               slug: product.slug,
-            }} 
+            }}
+            sizes={product.attributes?.find((a: any) => a.name.toLowerCase().includes('size'))?.options}
           />
 
           {/* Trust Badges */}
-          <div className="grid grid-cols-3 gap-4 py-6 border-y border-brand-charcoal/10 mb-8">
+          <div className="grid grid-cols-3 gap-4 py-6 border-y border-brand-charcoal/10 my-8">
             <div className="flex flex-col items-center text-center gap-2">
               <div className="w-8 h-8 rounded-full bg-brand-offwhite flex items-center justify-center">🧶</div>
               <span className="text-xs font-medium text-brand-charcoal/80">Authentic Handloom</span>
@@ -114,6 +106,8 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
           </div>
 
           {/* Accordions */}
+          <ProductDetailsAccordion attributes={detailsAttributes} />
+          
           {product.description && (
              <div className="border-b border-brand-charcoal/10">
                <button className="w-full py-4 flex justify-between items-center font-bold uppercase tracking-wider text-sm">
@@ -129,19 +123,23 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
         </div>
       </div>
 
+      {/* Customer Reviews Section */}
+      <CustomerReviews productId={product.id} initialReviews={initialReviews} />
+
       {/* Cross-sell / Related */}
       {relatedProducts && relatedProducts.length > 0 && (
-        <section>
-          <h2 className="font-serif text-3xl font-bold text-brand-charcoal mb-8 text-center">Complete the Look</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+        <section className="mt-16">
+          <h2 className="font-serif text-3xl font-bold text-brand-charcoal mb-8 text-center">Similar products you may like</h2>
+          <div className="flex overflow-x-auto gap-4 snap-x snap-mandatory pb-4 scroll-smooth [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
             {relatedProducts.map((p: any) => (
-              <ProductCard 
-                key={p.id}
-                title={p.name} 
-                price={p.price || p.regular_price} 
-                imageSrc={p.images?.[0]?.src || "/images/placeholder.png"} 
-                slug={p.slug} 
-              />
+              <div key={p.id} className="flex-none w-[45vw] sm:w-[35vw] md:w-[280px] lg:w-[300px] snap-start">
+                <ProductCard 
+                  title={p.name} 
+                  price={p.price || p.regular_price} 
+                  imageSrc={p.images?.[0]?.src || "/images/placeholder.png"} 
+                  slug={p.slug} 
+                />
+              </div>
             ))}
           </div>
         </section>

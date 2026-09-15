@@ -9,13 +9,15 @@ export interface CartItem {
   imageSrc: string;
   slug: string;
   quantity: number;
+  size?: string;
+  cartItemId: string;
 }
 
 interface CartContextType {
   cart: CartItem[];
-  addToCart: (item: Omit<CartItem, "quantity">) => void;
-  removeFromCart: (id: number) => void;
-  updateQuantity: (id: number, quantity: number) => void;
+  addToCart: (item: Omit<CartItem, "quantity" | "cartItemId">) => void;
+  removeFromCart: (cartItemId: string) => void;
+  updateQuantity: (cartItemId: string, quantity: number) => void;
   clearCart: () => void;
   cartTotal: number;
   cartCount: number;
@@ -47,26 +49,27 @@ export function CartProvider({ children }: { children: ReactNode }) {
     }
   }, [cart, isLoaded]);
 
-  const addToCart = (item: Omit<CartItem, "quantity">) => {
+  const addToCart = (item: Omit<CartItem, "quantity" | "cartItemId">) => {
+    const cartItemId = `${item.id}-${item.size || "default"}`;
     setCart((prevCart) => {
-      const existingItem = prevCart.find((i) => i.id === item.id);
+      const existingItem = prevCart.find((i) => i.cartItemId === cartItemId);
       if (existingItem) {
         return prevCart.map((i) =>
-          i.id === item.id ? { ...i, quantity: i.quantity + 1 } : i
+          i.cartItemId === cartItemId ? { ...i, quantity: i.quantity + 1 } : i
         );
       }
-      return [...prevCart, { ...item, quantity: 1 }];
+      return [...prevCart, { ...item, quantity: 1, cartItemId }];
     });
   };
 
-  const removeFromCart = (id: number) => {
-    setCart((prevCart) => prevCart.filter((i) => i.id !== id));
+  const removeFromCart = (cartItemId: string) => {
+    setCart((prevCart) => prevCart.filter((i) => i.cartItemId !== cartItemId));
   };
 
-  const updateQuantity = (id: number, quantity: number) => {
+  const updateQuantity = (cartItemId: string, quantity: number) => {
     if (quantity < 1) return;
     setCart((prevCart) =>
-      prevCart.map((i) => (i.id === id ? { ...i, quantity } : i))
+      prevCart.map((i) => (i.cartItemId === cartItemId ? { ...i, quantity } : i))
     );
   };
 

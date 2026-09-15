@@ -34,6 +34,14 @@ export async function POST(req: Request) {
       line_items: data.items.map((item: any) => ({
         product_id: item.id,
         quantity: item.quantity,
+        ...(item.size ? {
+          meta_data: [
+            {
+              key: "Size",
+              value: item.size
+            }
+          ]
+        } : {})
       })),
       status: "processing", // Processing means paid and ready for Shiprocket fulfillment
     };

@@ -41,6 +41,38 @@ export default function AboutPage() {
             “Tradition is not just worn, it is carried with pride.”
           </blockquote>
 
+          <h2 className="font-serif text-3xl font-bold text-brand-charcoal mb-8 mt-16 text-center">What Makes Our Mundu Different?</h2>
+          
+          <div className="space-y-12">
+            <div>
+              <h3 className="font-serif text-2xl font-bold text-brand-charcoal mb-3">1. Fabric</h3>
+              <p className="leading-relaxed">
+                We choose lightweight knit fabric for a softer, more breathable and comfortable everyday feel. From yarn to fabric, we develop our material to match our own quality requirements—giving every mundu the right softness, fall, comfort and finish. Our premium shades are designed for better colour retention, while bio-wash and silicone wash give the fabric a smoother, softer and more refined feel. Bio-washing helps reduce surface fuzz and pilling, and silicone finishing improves smoothness, flexibility and drape.
+              </p>
+            </div>
+            
+            <div>
+              <h3 className="font-serif text-2xl font-bold text-brand-charcoal mb-3">2. Premium Woven Elastic Waistband</h3>
+              <p className="leading-relaxed">
+                Our woven elastic gives a firm yet comfortable fit that stretches naturally with your movement and returns to shape after wear. It stays flat without rolling, twisting, or becoming narrow—so your mundu remains secure, neat and comfortable all day.
+              </p>
+            </div>
+            
+            <div>
+              <h3 className="font-serif text-2xl font-bold text-brand-charcoal mb-3">3. Carry Easy, Worry Less.</h3>
+              <p className="leading-relaxed">
+                Our mundu comes with a practical, easy-access pocket to keep your phone, wallet, keys and daily essentials close at hand. Enjoy traditional style with the comfort and convenience of modern everyday wear.
+              </p>
+            </div>
+            
+            <div>
+              <h3 className="font-serif text-2xl font-bold text-brand-charcoal mb-3">4. Checked Before It Reaches You</h3>
+              <p className="leading-relaxed">
+                Every mundu is carefully finished for neat stitching, clean edges and a polished look. Before packing, we check the fit, fabric, waistband, pocket, stitching and overall finish to ensure it meets our quality standards. Final garment checks commonly cover appearance, measurements, stitching, construction and loose-thread defects.
+              </p>
+            </div>
+          </div>
+
           <h2 className="font-serif text-3xl font-bold text-brand-charcoal mb-8 mt-16 text-center">Our Commitment</h2>
 
           <p className="mb-6 leading-relaxed">

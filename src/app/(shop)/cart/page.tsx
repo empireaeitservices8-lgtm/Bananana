@@ -40,10 +40,11 @@ export default function CartPage() {
                     <Link href={`/product/${item.slug}`} className="font-serif text-lg text-brand-charcoal hover:text-brand-gold transition-colors block mb-1">
                       {item.name}
                     </Link>
+                    {item.size && <p className="text-sm text-brand-charcoal/70 mb-1">Size: {item.size}</p>}
                     <p className="text-brand-charcoal/70 font-bold">₹{item.price}</p>
                   </div>
                   <button 
-                    onClick={() => removeFromCart(item.id)}
+                    onClick={() => removeFromCart(item.cartItemId)}
                     className="text-sm text-red-500 hover:text-red-700 underline"
                   >
                     Remove
@@ -54,14 +55,14 @@ export default function CartPage() {
                   <span className="text-sm text-brand-charcoal/70">Quantity:</span>
                   <div className="flex items-center border border-brand-charcoal/20 rounded-sm">
                     <button 
-                      onClick={() => updateQuantity(item.id, item.quantity - 1)}
+                      onClick={() => updateQuantity(item.cartItemId, item.quantity - 1)}
                       className="px-3 py-1 text-brand-charcoal hover:bg-brand-offwhite"
                     >
                       -
                     </button>
                     <span className="px-4 py-1 font-medium">{item.quantity}</span>
                     <button 
-                      onClick={() => updateQuantity(item.id, item.quantity + 1)}
+                      onClick={() => updateQuantity(item.cartItemId, item.quantity + 1)}
                       className="px-3 py-1 text-brand-charcoal hover:bg-brand-offwhite"
                     >
                       +
