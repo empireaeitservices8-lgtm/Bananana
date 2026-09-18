@@ -63,6 +63,9 @@ export default function CheckoutPage() {
     e.preventDefault();
     if (cart.length === 0) return toast.error("Your cart is empty");
 
+    const shippingFee = 50;
+    const finalTotal = cartTotal + shippingFee;
+
     setLoading(true);
 
     try {
@@ -78,7 +81,7 @@ export default function CheckoutPage() {
       const orderResponse = await fetch("/api/razorpay/create", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ amount: cartTotal }),
+        body: JSON.stringify({ amount: finalTotal }),
       });
 
       const orderData = await orderResponse.json();
@@ -104,6 +107,7 @@ export default function CheckoutPage() {
             body: JSON.stringify({
               ...formData,
               items: cart,
+              shippingFee,
               razorpay_payment_id: response.razorpay_payment_id,
               razorpay_order_id: response.razorpay_order_id,
             }),
@@ -222,9 +226,19 @@ export default function CheckoutPage() {
               ))}
             </div>
 
+            <div className="flex justify-between items-center text-sm mb-4">
+              <span className="text-brand-charcoal/70">Subtotal</span>
+              <span className="font-bold">₹{cartTotal.toFixed(2)}</span>
+            </div>
+            
+            <div className="flex justify-between items-center text-sm border-b border-brand-charcoal/10 pb-4 mb-4">
+              <span className="text-brand-charcoal/70">Shipping</span>
+              <span className="font-bold">₹50.00</span>
+            </div>
+
             <div className="flex justify-between items-center text-xl mb-8">
               <span className="font-bold">Total to Pay</span>
-              <span className="font-serif text-3xl font-bold text-brand-charcoal">₹{cartTotal.toFixed(2)}</span>
+              <span className="font-serif text-3xl font-bold text-brand-charcoal">₹{(cartTotal + 50).toFixed(2)}</span>
             </div>
 
             <button 

@@ -110,7 +110,7 @@ export default function CustomerReviews({ productId, initialReviews }: CustomerR
 
   return (
     <div className="py-12 border-t border-brand-charcoal/10 max-w-2xl mx-auto flex flex-col items-center">
-      <h2 className="text-3xl font-bold text-brand-charcoal mb-6">Customer Reviews</h2>
+      <h2 className="text-3xl font-serif font-bold text-brand-charcoal mb-6">Customer Reviews</h2>
       
       {/* Summary */}
       <div className="flex items-center gap-4 mb-2">

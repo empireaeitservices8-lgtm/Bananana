@@ -43,6 +43,13 @@ export async function POST(req: Request) {
           ]
         } : {})
       })),
+      shipping_lines: [
+        {
+          method_id: "flat_rate",
+          method_title: "Standard Shipping",
+          total: data.shippingFee ? data.shippingFee.toString() : "50.00"
+        }
+      ],
       status: "processing", // Processing means paid and ready for Shiprocket fulfillment
     };
 

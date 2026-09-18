@@ -27,7 +27,8 @@ export async function POST(request: Request) {
         review,
         reviewer,
         reviewer_email,
-        rating
+        rating,
+        status: "approved"
       })
     });
 

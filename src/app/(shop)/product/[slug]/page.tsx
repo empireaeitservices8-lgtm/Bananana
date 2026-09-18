@@ -3,9 +3,11 @@ import Link from "next/link";
 import ProductCard from "@/components/product/ProductCard";
 import AddToCartForm from "@/components/product/AddToCartForm";
 import ProductDetailsAccordion from "@/components/product/ProductDetailsAccordion";
+import Accordion from "@/components/ui/Accordion";
 import CustomerReviews from "@/components/product/CustomerReviews";
 import { getProductBySlug, getProducts, getProductReviews } from "@/lib/woocommerce/api";
 import { notFound } from "next/navigation";
+import { ShieldCheck, RefreshCcw } from "lucide-react";
 
 export default async function ProductDetailPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
@@ -32,7 +34,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
         <span>/</span>
         <Link href="/category/all" className="hover:text-brand-charcoal transition-colors">Shop</Link>
         <span>/</span>
-        <span className="text-brand-charcoal">{product.name}</span>
+        <span className="text-brand-charcoal font-serif">{product.name}</span>
       </div>
 
       <div className="grid md:grid-cols-2 gap-12 lg:gap-16 mb-24">
@@ -90,17 +92,17 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
           />
 
           {/* Trust Badges */}
-          <div className="grid grid-cols-3 gap-4 py-6 border-y border-brand-charcoal/10 my-8">
+          <div className="grid grid-cols-2 gap-4 py-6 border-y border-brand-charcoal/10 my-8">
             <div className="flex flex-col items-center text-center gap-2">
-              <div className="w-8 h-8 rounded-full bg-brand-offwhite flex items-center justify-center">🧶</div>
-              <span className="text-xs font-medium text-brand-charcoal/80">Authentic Handloom</span>
-            </div>
-            <div className="flex flex-col items-center text-center gap-2">
-              <div className="w-8 h-8 rounded-full bg-brand-offwhite flex items-center justify-center">🔒</div>
+              <div className="w-10 h-10 rounded-full bg-brand-offwhite flex items-center justify-center text-brand-gold">
+                <ShieldCheck className="w-5 h-5" />
+              </div>
               <span className="text-xs font-medium text-brand-charcoal/80">Secure Checkout</span>
             </div>
             <div className="flex flex-col items-center text-center gap-2">
-              <div className="w-8 h-8 rounded-full bg-brand-offwhite flex items-center justify-center">↩️</div>
+              <div className="w-10 h-10 rounded-full bg-brand-offwhite flex items-center justify-center text-brand-gold">
+                <RefreshCcw className="w-5 h-5" />
+              </div>
               <span className="text-xs font-medium text-brand-charcoal/80">7-Day Returns</span>
             </div>
           </div>
@@ -109,17 +111,15 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
           <ProductDetailsAccordion attributes={detailsAttributes} />
           
           {product.description && (
-             <div className="border-b border-brand-charcoal/10">
-               <button className="w-full py-4 flex justify-between items-center font-bold uppercase tracking-wider text-sm">
-                 Full Description <span>+</span>
-               </button>
-             </div>
+            <Accordion title="Full Description">
+              <div dangerouslySetInnerHTML={{ __html: product.description }} />
+            </Accordion>
           )}
-          <div className="border-b border-brand-charcoal/10">
-            <button className="w-full py-4 flex justify-between items-center font-bold uppercase tracking-wider text-sm">
-              Shipping & Returns <span>+</span>
-            </button>
-          </div>
+          
+          <Accordion title="Shipping & Returns">
+            <p className="mb-2"><strong>Shipping:</strong> We offer flat-rate shipping of ₹50 across India. Orders are processed and dispatched within 1-2 business days via Shiprocket.</p>
+            <p><strong>Returns:</strong> We accept returns within 7 days of delivery. Items must be unworn, unwashed, and in their original condition with all tags attached.</p>
+          </Accordion>
         </div>
       </div>
 

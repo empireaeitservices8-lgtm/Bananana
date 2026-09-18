@@ -56,3 +56,7 @@ export async function createOrder(data: any) {
 export async function getProductReviews(productId: number) {
   return fetchWooCommerceAPI(`products/reviews?product=${productId}`);
 }
+
+export async function getOrderById(orderId: string | number) {
+  return fetchWooCommerceAPI(`orders/${orderId}`);
+}

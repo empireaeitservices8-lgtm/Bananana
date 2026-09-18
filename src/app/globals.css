@@ -9,7 +9,7 @@
   --color-brand-offwhite: #F4F1EA;
 
   --font-sans: var(--font-inter);
-  --font-serif: var(--font-playfair-display);
+  --font-serif: var(--font-cormorant-garamond);
 
   --background-image-gold-gradient: linear-gradient(135deg, #CFB53B 0%, #B8860B 100%);
   --radius-sm: 4px;
