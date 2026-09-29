@@ -108,7 +108,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
           </div>
 
           {/* Accordions */}
-          <ProductDetailsAccordion attributes={detailsAttributes} />
+          <ProductDetailsAccordion attributes={detailsAttributes} product={product} />
           
           {product.description && (
             <Accordion title="Full Description">

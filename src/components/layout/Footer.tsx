@@ -69,10 +69,10 @@ export default function Footer() {
         </FooterSection>
 
         {/* Let's Connect */}
-        <FooterSection title="Let’s Connect">
+        <FooterSection title="Let's Connect">
           <ul className="space-y-3 text-sm text-brand-cream/70 pt-2 md:pt-0">
-            <li><a href="#" className="hover:text-brand-gold transition-colors">WhatsApp</a></li>
-            <li><a href="#" className="hover:text-brand-gold transition-colors">Email</a></li>
+            <li><a href="https://wa.me/919847774755" target="_blank" rel="noopener noreferrer" className="hover:text-brand-gold transition-colors">WhatsApp</a></li>
+            <li><a href="mailto:inbananana@gmail.com" className="hover:text-brand-gold transition-colors">Email</a></li>
             <li><Link href="/contact-us" className="hover:text-brand-gold transition-colors">Contact Us</Link></li>
           </ul>
         </FooterSection>
