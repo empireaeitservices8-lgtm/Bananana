@@ -28,13 +28,13 @@ function FooterSection({ title, children }: { title: string; children: React.Rea
 
 export default function Footer() {
   return (
-    <footer className="bg-[#1A1A1A] text-brand-cream border-t border-brand-charcoal/10 pt-20 pb-10">
+    <footer className="bg-[#1A1A1A] text-brand-cream border-t border-brand-charcoal/10 pt-12 md:pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 gap-2 md:gap-8 lg:gap-12">
         
         {/* Brand */}
-        <div className="col-span-1 md:col-span-3 lg:col-span-2 mb-8 md:mb-0">
-          <Link href="/" className="relative inline-block h-32 w-64 mb-6">
-            <Image src="/images/logo.png" alt="Bananana" fill className="object-contain object-left scale-150 origin-left" />
+        <div className="col-span-1 md:col-span-3 lg:col-span-2 mb-6 md:mb-0">
+          <Link href="/" className="relative inline-block h-16 w-48 mb-3">
+            <Image src="/images/logo.png" alt="Bananana" fill className="object-contain object-left scale-110 origin-left" />
           </Link>
           <p className="text-sm text-brand-cream/70 leading-relaxed max-w-sm">
             Rooted in Kerala heritage, crafted for the modern man. Premium mundus and kurtis for every occasion.
@@ -77,7 +77,7 @@ export default function Footer() {
           </ul>
         </FooterSection>
       </div>
-      <div className="max-w-7xl mx-auto px-4 mt-12 pt-8 border-t border-brand-cream/10 text-sm text-brand-cream/50 text-center">
+      <div className="max-w-7xl mx-auto px-4 mt-8 md:mt-10 pt-6 border-t border-brand-cream/10 text-xs sm:text-sm text-brand-cream/50 text-center">
         &copy; {new Date().getFullYear()} Bananana. All rights reserved.
       </div>
     </footer>

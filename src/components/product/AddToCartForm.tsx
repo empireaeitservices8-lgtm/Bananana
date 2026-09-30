@@ -16,16 +16,72 @@ interface AddToCartFormProps {
   sizes?: string[];
 }
 
+const STANDARD_SIZE_ORDER: Record<string, number> = {
+  xs: 10,
+  "extra small": 10,
+  s: 20,
+  small: 20,
+  m: 30,
+  medium: 30,
+  l: 40,
+  large: 40,
+  xl: 50,
+  "extra large": 50,
+  "x-large": 50,
+  xxl: 60,
+  "2xl": 60,
+  "double extra large": 60,
+  xxxl: 70,
+  "3xl": 70,
+  xxxxl: 80,
+  "4xl": 80,
+  "5xl": 90,
+  "free size": 999,
+  free: 999,
+  onesize: 999,
+  "one size": 999,
+};
+
+function sortProductSizes(sizes?: string[]): string[] {
+  if (!sizes || !Array.isArray(sizes) || sizes.length <= 1) {
+    return sizes || [];
+  }
+
+  return [...sizes].sort((a, b) => {
+    const normA = a.trim().toLowerCase();
+    const normB = b.trim().toLowerCase();
+
+    const rankA = STANDARD_SIZE_ORDER[normA];
+    const rankB = STANDARD_SIZE_ORDER[normB];
+
+    if (rankA !== undefined && rankB !== undefined) {
+      return rankA - rankB;
+    }
+    if (rankA !== undefined) return -1;
+    if (rankB !== undefined) return 1;
+
+    const numA = parseFloat(normA.replace(/[^\d.]/g, ""));
+    const numB = parseFloat(normB.replace(/[^\d.]/g, ""));
+
+    if (!isNaN(numA) && !isNaN(numB)) {
+      return numA - numB;
+    }
+
+    return a.localeCompare(b);
+  });
+}
+
 export default function AddToCartForm({ product, sizes }: AddToCartFormProps) {
+  const sortedSizes = sortProductSizes(sizes);
   const [quantity, setQuantity] = useState(1);
   const [selectedSize, setSelectedSize] = useState<string | null>(null);
   const { addToCart } = useCart();
   const router = useRouter();
 
-  const isSizeRequiredButNotSelected = Boolean(sizes && sizes.length > 0 && !selectedSize);
+  const isSizeRequiredButNotSelected = Boolean(sortedSizes && sortedSizes.length > 0 && !selectedSize);
 
   const handleAddToCart = () => {
-    if (sizes && sizes.length > 0 && !selectedSize) {
+    if (sortedSizes && sortedSizes.length > 0 && !selectedSize) {
       toast.error("Please select a size first.");
       return false;
     }
@@ -54,14 +110,14 @@ export default function AddToCartForm({ product, sizes }: AddToCartFormProps) {
 
   return (
     <div>
-      {sizes && sizes.length > 0 && (
+      {sortedSizes && sortedSizes.length > 0 && (
         <div className="mb-8">
           <div className="flex justify-between items-center mb-4">
             <h3 className="font-bold uppercase tracking-wider text-sm">Size</h3>
             <button className="text-sm font-bold text-brand-gold hover:underline">Size Guide</button>
           </div>
           <div className="flex flex-wrap gap-3">
-            {sizes.map((opt: string) => (
+            {sortedSizes.map((opt: string) => (
               <button 
                 key={opt} 
                 onClick={() => setSelectedSize(opt)}

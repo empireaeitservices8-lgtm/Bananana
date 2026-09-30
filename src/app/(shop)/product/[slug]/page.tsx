@@ -5,6 +5,7 @@ import AddToCartForm from "@/components/product/AddToCartForm";
 import ProductDetailsAccordion from "@/components/product/ProductDetailsAccordion";
 import Accordion from "@/components/ui/Accordion";
 import CustomerReviews from "@/components/product/CustomerReviews";
+import ProductImageGallery from "@/components/product/ProductImageGallery";
 import { getProductBySlug, getProducts, getProductReviews } from "@/lib/woocommerce/api";
 import { notFound } from "next/navigation";
 import { ShieldCheck, RefreshCcw } from "lucide-react";
@@ -38,29 +39,11 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
       </div>
 
       <div className="grid md:grid-cols-2 gap-12 lg:gap-16 mb-24">
-        {/* Left: Image Gallery */}
-        <div className="flex flex-col-reverse md:flex-row gap-4">
-          <div className="flex md:flex-col gap-4 overflow-x-auto md:w-20 flex-shrink-0">
-            {product.images?.map((img: any, i: number) => (
-              <button key={`${img.id}-${i}`} className={`relative aspect-[3/4] w-20 flex-shrink-0 rounded-sm overflow-hidden border-2 ${i === 0 ? 'border-brand-gold' : 'border-transparent'}`}>
-                <Image src={img.src} alt={img.alt || product.name} fill className="object-cover" />
-              </button>
-            ))}
-          </div>
-          <div className="relative aspect-[3/4] w-full bg-brand-offwhite rounded-sm overflow-hidden cursor-zoom-in group">
-            {product.images && product.images[0] ? (
-              <Image 
-                src={product.images[0].src} 
-                alt={product.images[0].alt || product.name} 
-                fill 
-                className="object-cover transition-transform duration-500 group-hover:scale-125" 
-                priority
-              />
-            ) : (
-              <div className="w-full h-full flex items-center justify-center bg-gray-200">No Image</div>
-            )}
-          </div>
-        </div>
+        {/* Left: Interactive Image Gallery */}
+        <ProductImageGallery
+          images={product.images || []}
+          productName={product.name}
+        />
 
         {/* Right: Product Info */}
         <div className="flex flex-col">

@@ -1,0 +1,4030 @@
+{
+  "products": [
+    {
+      "id": 324,
+      "name": "TRIBAL FLAMES",
+      "slug": "m-28-32",
+      "permalink": "https://lightcoral-vulture-629273.hostingersite.com/product/m-28-32/",
+      "date_created": "2026-09-21T04:42:04",
+      "date_created_gmt": "2026-09-21T04:42:04",
+      "date_modified": "2026-09-21T05:31:15",
+      "date_modified_gmt": "2026-09-21T05:31:15",
+      "type": "simple",
+      "status": "publish",
+      "featured": true,
+      "catalog_visibility": "visible",
+      "description": "<p>waist size 28-32 0nly available</p>\n<p><img class=\"size-medium wp-image-326 alignnone\" src=\"https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/09/DSC09933-200x300.jpg\" alt=\"\" width=\"200\" height=\"300\" /> <img class=\"alignnone size-medium wp-image-327\" src=\"https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/09/DSC09950-200x300.jpg\" alt=\"\" width=\"200\" height=\"300\" /> <img class=\"alignnone size-medium wp-image-328\" src=\"https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/09/DSC09958-200x300.jpg\" alt=\"\" width=\"200\" height=\"300\" /> <img class=\"alignnone size-medium wp-image-330\" src=\"https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/09/DSC09978-200x300.jpg\" alt=\"\" width=\"200\" height=\"300\" /></p>\n",
+      "short_description": "",
+      "sku": "",
+      "price": "869",
+      "regular_price": "1099",
+      "sale_price": "869",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": true,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 140,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "350",
+      "dimensions": {
+        "length": "14",
+        "width": "12",
+        "height": "2"
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 20,
+          "name": "Designer Mund",
+          "slug": "designer-mund"
+        }
+      ],
+      "brands": [],
+      "tags": [],
+      "images": [
+        {
+          "id": 328,
+          "date_created": "2026-09-21T04:33:49",
+          "date_created_gmt": "2026-09-21T04:33:49",
+          "date_modified": "2026-09-21T04:33:49",
+          "date_modified_gmt": "2026-09-21T04:33:49",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/09/DSC09958-scaled.jpg",
+          "name": "DSC09958",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/09/DSC09958-scaled.jpg 1707w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/09/DSC09958-200x300.jpg 200w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/09/DSC09958-683x1024.jpg 683w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/09/DSC09958-768x1152.jpg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/09/DSC09958-1024x1536.jpg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/09/DSC09958-1366x2048.jpg 1366w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/09/DSC09958-600x900.jpg 600w",
+          "sizes": "(max-width: 1707px) 100vw, 1707px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/09/DSC09958-300x300.jpg"
+        }
+      ],
+      "attributes": [],
+      "default_attributes": [],
+      "variations": [],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,099.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &#036;1,099.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>869.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &#036;869.00.</span>",
+      "related_ids": [
+        14,
+        187,
+        16,
+        22,
+        19
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": false,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/324",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 310,
+      "name": "DAILY WEAR MUND WITH POCKET – DOUBLE BLACK KARA",
+      "slug": "daily-wear-mund-with-pocket-double-black-kara",
+      "permalink": "https://lightcoral-vulture-629273.hostingersite.com/product/daily-wear-mund-with-pocket-double-black-kara/",
+      "date_created": "2026-08-22T09:33:53",
+      "date_created_gmt": "2026-08-22T09:33:53",
+      "date_modified": "2026-08-24T12:21:31",
+      "date_modified_gmt": "2026-08-24T12:21:31",
+      "type": "simple",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "",
+      "short_description": "",
+      "sku": "",
+      "price": "1499",
+      "regular_price": "1699",
+      "sale_price": "1499",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": true,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 10,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "0.772",
+      "dimensions": {
+        "length": "14",
+        "width": "12",
+        "height": "2"
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 51,
+          "name": "Daily Wear Mund",
+          "slug": "daily-wear-mund"
+        },
+        {
+          "id": 16,
+          "name": "MUND",
+          "slug": "mund"
+        }
+      ],
+      "brands": [],
+      "tags": [],
+      "images": [
+        {
+          "id": 297,
+          "date_created": "2026-08-22T09:33:49",
+          "date_created_gmt": "2026-08-22T09:33:49",
+          "date_modified": "2026-08-22T09:33:49",
+          "date_modified_gmt": "2026-08-22T09:33:49",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund9.jpeg",
+          "name": "Daily-Wear-Mund9.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund9.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund9-300x200.jpeg 300w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund9-1024x682.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund9-768x512.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund9-1536x1023.jpeg 1536w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund9-600x400.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund9-300x300.jpeg"
+        },
+        {
+          "id": 295,
+          "date_created": "2026-08-22T09:33:47",
+          "date_created_gmt": "2026-08-22T09:33:47",
+          "date_modified": "2026-08-22T09:33:47",
+          "date_modified_gmt": "2026-08-22T09:33:47",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund5.jpeg",
+          "name": "Daily-Wear-Mund5.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund5.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund5-300x200.jpeg 300w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund5-1024x682.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund5-768x512.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund5-1536x1023.jpeg 1536w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund5-600x400.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund5-300x300.jpeg"
+        }
+      ],
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "slug": "pa_size",
+          "position": 0,
+          "visible": true,
+          "variation": false,
+          "options": [
+            "L/42-44",
+            "M/38-40",
+            "S/34-36",
+            "XL/46-48",
+            "XXl/50-52"
+          ]
+        }
+      ],
+      "default_attributes": [],
+      "variations": [],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,699.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &#036;1,699.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,499.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &#036;1,499.00.</span>",
+      "related_ids": [
+        204,
+        22,
+        26,
+        245,
+        19
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": false,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/310",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 304,
+      "name": "DAILY WEAR MUND WITH POCKET – ROYAL BLUE KARA",
+      "slug": "daily-wear-mund-with-pocket-royal-blue-kara",
+      "permalink": "https://lightcoral-vulture-629273.hostingersite.com/product/daily-wear-mund-with-pocket-royal-blue-kara/",
+      "date_created": "2026-08-22T09:33:52",
+      "date_created_gmt": "2026-08-22T09:33:52",
+      "date_modified": "2026-08-22T09:33:54",
+      "date_modified_gmt": "2026-08-22T09:33:54",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "",
+      "short_description": "",
+      "sku": "",
+      "price": "1499",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": true,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 10,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "0.772",
+      "dimensions": {
+        "length": "14",
+        "width": "12",
+        "height": "2"
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 51,
+          "name": "Daily Wear Mund",
+          "slug": "daily-wear-mund"
+        },
+        {
+          "id": 16,
+          "name": "MUND",
+          "slug": "mund"
+        }
+      ],
+      "brands": [],
+      "tags": [],
+      "images": [
+        {
+          "id": 311,
+          "date_created": "2026-08-22T09:33:53",
+          "date_created_gmt": "2026-08-22T09:33:53",
+          "date_modified": "2026-08-22T09:33:53",
+          "date_modified_gmt": "2026-08-22T09:33:53",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund8.jpeg",
+          "name": "Daily-Wear-Mund8.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund8.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund8-300x255.jpeg 300w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund8-1024x869.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund8-768x652.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund8-1536x1304.jpeg 1536w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund8-600x509.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund8-300x300.jpeg"
+        },
+        {
+          "id": 311,
+          "date_created": "2026-08-22T09:33:53",
+          "date_created_gmt": "2026-08-22T09:33:53",
+          "date_modified": "2026-08-22T09:33:53",
+          "date_modified_gmt": "2026-08-22T09:33:53",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund8.jpeg",
+          "name": "Daily-Wear-Mund8.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund8.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund8-300x255.jpeg 300w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund8-1024x869.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund8-768x652.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund8-1536x1304.jpeg 1536w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund8-600x509.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund8-300x300.jpeg"
+        }
+      ],
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "slug": "pa_size",
+          "position": 0,
+          "visible": true,
+          "variation": true,
+          "options": [
+            "L/36-38",
+            "M/28-32",
+            "S/28-30",
+            "XL/40-42",
+            "XXL/44-46"
+          ]
+        }
+      ],
+      "default_attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "option": "xl-40-42"
+        }
+      ],
+      "variations": [
+        305,
+        306,
+        307,
+        308,
+        309
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,699.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &#036;1,699.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,499.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &#036;1,499.00.</span>",
+      "related_ids": [
+        239,
+        16,
+        204,
+        221,
+        28
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/304",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 282,
+      "name": "DAILY WEAR MUND WITH POCKET – CLASSIC BLACK KARA",
+      "slug": "daily-wear-mund-with-pocket-classic-black-kara",
+      "permalink": "https://lightcoral-vulture-629273.hostingersite.com/product/daily-wear-mund-with-pocket-classic-black-kara/",
+      "date_created": "2026-08-22T09:33:35",
+      "date_created_gmt": "2026-08-22T09:33:35",
+      "date_modified": "2026-08-22T09:33:54",
+      "date_modified_gmt": "2026-08-22T09:33:54",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "",
+      "short_description": "",
+      "sku": "",
+      "price": "1499",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": true,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 10,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "0.772",
+      "dimensions": {
+        "length": "14",
+        "width": "12",
+        "height": "2"
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 51,
+          "name": "Daily Wear Mund",
+          "slug": "daily-wear-mund"
+        },
+        {
+          "id": 16,
+          "name": "MUND",
+          "slug": "mund"
+        }
+      ],
+      "brands": [],
+      "tags": [],
+      "images": [
+        {
+          "id": 294,
+          "date_created": "2026-08-22T09:33:46",
+          "date_created_gmt": "2026-08-22T09:33:46",
+          "date_modified": "2026-08-22T09:33:46",
+          "date_modified_gmt": "2026-08-22T09:33:46",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund4.jpeg",
+          "name": "Daily-Wear-Mund4.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund4.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund4-300x200.jpeg 300w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund4-1024x682.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund4-768x512.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund4-1536x1023.jpeg 1536w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund4-600x400.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund4-300x300.jpeg"
+        },
+        {
+          "id": 295,
+          "date_created": "2026-08-22T09:33:47",
+          "date_created_gmt": "2026-08-22T09:33:47",
+          "date_modified": "2026-08-22T09:33:47",
+          "date_modified_gmt": "2026-08-22T09:33:47",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund5.jpeg",
+          "name": "Daily-Wear-Mund5.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund5.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund5-300x200.jpeg 300w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund5-1024x682.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund5-768x512.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund5-1536x1023.jpeg 1536w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund5-600x400.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund5-300x300.jpeg"
+        },
+        {
+          "id": 296,
+          "date_created": "2026-08-22T09:33:48",
+          "date_created_gmt": "2026-08-22T09:33:48",
+          "date_modified": "2026-08-22T09:33:48",
+          "date_modified_gmt": "2026-08-22T09:33:48",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund6.jpeg",
+          "name": "Daily-Wear-Mund6.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund6.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund6-300x200.jpeg 300w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund6-1024x682.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund6-768x512.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund6-1536x1023.jpeg 1536w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund6-600x400.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund6-300x300.jpeg"
+        },
+        {
+          "id": 297,
+          "date_created": "2026-08-22T09:33:49",
+          "date_created_gmt": "2026-08-22T09:33:49",
+          "date_modified": "2026-08-22T09:33:49",
+          "date_modified_gmt": "2026-08-22T09:33:49",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund9.jpeg",
+          "name": "Daily-Wear-Mund9.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund9.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund9-300x200.jpeg 300w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund9-1024x682.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund9-768x512.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund9-1536x1023.jpeg 1536w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund9-600x400.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund9-300x300.jpeg"
+        },
+        {
+          "id": 298,
+          "date_created": "2026-08-22T09:33:50",
+          "date_created_gmt": "2026-08-22T09:33:50",
+          "date_modified": "2026-08-22T09:33:50",
+          "date_modified_gmt": "2026-08-22T09:33:50",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund10.jpeg",
+          "name": "Daily-Wear-Mund10.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund10.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund10-300x200.jpeg 300w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund10-1024x682.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund10-768x512.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund10-1536x1023.jpeg 1536w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund10-600x400.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund10-300x300.jpeg"
+        }
+      ],
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "slug": "pa_size",
+          "position": 0,
+          "visible": true,
+          "variation": true,
+          "options": [
+            "L/36-38",
+            "M/28-32",
+            "S/28-30",
+            "XL/40-42",
+            "XXL/44-46"
+          ]
+        }
+      ],
+      "default_attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "option": "xl-40-42"
+        }
+      ],
+      "variations": [
+        299,
+        300,
+        301,
+        302,
+        303
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,699.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &#036;1,699.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,499.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &#036;1,499.00.</span>",
+      "related_ids": [
+        198,
+        187,
+        18,
+        239,
+        13
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/282",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 276,
+      "name": "DAILY WEAR MUND WITH POCKET – PURPLE KARA",
+      "slug": "daily-wear-mund-with-pocket-purple-kara",
+      "permalink": "https://lightcoral-vulture-629273.hostingersite.com/product/daily-wear-mund-with-pocket-purple-kara/",
+      "date_created": "2026-08-22T09:33:34",
+      "date_created_gmt": "2026-08-22T09:33:34",
+      "date_modified": "2026-08-24T01:44:12",
+      "date_modified_gmt": "2026-08-24T01:44:12",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "",
+      "short_description": "",
+      "sku": "",
+      "price": "1499",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": true,
+      "purchasable": true,
+      "total_sales": 1,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 9,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "0.772",
+      "dimensions": {
+        "length": "14",
+        "width": "12",
+        "height": "2"
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 51,
+          "name": "Daily Wear Mund",
+          "slug": "daily-wear-mund"
+        },
+        {
+          "id": 16,
+          "name": "MUND",
+          "slug": "mund"
+        }
+      ],
+      "brands": [],
+      "tags": [],
+      "images": [
+        {
+          "id": 290,
+          "date_created": "2026-08-22T09:33:42",
+          "date_created_gmt": "2026-08-22T09:33:42",
+          "date_modified": "2026-08-22T09:33:42",
+          "date_modified_gmt": "2026-08-22T09:33:42",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund1.jpeg",
+          "name": "Daily-Wear-Mund1.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund1.jpeg 1066w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund1-200x300.jpeg 200w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund1-682x1024.jpeg 682w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund1-768x1153.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund1-1023x1536.jpeg 1023w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund1-600x901.jpeg 600w",
+          "sizes": "(max-width: 1066px) 100vw, 1066px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund1-300x300.jpeg"
+        },
+        {
+          "id": 291,
+          "date_created": "2026-08-22T09:33:43",
+          "date_created_gmt": "2026-08-22T09:33:43",
+          "date_modified": "2026-08-22T09:33:43",
+          "date_modified_gmt": "2026-08-22T09:33:43",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund2.jpeg",
+          "name": "Daily-Wear-Mund2.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund2.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund2-300x200.jpeg 300w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund2-1024x682.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund2-768x512.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund2-1536x1023.jpeg 1536w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund2-600x400.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund2-300x300.jpeg"
+        },
+        {
+          "id": 292,
+          "date_created": "2026-08-22T09:33:44",
+          "date_created_gmt": "2026-08-22T09:33:44",
+          "date_modified": "2026-08-22T09:33:44",
+          "date_modified_gmt": "2026-08-22T09:33:44",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund3.jpeg",
+          "name": "Daily-Wear-Mund3.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund3.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund3-300x200.jpeg 300w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund3-1024x682.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund3-768x512.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund3-1536x1023.jpeg 1536w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund3-600x400.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund3-300x300.jpeg"
+        },
+        {
+          "id": 293,
+          "date_created": "2026-08-22T09:33:45",
+          "date_created_gmt": "2026-08-22T09:33:45",
+          "date_modified": "2026-08-22T09:33:45",
+          "date_modified_gmt": "2026-08-22T09:33:45",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund7.jpeg",
+          "name": "Daily-Wear-Mund7.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund7.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund7-300x200.jpeg 300w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund7-1024x682.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund7-768x512.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund7-1536x1023.jpeg 1536w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund7-600x400.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund7-300x300.jpeg"
+        }
+      ],
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "slug": "pa_size",
+          "position": 0,
+          "visible": true,
+          "variation": true,
+          "options": [
+            "L/36-38",
+            "M/28-32",
+            "S/28-30",
+            "XL/40-42",
+            "XXL/44-46"
+          ]
+        }
+      ],
+      "default_attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "option": "xl-40-42"
+        }
+      ],
+      "variations": [
+        277,
+        278,
+        279,
+        280,
+        281
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,699.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &#036;1,699.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,499.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &#036;1,499.00.</span>",
+      "related_ids": [
+        25,
+        23,
+        227,
+        17,
+        14
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/276",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 270,
+      "name": "DAILY WEAR MUND WITH POCKET – GREEN KARA",
+      "slug": "daily-wear-mund-with-pocket-green-kara",
+      "permalink": "https://lightcoral-vulture-629273.hostingersite.com/product/daily-wear-mund-with-pocket-green-kara/",
+      "date_created": "2026-08-22T09:33:34",
+      "date_created_gmt": "2026-08-22T09:33:34",
+      "date_modified": "2026-08-22T09:33:51",
+      "date_modified_gmt": "2026-08-22T09:33:51",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "",
+      "short_description": "",
+      "sku": "",
+      "price": "1499",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": true,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 10,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "0.772",
+      "dimensions": {
+        "length": "14",
+        "width": "12",
+        "height": "2"
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 51,
+          "name": "Daily Wear Mund",
+          "slug": "daily-wear-mund"
+        },
+        {
+          "id": 16,
+          "name": "MUND",
+          "slug": "mund"
+        }
+      ],
+      "brands": [],
+      "tags": [],
+      "images": [
+        {
+          "id": 288,
+          "date_created": "2026-08-22T09:33:40",
+          "date_created_gmt": "2026-08-22T09:33:40",
+          "date_modified": "2026-08-22T09:33:40",
+          "date_modified_gmt": "2026-08-22T09:33:40",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund.jpeg",
+          "name": "Daily-Wear-Mund.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund-300x200.jpeg 300w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund-1024x682.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund-768x512.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund-1536x1023.jpeg 1536w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund-600x400.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund-300x300.jpeg"
+        },
+        {
+          "id": 289,
+          "date_created": "2026-08-22T09:33:41",
+          "date_created_gmt": "2026-08-22T09:33:41",
+          "date_modified": "2026-08-22T09:33:41",
+          "date_modified_gmt": "2026-08-22T09:33:41",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund11.jpeg",
+          "name": "Daily-Wear-Mund11.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund11.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund11-300x200.jpeg 300w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund11-1024x682.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund11-768x512.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund11-1536x1023.jpeg 1536w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund11-600x400.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund11-300x300.jpeg"
+        },
+        {
+          "id": 288,
+          "date_created": "2026-08-22T09:33:40",
+          "date_created_gmt": "2026-08-22T09:33:40",
+          "date_modified": "2026-08-22T09:33:40",
+          "date_modified_gmt": "2026-08-22T09:33:40",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund.jpeg",
+          "name": "Daily-Wear-Mund.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund-300x200.jpeg 300w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund-1024x682.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund-768x512.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund-1536x1023.jpeg 1536w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund-600x400.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Daily-Wear-Mund-300x300.jpeg"
+        }
+      ],
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "slug": "pa_size",
+          "position": 0,
+          "visible": true,
+          "variation": true,
+          "options": [
+            "L/36-38",
+            "M/28-32",
+            "S/28-30",
+            "XL/40-42",
+            "XXL/44-46"
+          ]
+        }
+      ],
+      "default_attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "option": "xl-40-42"
+        }
+      ],
+      "variations": [
+        271,
+        272,
+        273,
+        274,
+        275
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,699.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &#036;1,699.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,499.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &#036;1,499.00.</span>",
+      "related_ids": [
+        245,
+        198,
+        20,
+        204,
+        187
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/270",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 264,
+      "name": "PREMIUM KASAVU MUND WITH POCKET – TEMPLE GOLD KARA",
+      "slug": "premium-kasavu-mund-with-pocket-temple-gold-kara",
+      "permalink": "https://lightcoral-vulture-629273.hostingersite.com/product/premium-kasavu-mund-with-pocket-temple-gold-kara/",
+      "date_created": "2026-08-22T09:33:34",
+      "date_created_gmt": "2026-08-22T09:33:34",
+      "date_modified": "2026-08-22T09:33:51",
+      "date_modified_gmt": "2026-08-22T09:33:51",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "",
+      "short_description": "",
+      "sku": "",
+      "price": "1699",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": true,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": false,
+      "stock_quantity": null,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "0.772",
+      "dimensions": {
+        "length": "14",
+        "width": "12",
+        "height": "2"
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 16,
+          "name": "MUND",
+          "slug": "mund"
+        },
+        {
+          "id": 25,
+          "name": "Premium Kasavu",
+          "slug": "premium-kasavu"
+        }
+      ],
+      "brands": [],
+      "tags": [],
+      "images": [
+        {
+          "id": 286,
+          "date_created": "2026-08-22T09:33:38",
+          "date_created_gmt": "2026-08-22T09:33:38",
+          "date_modified": "2026-08-22T09:33:38",
+          "date_modified_gmt": "2026-08-22T09:33:38",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu3.jpeg",
+          "name": "Premium-Kasavu-Mundu3.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu3.jpeg 1066w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu3-200x300.jpeg 200w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu3-682x1024.jpeg 682w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu3-768x1153.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu3-1023x1536.jpeg 1023w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu3-600x901.jpeg 600w",
+          "sizes": "(max-width: 1066px) 100vw, 1066px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu3-300x300.jpeg"
+        },
+        {
+          "id": 287,
+          "date_created": "2026-08-22T09:33:39",
+          "date_created_gmt": "2026-08-22T09:33:39",
+          "date_modified": "2026-08-22T09:33:39",
+          "date_modified_gmt": "2026-08-22T09:33:39",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu4.jpeg",
+          "name": "Premium-Kasavu-Mundu4.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu4.jpeg 1066w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu4-200x300.jpeg 200w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu4-682x1024.jpeg 682w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu4-768x1153.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu4-1023x1536.jpeg 1023w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu4-600x901.jpeg 600w",
+          "sizes": "(max-width: 1066px) 100vw, 1066px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu4-300x300.jpeg"
+        }
+      ],
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "slug": "pa_size",
+          "position": 0,
+          "visible": true,
+          "variation": true,
+          "options": [
+            "L/36-38",
+            "M/28-32",
+            "S/28-30",
+            "XL/40-42",
+            "XXL/44-46"
+          ]
+        }
+      ],
+      "default_attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "option": "xl-40-42"
+        }
+      ],
+      "variations": [
+        265,
+        266,
+        267,
+        268,
+        269
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>2,199.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &#036;2,199.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,699.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &#036;1,699.00.</span>",
+      "related_ids": [
+        198,
+        22,
+        28,
+        227,
+        25
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/264",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 258,
+      "name": "PREMIUM KASAVU MUND WITH POCKET – IVORY SILVER LINE",
+      "slug": "premium-kasavu-mund-with-pocket-ivory-silver-line",
+      "permalink": "https://lightcoral-vulture-629273.hostingersite.com/product/premium-kasavu-mund-with-pocket-ivory-silver-line/",
+      "date_created": "2026-08-22T09:33:34",
+      "date_created_gmt": "2026-08-22T09:33:34",
+      "date_modified": "2026-08-22T09:33:51",
+      "date_modified_gmt": "2026-08-22T09:33:51",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "",
+      "short_description": "",
+      "sku": "",
+      "price": "1699",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": true,
+      "purchasable": true,
+      "total_sales": 1,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": false,
+      "stock_quantity": null,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "0.772",
+      "dimensions": {
+        "length": "14",
+        "width": "12",
+        "height": "2"
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 16,
+          "name": "MUND",
+          "slug": "mund"
+        },
+        {
+          "id": 25,
+          "name": "Premium Kasavu",
+          "slug": "premium-kasavu"
+        }
+      ],
+      "brands": [],
+      "tags": [],
+      "images": [
+        {
+          "id": 283,
+          "date_created": "2026-08-22T09:33:35",
+          "date_created_gmt": "2026-08-22T09:33:35",
+          "date_modified": "2026-08-22T09:33:35",
+          "date_modified_gmt": "2026-08-22T09:33:35",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu2.jpeg",
+          "name": "Premium-Kasavu-Mundu2.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu2.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu2-300x200.jpeg 300w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu2-1024x682.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu2-768x512.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu2-1536x1023.jpeg 1536w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu2-600x400.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu2-300x300.jpeg"
+        },
+        {
+          "id": 284,
+          "date_created": "2026-08-22T09:33:36",
+          "date_created_gmt": "2026-08-22T09:33:36",
+          "date_modified": "2026-08-22T09:33:36",
+          "date_modified_gmt": "2026-08-22T09:33:36",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu5.jpeg",
+          "name": "Premium-Kasavu-Mundu5.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu5.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu5-300x200.jpeg 300w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu5-1024x682.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu5-768x512.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu5-1536x1023.jpeg 1536w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu5-600x400.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu5-300x300.jpeg"
+        },
+        {
+          "id": 285,
+          "date_created": "2026-08-22T09:33:37",
+          "date_created_gmt": "2026-08-22T09:33:37",
+          "date_modified": "2026-08-22T09:33:37",
+          "date_modified_gmt": "2026-08-22T09:33:37",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu6.jpeg",
+          "name": "Premium-Kasavu-Mundu6.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu6.jpeg 1066w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu6-200x300.jpeg 200w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu6-682x1024.jpeg 682w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu6-768x1153.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu6-1023x1536.jpeg 1023w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu6-600x901.jpeg 600w",
+          "sizes": "(max-width: 1066px) 100vw, 1066px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu6-300x300.jpeg"
+        }
+      ],
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "slug": "pa_size",
+          "position": 0,
+          "visible": true,
+          "variation": true,
+          "options": [
+            "L/36-38",
+            "M/28-32",
+            "S/28-30",
+            "XL/40-42",
+            "XXL/44-46"
+          ]
+        }
+      ],
+      "default_attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "option": "xl-40-42"
+        }
+      ],
+      "variations": [
+        259,
+        260,
+        261,
+        262,
+        263
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>2,199.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &#036;2,199.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,699.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &#036;1,699.00.</span>",
+      "related_ids": [
+        13,
+        233,
+        198,
+        14,
+        245
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/258",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 245,
+      "name": "PREMIUM KASAVU MUND WITH POCKET – SILVER BORDER",
+      "slug": "premium-kasavu-mund-with-pocket-silver-border",
+      "permalink": "https://lightcoral-vulture-629273.hostingersite.com/product/premium-kasavu-mund-with-pocket-silver-border/",
+      "date_created": "2026-08-22T09:33:27",
+      "date_created_gmt": "2026-08-22T09:33:27",
+      "date_modified": "2026-08-22T09:33:51",
+      "date_modified_gmt": "2026-08-22T09:33:51",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "",
+      "short_description": "",
+      "sku": "",
+      "price": "1699",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": true,
+      "purchasable": true,
+      "total_sales": 1,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": false,
+      "stock_quantity": null,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "0.772",
+      "dimensions": {
+        "length": "14",
+        "width": "12",
+        "height": "2"
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 16,
+          "name": "MUND",
+          "slug": "mund"
+        },
+        {
+          "id": 25,
+          "name": "Premium Kasavu",
+          "slug": "premium-kasavu"
+        }
+      ],
+      "brands": [],
+      "tags": [],
+      "images": [
+        {
+          "id": 251,
+          "date_created": "2026-08-22T09:33:31",
+          "date_created_gmt": "2026-08-22T09:33:31",
+          "date_modified": "2026-08-22T09:33:31",
+          "date_modified_gmt": "2026-08-22T09:33:31",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu.jpeg",
+          "name": "Premium-Kasavu-Mundu.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu-300x200.jpeg 300w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu-1024x682.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu-768x512.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu-1536x1023.jpeg 1536w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu-600x400.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu-300x300.jpeg"
+        },
+        {
+          "id": 252,
+          "date_created": "2026-08-22T09:33:32",
+          "date_created_gmt": "2026-08-22T09:33:32",
+          "date_modified": "2026-08-22T09:33:32",
+          "date_modified_gmt": "2026-08-22T09:33:32",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu7.jpeg",
+          "name": "Premium-Kasavu-Mundu7.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu7.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu7-300x200.jpeg 300w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu7-1024x682.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu7-768x512.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu7-1536x1023.jpeg 1536w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu7-600x400.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu7-300x300.jpeg"
+        }
+      ],
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "slug": "pa_size",
+          "position": 0,
+          "visible": true,
+          "variation": true,
+          "options": [
+            "L/36-38",
+            "M/28-32",
+            "S/28-30",
+            "XL/40-42",
+            "XXL/44-46"
+          ]
+        }
+      ],
+      "default_attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "option": "xl-40-42"
+        }
+      ],
+      "variations": [
+        253,
+        254,
+        255,
+        256,
+        257
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>2,199.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &#036;2,199.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,699.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &#036;1,699.00.</span>",
+      "related_ids": [
+        221,
+        258,
+        24,
+        26,
+        227
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/245",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 239,
+      "name": "PREMIUM KASAVU MUND WITH POCKET – ROYAL STRIPE",
+      "slug": "premium-kasavu-mund-with-pocket-royal-stripe",
+      "permalink": "https://lightcoral-vulture-629273.hostingersite.com/product/premium-kasavu-mund-with-pocket-royal-stripe/",
+      "date_created": "2026-08-22T09:33:26",
+      "date_created_gmt": "2026-08-22T09:33:26",
+      "date_modified": "2026-08-22T09:33:33",
+      "date_modified_gmt": "2026-08-22T09:33:33",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "",
+      "short_description": "",
+      "sku": "",
+      "price": "1699",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": true,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": false,
+      "stock_quantity": null,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "0.772",
+      "dimensions": {
+        "length": "14",
+        "width": "12",
+        "height": "2"
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 16,
+          "name": "MUND",
+          "slug": "mund"
+        },
+        {
+          "id": 25,
+          "name": "Premium Kasavu",
+          "slug": "premium-kasavu"
+        }
+      ],
+      "brands": [],
+      "tags": [],
+      "images": [
+        {
+          "id": 249,
+          "date_created": "2026-08-22T09:33:30",
+          "date_created_gmt": "2026-08-22T09:33:30",
+          "date_modified": "2026-08-22T09:33:30",
+          "date_modified_gmt": "2026-08-22T09:33:30",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.16-PM.jpeg",
+          "name": "WhatsApp-Image-2026-05-30-at-5.28.16-PM.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.16-PM.jpeg 1280w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.16-PM-300x200.jpeg 300w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.16-PM-1024x682.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.16-PM-768x512.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.16-PM-600x400.jpeg 600w",
+          "sizes": "(max-width: 1280px) 100vw, 1280px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.16-PM-300x300.jpeg"
+        },
+        {
+          "id": 250,
+          "date_created": "2026-08-22T09:33:31",
+          "date_created_gmt": "2026-08-22T09:33:31",
+          "date_modified": "2026-08-22T09:33:31",
+          "date_modified_gmt": "2026-08-22T09:33:31",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu1.jpeg",
+          "name": "Premium-Kasavu-Mundu1.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu1.jpeg 540w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu1-293x300.jpeg 293w",
+          "sizes": "(max-width: 540px) 100vw, 540px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/Premium-Kasavu-Mundu1-300x300.jpeg"
+        }
+      ],
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "slug": "pa_size",
+          "position": 0,
+          "visible": true,
+          "variation": true,
+          "options": [
+            "L/36-38",
+            "M/28-32",
+            "S/28-30",
+            "XL/40-42",
+            "XXL/44-46"
+          ]
+        }
+      ],
+      "default_attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "option": "xl-40-42"
+        }
+      ],
+      "variations": [
+        240,
+        241,
+        242,
+        243,
+        244
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>2,199.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &#036;2,199.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,699.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &#036;1,699.00.</span>",
+      "related_ids": [
+        16,
+        20,
+        204,
+        187,
+        22
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/239",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 233,
+      "name": "LEFT CREAM FLORAL - LEFT SIDE DESIGNER MUND WITH POCKET",
+      "slug": "left-cream-floral-left-side-designer-mund-with-pocket",
+      "permalink": "https://lightcoral-vulture-629273.hostingersite.com/product/left-cream-floral-left-side-designer-mund-with-pocket/",
+      "date_created": "2026-08-22T09:33:26",
+      "date_created_gmt": "2026-08-22T09:33:26",
+      "date_modified": "2026-08-22T09:33:33",
+      "date_modified_gmt": "2026-08-22T09:33:33",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "",
+      "short_description": "",
+      "sku": "",
+      "price": "1499",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": true,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": false,
+      "stock_quantity": null,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "0.772",
+      "dimensions": {
+        "length": "14",
+        "width": "12",
+        "height": "2"
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 50,
+          "name": "Left Side Mundu",
+          "slug": "left-side-mundu"
+        },
+        {
+          "id": 16,
+          "name": "MUND",
+          "slug": "mund"
+        }
+      ],
+      "brands": [],
+      "tags": [],
+      "images": [
+        {
+          "id": 248,
+          "date_created": "2026-08-22T09:33:29",
+          "date_created_gmt": "2026-08-22T09:33:29",
+          "date_modified": "2026-08-22T09:33:29",
+          "date_modified_gmt": "2026-08-22T09:33:29",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.49-PM-1.jpeg",
+          "name": "WhatsApp-Image-2026-05-30-at-5.28.49-PM-1.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.49-PM-1.jpeg 1200w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.49-PM-1-225x300.jpeg 225w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.49-PM-1-768x1024.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.49-PM-1-1152x1536.jpeg 1152w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.49-PM-1-600x800.jpeg 600w",
+          "sizes": "(max-width: 1200px) 100vw, 1200px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.49-PM-1-300x300.jpeg"
+        }
+      ],
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "slug": "pa_size",
+          "position": 0,
+          "visible": true,
+          "variation": true,
+          "options": [
+            "L/36-38",
+            "M/28-32",
+            "S/28-30",
+            "XL/40-42",
+            "XXL/44-46"
+          ]
+        }
+      ],
+      "default_attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "option": "xl-40-42"
+        }
+      ],
+      "variations": [
+        234,
+        235,
+        236,
+        237,
+        238
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,699.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &#036;1,699.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,499.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &#036;1,499.00.</span>",
+      "related_ids": [
+        13,
+        26,
+        239,
+        25,
+        245
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/233",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 227,
+      "name": "LEFT FLORAL - LEFT SIDE DESIGNER MUND WITH POCKET",
+      "slug": "left-floral-left-side-designer-mund-with-pocket",
+      "permalink": "https://lightcoral-vulture-629273.hostingersite.com/product/left-floral-left-side-designer-mund-with-pocket/",
+      "date_created": "2026-08-22T09:33:26",
+      "date_created_gmt": "2026-08-22T09:33:26",
+      "date_modified": "2026-08-22T09:33:33",
+      "date_modified_gmt": "2026-08-22T09:33:33",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "",
+      "short_description": "",
+      "sku": "",
+      "price": "1499",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": true,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": false,
+      "stock_quantity": null,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "0.772",
+      "dimensions": {
+        "length": "14",
+        "width": "12",
+        "height": "2"
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 50,
+          "name": "Left Side Mundu",
+          "slug": "left-side-mundu"
+        },
+        {
+          "id": 16,
+          "name": "MUND",
+          "slug": "mund"
+        }
+      ],
+      "brands": [],
+      "tags": [],
+      "images": [
+        {
+          "id": 247,
+          "date_created": "2026-08-22T09:33:28",
+          "date_created_gmt": "2026-08-22T09:33:28",
+          "date_modified": "2026-08-22T09:33:28",
+          "date_modified_gmt": "2026-08-22T09:33:28",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.49-PM.jpeg",
+          "name": "WhatsApp-Image-2026-05-30-at-5.28.49-PM.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.49-PM.jpeg 1526w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.49-PM-300x194.jpeg 300w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.49-PM-1024x664.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.49-PM-768x498.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.49-PM-600x389.jpeg 600w",
+          "sizes": "(max-width: 1526px) 100vw, 1526px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.49-PM-300x300.jpeg"
+        }
+      ],
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "slug": "pa_size",
+          "position": 0,
+          "visible": true,
+          "variation": true,
+          "options": [
+            "L/36-38",
+            "M/28-32",
+            "S/28-30",
+            "XL/40-42",
+            "XXL/44-46"
+          ]
+        }
+      ],
+      "default_attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "option": "xl-40-42"
+        }
+      ],
+      "variations": [
+        228,
+        229,
+        230,
+        231,
+        232
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,699.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &#036;1,699.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,499.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &#036;1,499.00.</span>",
+      "related_ids": [
+        15,
+        239,
+        29,
+        245,
+        20
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/227",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 221,
+      "name": "LEFT GENDERED - LEFT SIDE DESIGNER MUND WITH POCKET",
+      "slug": "left-gendered-left-side-designer-mund-with-pocket",
+      "permalink": "https://lightcoral-vulture-629273.hostingersite.com/product/left-gendered-left-side-designer-mund-with-pocket/",
+      "date_created": "2026-08-22T09:33:26",
+      "date_created_gmt": "2026-08-22T09:33:26",
+      "date_modified": "2026-08-22T09:33:33",
+      "date_modified_gmt": "2026-08-22T09:33:33",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "",
+      "short_description": "",
+      "sku": "",
+      "price": "1499",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": true,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": false,
+      "stock_quantity": null,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "0.772",
+      "dimensions": {
+        "length": "14",
+        "width": "12",
+        "height": "2"
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 50,
+          "name": "Left Side Mundu",
+          "slug": "left-side-mundu"
+        },
+        {
+          "id": 16,
+          "name": "MUND",
+          "slug": "mund"
+        }
+      ],
+      "brands": [],
+      "tags": [],
+      "images": [
+        {
+          "id": 246,
+          "date_created": "2026-08-22T09:33:27",
+          "date_created_gmt": "2026-08-22T09:33:27",
+          "date_modified": "2026-08-22T09:33:27",
+          "date_modified_gmt": "2026-08-22T09:33:27",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.50-PM.jpeg",
+          "name": "WhatsApp-Image-2026-05-30-at-5.28.50-PM.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.50-PM.jpeg 1066w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.50-PM-200x300.jpeg 200w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.50-PM-682x1024.jpeg 682w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.50-PM-768x1153.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.50-PM-1023x1536.jpeg 1023w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.50-PM-600x901.jpeg 600w",
+          "sizes": "(max-width: 1066px) 100vw, 1066px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.50-PM-300x300.jpeg"
+        }
+      ],
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "slug": "pa_size",
+          "position": 0,
+          "visible": true,
+          "variation": true,
+          "options": [
+            "L/36-38",
+            "M/28-32",
+            "S/28-30",
+            "XL/40-42",
+            "XXL/44-46"
+          ]
+        }
+      ],
+      "default_attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "option": "xl-40-42"
+        }
+      ],
+      "variations": [
+        222,
+        223,
+        224,
+        225,
+        226
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,699.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &#036;1,699.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,499.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &#036;1,499.00.</span>",
+      "related_ids": [
+        258,
+        13,
+        29,
+        16,
+        26
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/221",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 204,
+      "name": "LEFT FLAG - LEFT SIDE DESIGNER MUND WITH POCKET",
+      "slug": "left-flag-left-side-designer-mund-with-pocket",
+      "permalink": "https://lightcoral-vulture-629273.hostingersite.com/product/left-flag-left-side-designer-mund-with-pocket/",
+      "date_created": "2026-08-22T09:33:04",
+      "date_created_gmt": "2026-08-22T09:33:04",
+      "date_modified": "2026-08-22T09:33:33",
+      "date_modified_gmt": "2026-08-22T09:33:33",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "",
+      "short_description": "",
+      "sku": "",
+      "price": "1499",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": true,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": false,
+      "stock_quantity": null,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "0.772",
+      "dimensions": {
+        "length": "14",
+        "width": "12",
+        "height": "2"
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 50,
+          "name": "Left Side Mundu",
+          "slug": "left-side-mundu"
+        },
+        {
+          "id": 16,
+          "name": "MUND",
+          "slug": "mund"
+        }
+      ],
+      "brands": [],
+      "tags": [],
+      "images": [
+        {
+          "id": 217,
+          "date_created": "2026-08-22T09:33:24",
+          "date_created_gmt": "2026-08-22T09:33:24",
+          "date_modified": "2026-08-22T09:33:24",
+          "date_modified_gmt": "2026-08-22T09:33:24",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.51-PM-1.jpeg",
+          "name": "WhatsApp-Image-2026-05-30-at-5.28.51-PM-1.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.51-PM-1.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.51-PM-1-300x200.jpeg 300w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.51-PM-1-1024x682.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.51-PM-1-768x512.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.51-PM-1-1536x1023.jpeg 1536w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.51-PM-1-600x400.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.51-PM-1-300x300.jpeg"
+        }
+      ],
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "slug": "pa_size",
+          "position": 0,
+          "visible": true,
+          "variation": true,
+          "options": [
+            "L/36-38",
+            "M/28-32",
+            "S/28-30",
+            "XL/40-42",
+            "XXL/44-46"
+          ]
+        }
+      ],
+      "default_attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "option": "xl-40-42"
+        }
+      ],
+      "variations": [
+        205,
+        206,
+        218,
+        219,
+        220
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,699.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &#036;1,699.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,499.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &#036;1,499.00.</span>",
+      "related_ids": [
+        17,
+        221,
+        198,
+        28,
+        26
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/204",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 198,
+      "name": "LEFT ARABIC - LEFT SIDE DESIGNER MUND WITH POCKET",
+      "slug": "left-arabic-left-side-designer-mund-with-pocket",
+      "permalink": "https://lightcoral-vulture-629273.hostingersite.com/product/left-arabic-left-side-designer-mund-with-pocket/",
+      "date_created": "2026-08-22T09:33:04",
+      "date_created_gmt": "2026-08-22T09:33:04",
+      "date_modified": "2026-08-22T09:33:24",
+      "date_modified_gmt": "2026-08-22T09:33:24",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "",
+      "short_description": "",
+      "sku": "",
+      "price": "1499",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": true,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": false,
+      "stock_quantity": null,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "0.772",
+      "dimensions": {
+        "length": "14",
+        "width": "12",
+        "height": "2"
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 50,
+          "name": "Left Side Mundu",
+          "slug": "left-side-mundu"
+        },
+        {
+          "id": 16,
+          "name": "MUND",
+          "slug": "mund"
+        }
+      ],
+      "brands": [],
+      "tags": [],
+      "images": [
+        {
+          "id": 216,
+          "date_created": "2026-08-22T09:33:23",
+          "date_created_gmt": "2026-08-22T09:33:23",
+          "date_modified": "2026-08-22T09:33:23",
+          "date_modified_gmt": "2026-08-22T09:33:23",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.51-PM.jpeg",
+          "name": "WhatsApp-Image-2026-05-30-at-5.28.51-PM.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.51-PM.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.51-PM-300x200.jpeg 300w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.51-PM-1024x682.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.51-PM-768x512.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.51-PM-1536x1023.jpeg 1536w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.51-PM-600x400.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/WhatsApp-Image-2026-05-30-at-5.28.51-PM-300x300.jpeg"
+        }
+      ],
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "slug": "pa_size",
+          "position": 0,
+          "visible": true,
+          "variation": true,
+          "options": [
+            "L/36-38",
+            "M/28-32",
+            "S/28-30",
+            "XL/40-42",
+            "XXL/44-46"
+          ]
+        }
+      ],
+      "default_attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "option": "xl-40-42"
+        }
+      ],
+      "variations": [
+        199,
+        200,
+        201,
+        202,
+        203
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,699.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &#036;1,699.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,499.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &#036;1,499.00.</span>",
+      "related_ids": [
+        24,
+        204,
+        221,
+        15,
+        14
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/198",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 187,
+      "name": "WHITE COTTON MUNDU W FLORAL",
+      "slug": "white-cotton-mundu-w-floral",
+      "permalink": "https://lightcoral-vulture-629273.hostingersite.com/product/white-cotton-mundu-w-floral/",
+      "date_created": "2026-08-22T09:33:04",
+      "date_created_gmt": "2026-08-22T09:33:04",
+      "date_modified": "2026-08-24T12:24:08",
+      "date_modified_gmt": "2026-08-24T12:24:08",
+      "type": "simple",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "",
+      "short_description": "<h4>white Cotton Mundu with floral</h4>\n<p>elastic rib for waist</p>\n<p>pocket with button</p>\n<p>bio washed</p>\n<p>silicon washed</p>\n<p>100% cotton</p>\n",
+      "sku": "BAN-COT-15",
+      "price": "1499",
+      "regular_price": "1699",
+      "sale_price": "1499",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": true,
+      "purchasable": true,
+      "total_sales": 3,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": false,
+      "stock_quantity": null,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "0.772",
+      "dimensions": {
+        "length": "14",
+        "width": "12",
+        "height": "2"
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 32,
+          "name": "Cotton",
+          "slug": "cotton-kerala-mundu-mund-8"
+        },
+        {
+          "id": 20,
+          "name": "Designer Mund",
+          "slug": "designer-mund"
+        },
+        {
+          "id": 17,
+          "name": "Kerala Mundu",
+          "slug": "kerala-mundu"
+        },
+        {
+          "id": 16,
+          "name": "MUND",
+          "slug": "mund"
+        }
+      ],
+      "brands": [],
+      "tags": [],
+      "images": [
+        {
+          "id": 211,
+          "date_created": "2026-08-22T09:33:14",
+          "date_created_gmt": "2026-08-22T09:33:14",
+          "date_modified": "2026-08-22T09:33:14",
+          "date_modified_gmt": "2026-08-22T09:33:14",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5689.jpg-scaled-1.jpeg",
+          "name": "4V6A5689.jpg-scaled-1.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5689.jpg-scaled-1.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5689.jpg-scaled-1-200x300.jpeg 200w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5689.jpg-scaled-1-683x1024.jpeg 683w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5689.jpg-scaled-1-768x1152.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5689.jpg-scaled-1-1024x1536.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5689.jpg-scaled-1-1365x2048.jpeg 1365w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5689.jpg-scaled-1-600x900.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5689.jpg-scaled-1-300x300.jpeg"
+        },
+        {
+          "id": 212,
+          "date_created": "2026-08-22T09:33:16",
+          "date_created_gmt": "2026-08-22T09:33:16",
+          "date_modified": "2026-08-22T09:33:16",
+          "date_modified_gmt": "2026-08-22T09:33:16",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5692.jpg-scaled-1.jpeg",
+          "name": "4V6A5692.jpg-scaled-1.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5692.jpg-scaled-1.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5692.jpg-scaled-1-200x300.jpeg 200w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5692.jpg-scaled-1-683x1024.jpeg 683w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5692.jpg-scaled-1-768x1152.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5692.jpg-scaled-1-1024x1536.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5692.jpg-scaled-1-1365x2048.jpeg 1365w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5692.jpg-scaled-1-600x900.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5692.jpg-scaled-1-300x300.jpeg"
+        },
+        {
+          "id": 213,
+          "date_created": "2026-08-22T09:33:17",
+          "date_created_gmt": "2026-08-22T09:33:17",
+          "date_modified": "2026-08-22T09:33:17",
+          "date_modified_gmt": "2026-08-22T09:33:17",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5691.jpg-scaled-1.jpeg",
+          "name": "4V6A5691.jpg-scaled-1.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5691.jpg-scaled-1.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5691.jpg-scaled-1-200x300.jpeg 200w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5691.jpg-scaled-1-683x1024.jpeg 683w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5691.jpg-scaled-1-768x1152.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5691.jpg-scaled-1-1024x1536.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5691.jpg-scaled-1-1365x2048.jpeg 1365w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5691.jpg-scaled-1-600x900.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5691.jpg-scaled-1-300x300.jpeg"
+        },
+        {
+          "id": 214,
+          "date_created": "2026-08-22T09:33:19",
+          "date_created_gmt": "2026-08-22T09:33:19",
+          "date_modified": "2026-08-22T09:33:19",
+          "date_modified_gmt": "2026-08-22T09:33:19",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5684.jpg-scaled-1.jpeg",
+          "name": "4V6A5684.jpg-scaled-1.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5684.jpg-scaled-1.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5684.jpg-scaled-1-200x300.jpeg 200w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5684.jpg-scaled-1-683x1024.jpeg 683w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5684.jpg-scaled-1-768x1152.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5684.jpg-scaled-1-1024x1536.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5684.jpg-scaled-1-1365x2048.jpeg 1365w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5684.jpg-scaled-1-600x900.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5684.jpg-scaled-1-300x300.jpeg"
+        },
+        {
+          "id": 215,
+          "date_created": "2026-08-22T09:33:21",
+          "date_created_gmt": "2026-08-22T09:33:21",
+          "date_modified": "2026-08-22T09:33:21",
+          "date_modified_gmt": "2026-08-22T09:33:21",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5682.jpg-scaled-1.jpeg",
+          "name": "4V6A5682.jpg-scaled-1.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5682.jpg-scaled-1.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5682.jpg-scaled-1-200x300.jpeg 200w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5682.jpg-scaled-1-683x1024.jpeg 683w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5682.jpg-scaled-1-768x1152.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5682.jpg-scaled-1-1024x1536.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5682.jpg-scaled-1-1365x2048.jpeg 1365w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5682.jpg-scaled-1-600x900.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5682.jpg-scaled-1-300x300.jpeg"
+        }
+      ],
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "slug": "pa_size",
+          "position": 0,
+          "visible": true,
+          "variation": true,
+          "options": [
+            "L/36-38",
+            "M/28-32",
+            "S/28-30",
+            "XL/40-42",
+            "XXL/44-46"
+          ]
+        }
+      ],
+      "default_attributes": [],
+      "variations": [],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,699.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &#036;1,699.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,499.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &#036;1,499.00.</span>",
+      "related_ids": [
+        239,
+        227,
+        19,
+        22,
+        258
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": false,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/187",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 181,
+      "name": "CASUAL T-SHIRT",
+      "slug": "casual-t-shirt",
+      "permalink": "https://lightcoral-vulture-629273.hostingersite.com/product/casual-t-shirt/",
+      "date_created": "2026-08-22T09:33:03",
+      "date_created_gmt": "2026-08-22T09:33:03",
+      "date_modified": "2026-08-22T09:33:24",
+      "date_modified_gmt": "2026-08-22T09:33:24",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "",
+      "short_description": "<h4>Casual T-Shirt</h4>\n<p>elastic rib for waist</p>\n<p>pocket with button</p>\n<p>bio washed</p>\n<p>silicon washed</p>\n<p>FREE DELIVERY</p>\n",
+      "sku": "BAN-TSH-003",
+      "price": "499",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": true,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": false,
+      "stock_quantity": null,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "0.772",
+      "dimensions": {
+        "length": "14",
+        "width": "12",
+        "height": "2"
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 42,
+          "name": "Casuals",
+          "slug": "casuals"
+        },
+        {
+          "id": 49,
+          "name": "T-Shirts",
+          "slug": "t-shirts"
+        }
+      ],
+      "brands": [],
+      "tags": [],
+      "images": [
+        {
+          "id": 67,
+          "date_created": "2026-08-22T09:31:05",
+          "date_created_gmt": "2026-08-22T09:31:05",
+          "date_modified": "2026-08-22T09:31:05",
+          "date_modified_gmt": "2026-08-22T09:31:05",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/white-wrapz-with-floral-Jari-Kurti-main.png",
+          "name": "white-wrapz-with-floral-Jari-Kurti-main.png",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/white-wrapz-with-floral-Jari-Kurti-main.png 720w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/white-wrapz-with-floral-Jari-Kurti-main-200x300.png 200w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/white-wrapz-with-floral-Jari-Kurti-main-683x1024.png 683w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/white-wrapz-with-floral-Jari-Kurti-main-600x900.png 600w",
+          "sizes": "(max-width: 720px) 100vw, 720px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/white-wrapz-with-floral-Jari-Kurti-main-300x300.png"
+        },
+        {
+          "id": 207,
+          "date_created": "2026-08-22T09:33:05",
+          "date_created_gmt": "2026-08-22T09:33:05",
+          "date_modified": "2026-08-22T09:33:05",
+          "date_modified_gmt": "2026-08-22T09:33:05",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5668.jpg-scaled-1.jpeg",
+          "name": "4V6A5668.jpg-scaled-1.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5668.jpg-scaled-1.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5668.jpg-scaled-1-200x300.jpeg 200w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5668.jpg-scaled-1-683x1024.jpeg 683w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5668.jpg-scaled-1-768x1152.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5668.jpg-scaled-1-1024x1536.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5668.jpg-scaled-1-1365x2048.jpeg 1365w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5668.jpg-scaled-1-600x900.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5668.jpg-scaled-1-300x300.jpeg"
+        },
+        {
+          "id": 208,
+          "date_created": "2026-08-22T09:33:07",
+          "date_created_gmt": "2026-08-22T09:33:07",
+          "date_modified": "2026-08-22T09:33:07",
+          "date_modified_gmt": "2026-08-22T09:33:07",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5659.jpg-scaled-1.jpeg",
+          "name": "4V6A5659.jpg-scaled-1.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5659.jpg-scaled-1.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5659.jpg-scaled-1-200x300.jpeg 200w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5659.jpg-scaled-1-683x1024.jpeg 683w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5659.jpg-scaled-1-768x1152.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5659.jpg-scaled-1-1024x1536.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5659.jpg-scaled-1-1365x2048.jpeg 1365w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5659.jpg-scaled-1-600x900.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5659.jpg-scaled-1-300x300.jpeg"
+        },
+        {
+          "id": 209,
+          "date_created": "2026-08-22T09:33:10",
+          "date_created_gmt": "2026-08-22T09:33:10",
+          "date_modified": "2026-08-22T09:33:10",
+          "date_modified_gmt": "2026-08-22T09:33:10",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5681.jpg-scaled-1.jpeg",
+          "name": "4V6A5681.jpg-scaled-1.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5681.jpg-scaled-1.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5681.jpg-scaled-1-200x300.jpeg 200w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5681.jpg-scaled-1-683x1024.jpeg 683w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5681.jpg-scaled-1-768x1152.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5681.jpg-scaled-1-1024x1536.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5681.jpg-scaled-1-1365x2048.jpeg 1365w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5681.jpg-scaled-1-600x900.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5681.jpg-scaled-1-300x300.jpeg"
+        },
+        {
+          "id": 210,
+          "date_created": "2026-08-22T09:33:12",
+          "date_created_gmt": "2026-08-22T09:33:12",
+          "date_modified": "2026-08-22T09:33:12",
+          "date_modified_gmt": "2026-08-22T09:33:12",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5671.jpg-scaled-1.jpeg",
+          "name": "4V6A5671.jpg-scaled-1.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5671.jpg-scaled-1.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5671.jpg-scaled-1-200x300.jpeg 200w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5671.jpg-scaled-1-683x1024.jpeg 683w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5671.jpg-scaled-1-768x1152.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5671.jpg-scaled-1-1024x1536.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5671.jpg-scaled-1-1365x2048.jpeg 1365w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5671.jpg-scaled-1-600x900.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5671.jpg-scaled-1-300x300.jpeg"
+        }
+      ],
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "slug": "pa_size",
+          "position": 0,
+          "visible": true,
+          "variation": true,
+          "options": [
+            "L/42-44",
+            "M/38-40",
+            "S/34-36",
+            "XL/46-48",
+            "XXl/50-52"
+          ]
+        }
+      ],
+      "default_attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "option": "xl-46-48"
+        }
+      ],
+      "variations": [
+        182,
+        183,
+        184,
+        185,
+        186
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>799.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &#036;799.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>499.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &#036;499.00.</span>",
+      "related_ids": [
+        167,
+        161
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/181",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 167,
+      "name": "WHITE SHORT KURTI",
+      "slug": "white-short-kurti",
+      "permalink": "https://lightcoral-vulture-629273.hostingersite.com/product/white-short-kurti/",
+      "date_created": "2026-08-22T09:32:46",
+      "date_created_gmt": "2026-08-22T09:32:46",
+      "date_modified": "2026-08-22T09:33:24",
+      "date_modified_gmt": "2026-08-22T09:33:24",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "",
+      "short_description": "<h4>WHITE SHORT KURTI</h4>\n<p>100% Cotton</p>\n<p>BOTH STRETCHABLE</p>\n<p>DHOTI COMES WITH POCKET</p>\n",
+      "sku": "BAN-TSH-002",
+      "price": "699",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": true,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": false,
+      "stock_quantity": null,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "0.772",
+      "dimensions": {
+        "length": "14",
+        "width": "12",
+        "height": "2"
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 42,
+          "name": "Casuals",
+          "slug": "casuals"
+        },
+        {
+          "id": 43,
+          "name": "Kurta",
+          "slug": "kurta"
+        }
+      ],
+      "brands": [],
+      "tags": [],
+      "images": [
+        {
+          "id": 173,
+          "date_created": "2026-08-22T09:32:54",
+          "date_created_gmt": "2026-08-22T09:32:54",
+          "date_modified": "2026-08-22T09:32:54",
+          "date_modified_gmt": "2026-08-22T09:32:54",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5630.jpg-scaled-1.jpeg",
+          "name": "4V6A5630.jpg-scaled-1.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5630.jpg-scaled-1.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5630.jpg-scaled-1-200x300.jpeg 200w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5630.jpg-scaled-1-683x1024.jpeg 683w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5630.jpg-scaled-1-768x1152.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5630.jpg-scaled-1-1024x1536.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5630.jpg-scaled-1-1365x2048.jpeg 1365w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5630.jpg-scaled-1-600x900.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5630.jpg-scaled-1-300x300.jpeg"
+        },
+        {
+          "id": 174,
+          "date_created": "2026-08-22T09:32:55",
+          "date_created_gmt": "2026-08-22T09:32:55",
+          "date_modified": "2026-08-22T09:32:55",
+          "date_modified_gmt": "2026-08-22T09:32:55",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5632.jpg-scaled-1.jpeg",
+          "name": "4V6A5632.jpg-scaled-1.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5632.jpg-scaled-1.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5632.jpg-scaled-1-200x300.jpeg 200w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5632.jpg-scaled-1-683x1024.jpeg 683w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5632.jpg-scaled-1-768x1152.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5632.jpg-scaled-1-1024x1536.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5632.jpg-scaled-1-1365x2048.jpeg 1365w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5632.jpg-scaled-1-600x900.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5632.jpg-scaled-1-300x300.jpeg"
+        },
+        {
+          "id": 175,
+          "date_created": "2026-08-22T09:32:57",
+          "date_created_gmt": "2026-08-22T09:32:57",
+          "date_modified": "2026-08-22T09:32:57",
+          "date_modified_gmt": "2026-08-22T09:32:57",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5629.jpg-scaled-1.jpeg",
+          "name": "4V6A5629.jpg-scaled-1.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5629.jpg-scaled-1.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5629.jpg-scaled-1-200x300.jpeg 200w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5629.jpg-scaled-1-683x1024.jpeg 683w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5629.jpg-scaled-1-768x1152.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5629.jpg-scaled-1-1024x1536.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5629.jpg-scaled-1-1365x2048.jpeg 1365w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5629.jpg-scaled-1-600x900.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5629.jpg-scaled-1-300x300.jpeg"
+        },
+        {
+          "id": 176,
+          "date_created": "2026-08-22T09:32:59",
+          "date_created_gmt": "2026-08-22T09:32:59",
+          "date_modified": "2026-08-22T09:32:59",
+          "date_modified_gmt": "2026-08-22T09:32:59",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5626.jpg-scaled-1.jpeg",
+          "name": "4V6A5626.jpg-scaled-1.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5626.jpg-scaled-1.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5626.jpg-scaled-1-200x300.jpeg 200w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5626.jpg-scaled-1-683x1024.jpeg 683w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5626.jpg-scaled-1-768x1152.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5626.jpg-scaled-1-1024x1536.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5626.jpg-scaled-1-1365x2048.jpeg 1365w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5626.jpg-scaled-1-600x900.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5626.jpg-scaled-1-300x300.jpeg"
+        }
+      ],
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "slug": "pa_size",
+          "position": 0,
+          "visible": true,
+          "variation": true,
+          "options": [
+            "L/42-44",
+            "M/38-40",
+            "S/34-36",
+            "XL/46-48",
+            "XXl/50-52"
+          ]
+        }
+      ],
+      "default_attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "option": "xl-46-48"
+        }
+      ],
+      "variations": [
+        168,
+        177,
+        178,
+        179,
+        180
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>999.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &#036;999.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>699.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &#036;699.00.</span>",
+      "related_ids": [
+        161,
+        181
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/167",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 161,
+      "name": "BLACK SHORT KURTI",
+      "slug": "black-short-kurti",
+      "permalink": "https://lightcoral-vulture-629273.hostingersite.com/product/black-short-kurti/",
+      "date_created": "2026-08-22T09:32:46",
+      "date_created_gmt": "2026-08-22T09:32:46",
+      "date_modified": "2026-08-22T09:33:01",
+      "date_modified_gmt": "2026-08-22T09:33:01",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "",
+      "short_description": "<h4>BLACK SHORT KURTI</h4>\n<p>100% Cotton</p>\n<p>BOTH STRETCHABLE</p>\n<p>DHOTI COMES WITH POCKET</p>\n",
+      "sku": "BAN-TSH-001",
+      "price": "699",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": true,
+      "purchasable": true,
+      "total_sales": 2,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": false,
+      "stock_quantity": null,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "0.772",
+      "dimensions": {
+        "length": "14",
+        "width": "12",
+        "height": "2"
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 42,
+          "name": "Casuals",
+          "slug": "casuals"
+        },
+        {
+          "id": 43,
+          "name": "Kurta",
+          "slug": "kurta"
+        }
+      ],
+      "brands": [],
+      "tags": [],
+      "images": [
+        {
+          "id": 169,
+          "date_created": "2026-08-22T09:32:46",
+          "date_created_gmt": "2026-08-22T09:32:46",
+          "date_modified": "2026-08-22T09:32:46",
+          "date_modified_gmt": "2026-08-22T09:32:46",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5709.jpg-scaled-1.jpeg",
+          "name": "4V6A5709.jpg-scaled-1.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5709.jpg-scaled-1.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5709.jpg-scaled-1-200x300.jpeg 200w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5709.jpg-scaled-1-683x1024.jpeg 683w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5709.jpg-scaled-1-768x1152.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5709.jpg-scaled-1-1024x1536.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5709.jpg-scaled-1-1365x2048.jpeg 1365w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5709.jpg-scaled-1-600x900.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5709.jpg-scaled-1-300x300.jpeg"
+        },
+        {
+          "id": 170,
+          "date_created": "2026-08-22T09:32:48",
+          "date_created_gmt": "2026-08-22T09:32:48",
+          "date_modified": "2026-08-22T09:32:48",
+          "date_modified_gmt": "2026-08-22T09:32:48",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5712.jpg-scaled-1.jpeg",
+          "name": "4V6A5712.jpg-scaled-1.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5712.jpg-scaled-1.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5712.jpg-scaled-1-200x300.jpeg 200w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5712.jpg-scaled-1-683x1024.jpeg 683w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5712.jpg-scaled-1-768x1152.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5712.jpg-scaled-1-1024x1536.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5712.jpg-scaled-1-1365x2048.jpeg 1365w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5712.jpg-scaled-1-600x900.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5712.jpg-scaled-1-300x300.jpeg"
+        },
+        {
+          "id": 171,
+          "date_created": "2026-08-22T09:32:50",
+          "date_created_gmt": "2026-08-22T09:32:50",
+          "date_modified": "2026-08-22T09:32:50",
+          "date_modified_gmt": "2026-08-22T09:32:50",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5715.jpg-scaled-1.jpeg",
+          "name": "4V6A5715.jpg-scaled-1.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5715.jpg-scaled-1.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5715.jpg-scaled-1-200x300.jpeg 200w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5715.jpg-scaled-1-683x1024.jpeg 683w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5715.jpg-scaled-1-768x1152.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5715.jpg-scaled-1-1024x1536.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5715.jpg-scaled-1-1365x2048.jpeg 1365w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5715.jpg-scaled-1-600x900.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5715.jpg-scaled-1-300x300.jpeg"
+        },
+        {
+          "id": 46,
+          "date_created": "2026-08-22T09:29:54",
+          "date_created_gmt": "2026-08-22T09:29:54",
+          "date_modified": "2026-08-22T09:29:54",
+          "date_modified_gmt": "2026-08-22T09:29:54",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5717.jpg-scaled-1.jpeg",
+          "name": "4V6A5717.jpg-scaled-1.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5717.jpg-scaled-1.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5717.jpg-scaled-1-200x300.jpeg 200w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5717.jpg-scaled-1-683x1024.jpeg 683w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5717.jpg-scaled-1-768x1152.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5717.jpg-scaled-1-1024x1536.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5717.jpg-scaled-1-1365x2048.jpeg 1365w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5717.jpg-scaled-1-600x900.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5717.jpg-scaled-1-300x300.jpeg"
+        },
+        {
+          "id": 172,
+          "date_created": "2026-08-22T09:32:52",
+          "date_created_gmt": "2026-08-22T09:32:52",
+          "date_modified": "2026-08-22T09:32:52",
+          "date_modified_gmt": "2026-08-22T09:32:52",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5707.jpg-scaled-1.jpeg",
+          "name": "4V6A5707.jpg-scaled-1.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5707.jpg-scaled-1.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5707.jpg-scaled-1-200x300.jpeg 200w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5707.jpg-scaled-1-683x1024.jpeg 683w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5707.jpg-scaled-1-768x1152.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5707.jpg-scaled-1-1024x1536.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5707.jpg-scaled-1-1365x2048.jpeg 1365w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5707.jpg-scaled-1-600x900.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5707.jpg-scaled-1-300x300.jpeg"
+        },
+        {
+          "id": 45,
+          "date_created": "2026-08-22T09:29:53",
+          "date_created_gmt": "2026-08-22T09:29:53",
+          "date_modified": "2026-08-22T09:29:53",
+          "date_modified_gmt": "2026-08-22T09:29:53",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5706.jpg-scaled-1.jpeg",
+          "name": "4V6A5706.jpg-scaled-1.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5706.jpg-scaled-1.jpeg 1600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5706.jpg-scaled-1-200x300.jpeg 200w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5706.jpg-scaled-1-683x1024.jpeg 683w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5706.jpg-scaled-1-768x1152.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5706.jpg-scaled-1-1024x1536.jpeg 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5706.jpg-scaled-1-1365x2048.jpeg 1365w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5706.jpg-scaled-1-600x900.jpeg 600w",
+          "sizes": "(max-width: 1600px) 100vw, 1600px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5706.jpg-scaled-1-300x300.jpeg"
+        }
+      ],
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "slug": "pa_size",
+          "position": 0,
+          "visible": true,
+          "variation": true,
+          "options": [
+            "L/42-44",
+            "M/38-40",
+            "S/34-36",
+            "XL/46-48",
+            "XXl/50-52"
+          ]
+        }
+      ],
+      "default_attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "option": "xl-46-48"
+        }
+      ],
+      "variations": [
+        162,
+        163,
+        164,
+        165,
+        166
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>999.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &#036;999.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>699.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &#036;699.00.</span>",
+      "related_ids": [
+        181,
+        167
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/161",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "name": "BLACK MUNDU W OHM PRINT",
+      "slug": "black-mundu-w-ohm-print",
+      "permalink": "https://lightcoral-vulture-629273.hostingersite.com/product/black-mundu-w-ohm-print/",
+      "date_created": "2026-08-22T09:29:48",
+      "date_created_gmt": "2026-08-22T09:29:48",
+      "date_modified": "2026-08-22T09:32:42",
+      "date_modified_gmt": "2026-08-22T09:32:42",
+      "type": "variable",
+      "status": "publish",
+      "featured": false,
+      "catalog_visibility": "visible",
+      "description": "",
+      "short_description": "<h4>BLACK MUNDU WITH OHM PRINT</h4>\n<p>100% COTTON</p>\n<p>BIO WASHED</p>\n<p>SILICON WASHED</p>\n<p>WITH POCKET</p>\n",
+      "sku": "BAN-COT-001",
+      "price": "1499",
+      "regular_price": "",
+      "sale_price": "",
+      "date_on_sale_from": null,
+      "date_on_sale_from_gmt": null,
+      "date_on_sale_to": null,
+      "date_on_sale_to_gmt": null,
+      "on_sale": true,
+      "purchasable": true,
+      "total_sales": 0,
+      "virtual": false,
+      "downloadable": false,
+      "downloads": [],
+      "download_limit": -1,
+      "download_expiry": -1,
+      "external_url": "",
+      "button_text": "",
+      "tax_status": "taxable",
+      "tax_class": "",
+      "manage_stock": true,
+      "stock_quantity": 10,
+      "backorders": "no",
+      "backorders_allowed": false,
+      "backordered": false,
+      "low_stock_amount": null,
+      "sold_individually": false,
+      "weight": "0.772",
+      "dimensions": {
+        "length": "14",
+        "width": "12",
+        "height": "2"
+      },
+      "shipping_required": true,
+      "shipping_taxable": true,
+      "shipping_class": "",
+      "shipping_class_id": 0,
+      "reviews_allowed": true,
+      "average_rating": "0.00",
+      "rating_count": 0,
+      "upsell_ids": [],
+      "cross_sell_ids": [],
+      "parent_id": 0,
+      "purchase_note": "",
+      "categories": [
+        {
+          "id": 32,
+          "name": "Cotton",
+          "slug": "cotton-kerala-mundu-mund-8"
+        },
+        {
+          "id": 20,
+          "name": "Designer Mund",
+          "slug": "designer-mund"
+        },
+        {
+          "id": 22,
+          "name": "Festive Collection",
+          "slug": "festive-collection"
+        },
+        {
+          "id": 17,
+          "name": "Kerala Mundu",
+          "slug": "kerala-mundu"
+        },
+        {
+          "id": 16,
+          "name": "MUND",
+          "slug": "mund"
+        }
+      ],
+      "brands": [],
+      "tags": [],
+      "images": [
+        {
+          "id": 107,
+          "date_created": "2026-08-22T09:32:39",
+          "date_created_gmt": "2026-08-22T09:32:39",
+          "date_modified": "2026-08-22T09:32:39",
+          "date_modified_gmt": "2026-08-22T09:32:39",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/ohm-print.jpeg",
+          "name": "ohm-print.jpeg",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/ohm-print.jpeg 848w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/ohm-print-201x300.jpeg 201w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/ohm-print-687x1024.jpeg 687w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/ohm-print-768x1145.jpeg 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/ohm-print-600x894.jpeg 600w",
+          "sizes": "(max-width: 848px) 100vw, 848px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/ohm-print-300x300.jpeg"
+        },
+        {
+          "id": 108,
+          "date_created": "2026-08-22T09:32:39",
+          "date_created_gmt": "2026-08-22T09:32:39",
+          "date_modified": "2026-08-22T09:32:39",
+          "date_modified_gmt": "2026-08-22T09:32:39",
+          "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/BLACK-MUNDU-WITH-OHM-PRINT-main.png",
+          "name": "BLACK-MUNDU-WITH-OHM-PRINT-main.png",
+          "alt": "",
+          "srcset": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/BLACK-MUNDU-WITH-OHM-PRINT-main.png 1080w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/BLACK-MUNDU-WITH-OHM-PRINT-main-300x300.png 300w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/BLACK-MUNDU-WITH-OHM-PRINT-main-1024x1024.png 1024w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/BLACK-MUNDU-WITH-OHM-PRINT-main-150x150.png 150w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/BLACK-MUNDU-WITH-OHM-PRINT-main-768x768.png 768w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/BLACK-MUNDU-WITH-OHM-PRINT-main-600x600.png 600w, https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/BLACK-MUNDU-WITH-OHM-PRINT-main-100x100.png 100w",
+          "sizes": "(max-width: 1080px) 100vw, 1080px",
+          "thumbnail": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/BLACK-MUNDU-WITH-OHM-PRINT-main-300x300.png"
+        }
+      ],
+      "attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "slug": "pa_size",
+          "position": 0,
+          "visible": true,
+          "variation": true,
+          "options": [
+            "L/36-38",
+            "M/28-32",
+            "S/28-30",
+            "XL/40-42",
+            "XXL/44-46"
+          ]
+        }
+      ],
+      "default_attributes": [
+        {
+          "id": 2,
+          "name": "Size",
+          "option": "xl-40-42"
+        }
+      ],
+      "variations": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ],
+      "grouped_products": [],
+      "menu_order": 0,
+      "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,600.00</bdi></span></del> <span class=\"screen-reader-text\">Original price was: &#036;1,600.00.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi><span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#36;</span>1,499.00</bdi></span></ins><span class=\"screen-reader-text\">Current price is: &#036;1,499.00.</span>",
+      "related_ids": [
+        16,
+        233,
+        204,
+        26,
+        24
+      ],
+      "meta_data": [],
+      "stock_status": "instock",
+      "has_options": true,
+      "post_password": "",
+      "global_unique_id": "",
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/29",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products"
+          }
+        ]
+      }
+    }
+  ],
+  "allCategories": [
+    {
+      "id": 42,
+      "name": "Casuals",
+      "slug": "casuals",
+      "parent": 0,
+      "description": "",
+      "display": "default",
+      "image": {
+        "id": 312,
+        "date_created": "2026-08-22T10:28:44",
+        "date_created_gmt": "2026-08-22T10:28:44",
+        "date_modified": "2026-08-22T10:28:44",
+        "date_modified_gmt": "2026-08-22T10:28:44",
+        "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5664.jpg-scaled-1.jpeg",
+        "name": "4V6A5664.jpg-scaled",
+        "alt": ""
+      },
+      "menu_order": 0,
+      "count": 3,
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories/42",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories"
+          }
+        ]
+      }
+    },
+    {
+      "id": 32,
+      "name": "Cotton",
+      "slug": "cotton-kerala-mundu-mund-8",
+      "parent": 17,
+      "description": "",
+      "display": "default",
+      "image": null,
+      "menu_order": 0,
+      "count": 13,
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories/32",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories/17"
+          }
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "name": "Cotton",
+      "slug": "cotton",
+      "parent": 17,
+      "description": "",
+      "display": "default",
+      "image": null,
+      "menu_order": 0,
+      "count": 1,
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories/18",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories/17"
+          }
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "name": "Cotton",
+      "slug": "cotton-kerala-mundu",
+      "parent": 17,
+      "description": "",
+      "display": "default",
+      "image": null,
+      "menu_order": 0,
+      "count": 1,
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories/19",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories/17"
+          }
+        ]
+      }
+    },
+    {
+      "id": 51,
+      "name": "Daily Wear Mund",
+      "slug": "daily-wear-mund",
+      "parent": 16,
+      "description": "",
+      "display": "default",
+      "image": null,
+      "menu_order": 0,
+      "count": 5,
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories/51",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories/16"
+          }
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "name": "Designer Mund",
+      "slug": "designer-mund",
+      "parent": 16,
+      "description": "",
+      "display": "default",
+      "image": null,
+      "menu_order": 0,
+      "count": 17,
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories/20",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories/16"
+          }
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "name": "Festive Collection",
+      "slug": "festive-collection",
+      "parent": 16,
+      "description": "",
+      "display": "default",
+      "image": null,
+      "menu_order": 0,
+      "count": 3,
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories/22",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories/16"
+          }
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "name": "Kerala Mundu",
+      "slug": "kerala-mundu",
+      "parent": 16,
+      "description": "",
+      "display": "default",
+      "image": null,
+      "menu_order": 0,
+      "count": 17,
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories/17",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories/16"
+          }
+        ]
+      }
+    },
+    {
+      "id": 43,
+      "name": "Kurta",
+      "slug": "kurta",
+      "parent": 0,
+      "description": "",
+      "display": "default",
+      "image": {
+        "id": 51,
+        "date_created": "2026-08-22T09:30:12",
+        "date_created_gmt": "2026-08-22T09:30:12",
+        "date_modified": "2026-08-22T09:30:12",
+        "date_modified_gmt": "2026-08-22T09:30:12",
+        "src": "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/08/4V6A5623.jpg-scaled-1.jpeg",
+        "name": "4V6A5623.jpg-scaled-1.jpeg",
+        "alt": ""
+      },
+      "menu_order": 0,
+      "count": 2,
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories/43",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories"
+          }
+        ]
+      }
+    },
+    {
+      "id": 50,
+      "name": "Left Side Mundu",
+      "slug": "left-side-mundu",
+      "parent": 16,
+      "description": "",
+      "display": "default",
+      "image": null,
+      "menu_order": 0,
+      "count": 5,
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories/50",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories/16"
+          }
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "name": "MUND",
+      "slug": "mund",
+      "parent": 0,
+      "description": "",
+      "display": "default",
+      "image": null,
+      "menu_order": 0,
+      "count": 33,
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories/16",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories"
+          }
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "name": "Premium Kasavu",
+      "slug": "premium-kasavu",
+      "parent": 16,
+      "description": "",
+      "display": "default",
+      "image": null,
+      "menu_order": 0,
+      "count": 5,
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories/25",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories/16"
+          }
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "name": "Rayon",
+      "slug": "rayon",
+      "parent": 17,
+      "description": "",
+      "display": "default",
+      "image": null,
+      "menu_order": 0,
+      "count": 2,
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories/28",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories"
+          }
+        ],
+        "up": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories/17"
+          }
+        ]
+      }
+    },
+    {
+      "id": 49,
+      "name": "T-Shirts",
+      "slug": "t-shirts",
+      "parent": 0,
+      "description": "",
+      "display": "default",
+      "image": null,
+      "menu_order": 0,
+      "count": 1,
+      "_links": {
+        "self": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories/49",
+            "targetHints": {
+              "allow": [
+                "GET",
+                "POST",
+                "PUT",
+                "PATCH",
+                "DELETE"
+              ]
+            }
+          }
+        ],
+        "collection": [
+          {
+            "href": "https://lightcoral-vulture-629273.hostingersite.com/wp-json/wc/v3/products/categories"
+          }
+        ]
+      }
+    }
+  ]
+}

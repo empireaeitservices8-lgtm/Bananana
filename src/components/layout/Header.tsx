@@ -29,7 +29,7 @@ export default async function Header() {
       <div className="absolute inset-0 bg-brand-cream/90 backdrop-blur-md -z-10" />
 
       {/* ── MOBILE layout (< md) ── */}
-      <div className="relative md:hidden max-w-7xl mx-auto px-4 h-24 flex items-center">
+      <div className="relative md:hidden max-w-7xl mx-auto px-4 h-18 flex items-center">
         {/* Left — Hamburger (mobile only) */}
         <div className="flex items-center z-10">
           <HamburgerMenu categories={uniqueCategories} />
@@ -37,19 +37,19 @@ export default async function Header() {
 
         {/* Center — Logo absolutely centered (mobile only) */}
         <div className="absolute left-1/2 -translate-x-1/2 flex items-center">
-          <Link href="/" className="relative h-20 w-40 flex items-center overflow-hidden">
+          <Link href="/" className="relative h-14 w-32 flex items-center overflow-hidden">
             <Image
               src="/images/logo.png"
               alt="Bananana"
               fill
-              className="object-contain object-center scale-125"
+              className="object-contain object-center scale-110"
               priority
             />
           </Link>
         </div>
 
         {/* Right — Search + Cart */}
-        <div className="flex items-center gap-4 ml-auto z-10">
+        <div className="flex items-center gap-3 ml-auto z-10">
           <SearchBar />
           <CartIcon />
         </div>
@@ -57,26 +57,26 @@ export default async function Header() {
 
       {/* ── DESKTOP layout (≥ md) — logo centered ── */}
       <div className="hidden md:block max-w-7xl mx-auto px-4">
-        <div className="relative h-24 flex items-center">
+        <div className="relative h-20 flex items-center">
           {/* Left — Hamburger + Nav links */}
-          <div className="flex items-center gap-6 z-10">
+          <div className="flex items-center gap-5 z-10">
             <HamburgerMenu categories={uniqueCategories} />
-            <nav className="flex gap-6 items-center">
-              <Link href="/category/all" className="text-sm font-medium hover:text-brand-gold transition-colors py-4">Shop All</Link>
-              <Link href="/about" className="text-sm font-medium hover:text-brand-gold transition-colors py-4">About Us</Link>
-              <Link href="/contact-us" className="text-sm font-medium hover:text-brand-gold transition-colors py-4">Contact Us</Link>
+            <nav className="flex gap-5 items-center">
+              <Link href="/category/all" className="text-sm font-medium hover:text-brand-gold transition-colors py-2 tracking-wide">Shop All</Link>
+              <Link href="/about" className="text-sm font-medium hover:text-brand-gold transition-colors py-2 tracking-wide">About Us</Link>
+              <Link href="/contact-us" className="text-sm font-medium hover:text-brand-gold transition-colors py-2 tracking-wide">Contact Us</Link>
             </nav>
           </div>
 
           {/* Center — Logo absolutely centered */}
           <div className="absolute left-1/2 -translate-x-1/2 flex items-center">
-            <Link href="/" className="relative h-24 w-56 flex items-center overflow-hidden">
-              <Image src="/images/logo.png" alt="Bananana" fill className="object-contain object-center scale-125" priority />
+            <Link href="/" className="relative h-16 w-44 flex items-center overflow-hidden">
+              <Image src="/images/logo.png" alt="Bananana" fill className="object-contain object-center scale-110" priority />
             </Link>
           </div>
 
           {/* Right — Search + Cart */}
-          <div className="flex items-center gap-4 ml-auto z-10">
+          <div className="flex items-center gap-3.5 ml-auto z-10">
             <SearchBar />
             <CartIcon />
           </div>

@@ -60,3 +60,12 @@ export async function getProductReviews(productId: number) {
 export async function getOrderById(orderId: string | number) {
   return fetchWooCommerceAPI(`orders/${orderId}`);
 }
+
+export async function getAllReviews(limit = 6) {
+  try {
+    return await fetchWooCommerceAPI(`products/reviews?per_page=${limit}&status=approved`);
+  } catch (e) {
+    console.warn("Failed to fetch WooCommerce reviews:", e);
+    return [];
+  }
+}
