@@ -20,11 +20,11 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
   const categoryDescription = category?.description || `Explore our curated collection of premium ${categoryName.toLowerCase()}, crafted with traditional techniques and designed for the modern man.`;
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8 w-full">
+    <div className="max-w-7xl mx-auto px-4 py-5 sm:py-7 w-full">
       {/* Main Product Grid */}
       <div className="w-full">
-        <div className="mb-8">
-          <div className="flex items-center gap-2 text-sm text-brand-charcoal/60 mb-4">
+        <div className="mb-6">
+          <div className="flex items-center gap-2 text-xs sm:text-sm text-brand-charcoal/60 mb-2.5">
             <a href="/" className="hover:text-brand-charcoal transition-colors">Home</a>
             <span>/</span>
             <a href="/category/all" className="hover:text-brand-charcoal transition-colors">Shop</a>
@@ -35,11 +35,11 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
               </>
             )}
           </div>
-          <h1 className="font-serif text-3xl md:text-4xl font-bold text-brand-charcoal mb-4 capitalize">
+          <h1 className="font-serif text-3xl md:text-4xl font-bold text-brand-charcoal mb-2.5 capitalize">
             {categoryName}
           </h1>
           <p 
-            className="text-brand-charcoal/70 max-w-2xl"
+            className="text-brand-charcoal/70 max-w-2xl text-sm sm:text-base leading-relaxed"
             dangerouslySetInnerHTML={{ __html: categoryDescription }}
           />
         </div>

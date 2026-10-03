@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Outfit:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
 
 @theme inline {
@@ -8,8 +9,10 @@
   --color-brand-sage: #9CAF88;
   --color-brand-offwhite: #F4F1EA;
 
-  --font-sans: var(--font-inter);
-  --font-serif: var(--font-cormorant-garamond);
+  --font-sans: "Outfit", var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-serif: var(--font-cormorant-garamond), Georgia, serif;
+  --font-display: "Playfair Display", var(--font-cormorant-garamond), Georgia, serif;
+  --font-fashion: "Outfit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 
   --background-image-gold-gradient: linear-gradient(135deg, #CFB53B 0%, #B8860B 100%);
   --radius-sm: 4px;
@@ -20,19 +23,21 @@
   --foreground: #1C1A17;
 }
 
-body {
-  background-color: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-sans);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-}
+@layer base {
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-serif);
-  letter-spacing: -0.02em;
-  line-height: 1.15;
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+  }
 }
 
 /* Hide native input clear buttons */

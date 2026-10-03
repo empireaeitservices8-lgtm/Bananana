@@ -1,7 +1,7 @@
 export default function ReturnPolicyPage() {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-16 w-full">
-      <h1 className="font-serif text-4xl font-bold text-brand-charcoal mb-8">Return Policy</h1>
+    <div className="max-w-4xl mx-auto px-4 py-8 sm:py-10 w-full">
+      <h1 className="font-serif text-3xl sm:text-4xl font-bold text-brand-charcoal mb-5">Return Policy</h1>
       <div className="prose prose-lg max-w-none text-brand-charcoal/80 space-y-6">
         <p>We want you to be completely satisfied with your Bananana purchase. If you are not satisfied, we are here to help.</p>
         <h2 className="font-serif text-2xl font-bold text-brand-charcoal mt-8">Returns</h2>

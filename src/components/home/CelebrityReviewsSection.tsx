@@ -198,7 +198,7 @@ export default function CelebrityReviewsSection() {
               >
                 {slide.type === "text" ? (
                   /* 1. DESCRIPTION CARD (Clean editorial layout, image hidden) */
-                  <div className="w-full h-full bg-white text-brand-charcoal rounded-xl shadow-2xl p-7 sm:p-9 md:p-10 flex flex-col justify-center border border-black/5">
+                  <div className="w-full h-full bg-white text-brand-charcoal rounded-xl shadow-2xl p-5 sm:p-8 md:p-10 flex flex-col justify-center border border-black/5 overflow-y-auto">
                     {/* Category Tag */}
                     <span className="text-[10px] sm:text-xs uppercase tracking-[0.2em] font-bold text-brand-gold block mb-2.5">
                       {slide.category}

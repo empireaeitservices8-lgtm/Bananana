@@ -101,11 +101,18 @@ export default function CuratedCollectionsSection({ collections }: CuratedCollec
   const currentCol = collections[currentIndex];
 
   return (
-    <section className="py-12 md:py-16 px-4 w-full overflow-hidden bg-brand-offwhite/40">
+    <section className="py-10 md:py-14 px-4 w-full overflow-hidden bg-brand-offwhite/40">
       <div className="max-w-6xl mx-auto">
         {/* Section Header - Clean and minimal with NO arrow navigation buttons */}
-        <div className="mb-6 md:mb-8">
-          <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-brand-charcoal tracking-tight">
+        <div className="mb-5 md:mb-6">
+          <h2
+            className="text-3xl sm:text-4xl md:text-5xl font-normal text-brand-charcoal"
+            style={{
+              fontFamily: "'Playfair Display', 'Italiana', var(--font-serif), Georgia, serif",
+              letterSpacing: "-0.015em",
+              lineHeight: 1.15,
+            }}
+          >
             Curated Collections
           </h2>
           <div className="w-12 h-0.5 bg-brand-gold mt-2.5" />
@@ -119,11 +126,11 @@ export default function CuratedCollectionsSection({ collections }: CuratedCollec
           onMouseDown={handleMouseDown}
           onMouseMove={handleMouseMove}
           onMouseUp={handleMouseUp}
-          className="relative bg-white rounded-sm border border-brand-charcoal/10 overflow-hidden shadow-xs p-4 sm:p-6 md:p-8 select-none cursor-grab active:cursor-grabbing"
+          className="relative bg-white rounded-sm border border-brand-charcoal/10 overflow-hidden shadow-xs p-4 sm:p-5 md:p-6 select-none cursor-grab active:cursor-grabbing"
         >
-          <div className="grid md:grid-cols-12 gap-6 lg:gap-8 items-center">
+          <div className="grid md:grid-cols-12 gap-5 lg:gap-8 items-center">
             {/* Prominent Large Collection Image */}
-            <div className="md:col-span-7 relative h-[320px] sm:h-[420px] md:h-[480px] lg:h-[520px] rounded-sm overflow-hidden bg-brand-offwhite group">
+            <div className="md:col-span-7 relative h-[280px] sm:h-[360px] md:h-[400px] lg:h-[440px] rounded-sm overflow-hidden bg-brand-offwhite group">
               <Image
                 key={currentCol.imageSrc}
                 src={currentCol.imageSrc}
@@ -139,7 +146,7 @@ export default function CuratedCollectionsSection({ collections }: CuratedCollec
             </div>
 
             {/* Collection Details */}
-            <div className="md:col-span-5 flex flex-col justify-center px-1 sm:px-4 md:px-6">
+            <div className="md:col-span-5 flex flex-col justify-center px-1 sm:px-3 md:px-4">
               <span className="text-brand-gold text-[10px] sm:text-xs uppercase font-bold tracking-widest block mb-1.5">
                 Featured Collection
               </span>
@@ -147,7 +154,12 @@ export default function CuratedCollectionsSection({ collections }: CuratedCollec
                 {currentCol.name}
               </h3>
               <div className="w-12 h-0.5 bg-brand-gold mb-3" />
-              <p className="text-brand-charcoal/75 text-sm sm:text-base md:text-lg leading-relaxed mb-6">
+              <p
+                className="text-base sm:text-lg text-brand-charcoal/75 italic leading-relaxed mb-6"
+                style={{
+                  fontFamily: "'Playfair Display', var(--font-serif), Georgia, serif",
+                }}
+              >
                 {currentCol.description}
               </p>
               <div>
@@ -163,7 +175,7 @@ export default function CuratedCollectionsSection({ collections }: CuratedCollec
           </div>
 
           {/* Minimalist Progress Indicators (Zero Arrow Buttons) */}
-          <div className="flex justify-center items-center gap-2 mt-6 pt-4 border-t border-brand-charcoal/10">
+          <div className="flex justify-center items-center gap-2 mt-5 pt-3 border-t border-brand-charcoal/10">
             {collections.map((col, idx) => (
               <button
                 key={col.id}

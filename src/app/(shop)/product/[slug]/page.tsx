@@ -28,9 +28,9 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   const detailsAttributes = product.attributes?.filter((attr: any) => !attr.name.toLowerCase().includes('size')) || [];
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8 w-full">
+    <div className="max-w-7xl mx-auto px-4 py-5 sm:py-7 w-full">
       {/* Breadcrumb */}
-      <div className="flex items-center gap-2 text-sm text-brand-charcoal/60 mb-8">
+      <div className="flex items-center gap-2 text-xs sm:text-sm text-brand-charcoal/60 mb-5 sm:mb-6">
         <Link href="/" className="hover:text-brand-charcoal transition-colors">Home</Link>
         <span>/</span>
         <Link href="/category/all" className="hover:text-brand-charcoal transition-colors">Shop</Link>

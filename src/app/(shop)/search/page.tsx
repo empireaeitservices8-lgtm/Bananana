@@ -13,12 +13,12 @@ export default async function SearchPage({
   const products = await getProducts(`?search=${encodeURIComponent(query)}&per_page=20`);
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-16 w-full min-h-[60vh]">
-      <div className="mb-12 border-b border-brand-charcoal/10 pb-8 text-center">
-        <h1 className="font-serif text-4xl md:text-5xl font-bold text-brand-charcoal mb-4">
+    <div className="max-w-7xl mx-auto px-4 py-8 sm:py-10 w-full min-h-[60vh]">
+      <div className="mb-8 border-b border-brand-charcoal/10 pb-6 text-center">
+        <h1 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-brand-charcoal mb-3">
           Search Results
         </h1>
-        <p className="text-brand-charcoal/70 max-w-2xl mx-auto">
+        <p className="text-brand-charcoal/70 max-w-2xl mx-auto text-sm sm:text-base">
           {products?.length > 0
             ? `Showing results for "${query}"`
             : `No products found for "${query}". Please try a different term.`}

@@ -1,7 +1,7 @@
 export default function TermsPage() {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-16 w-full">
-      <h1 className="font-serif text-4xl font-bold text-brand-charcoal mb-8">Terms and Conditions</h1>
+    <div className="max-w-4xl mx-auto px-4 py-8 sm:py-10 w-full">
+      <h1 className="font-serif text-3xl sm:text-4xl font-bold text-brand-charcoal mb-5">Terms and Conditions</h1>
       <div className="prose prose-lg max-w-none text-brand-charcoal/80 space-y-6">
         <p>Welcome to Bananana. By accessing and placing an order with Bananana, you confirm that you are in agreement with and bound by the following terms and conditions.</p>
         <h2 className="font-serif text-2xl font-bold text-brand-charcoal mt-8">1. Products</h2>

@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function ReturnsPage() {
   return (
-    <div className="max-w-4xl mx-auto px-4 py-16 w-full">
-      <h1 className="font-serif text-4xl font-bold text-brand-charcoal mb-4">Returns</h1>
-      <p className="text-brand-charcoal/70 mb-12 text-lg">We want you to love every Bananana mundu. If you need to return an item, we make it simple.</p>
+    <div className="max-w-4xl mx-auto px-4 py-8 sm:py-10 w-full">
+      <h1 className="font-serif text-3xl sm:text-4xl font-bold text-brand-charcoal mb-3">Returns</h1>
+      <p className="text-brand-charcoal/70 mb-8 text-base sm:text-lg">We want you to love every Bananana mundu. If you need to return an item, we make it simple.</p>
 
       <div className="space-y-8">
         <div className="bg-brand-offwhite p-8 rounded-sm border border-brand-charcoal/5">

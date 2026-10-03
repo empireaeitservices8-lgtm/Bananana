@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function AboutPage() {
   return (
-    <div className="flex flex-col gap-24 pb-24">
+    <div className="flex flex-col gap-12 md:gap-16 pb-16">
       {/* Hero Section */}
-      <section className="relative h-[60vh] min-h-[400px] w-full bg-brand-charcoal overflow-hidden">
+      <section className="relative h-[42vh] min-h-[300px] w-full bg-brand-charcoal overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1650632784437-07f2aecafc28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
           alt="Bananana Heritage"
@@ -15,10 +15,10 @@ export default function AboutPage() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-brand-charcoal/80 to-transparent" />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
-          <h1 className="font-serif text-4xl md:text-6xl font-bold text-brand-cream mb-6 tracking-tight drop-shadow-lg">
+          <h1 className="font-serif text-4xl md:text-5xl font-bold text-brand-cream mb-4 tracking-tight drop-shadow-lg">
             About Us
           </h1>
-          <p className="text-lg text-brand-cream/90 max-w-xl font-medium drop-shadow-md">
+          <p className="text-base sm:text-lg text-brand-cream/90 max-w-xl font-medium drop-shadow-md">
             We bring the timeless elegance of Kerala mundu into modern lifestyles.
           </p>
         </div>

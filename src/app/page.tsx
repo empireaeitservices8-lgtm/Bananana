@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 import ProductCard from "@/components/product/ProductCard";
 import { getProducts, getCategories, getAllReviews } from "@/lib/woocommerce/api";
@@ -141,7 +140,7 @@ export default async function Home() {
           <h1 className="font-serif text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-brand-cream mb-4 tracking-tight max-w-4xl drop-shadow-lg">
             A Mundu That <span className="text-brand-gold">Moves With You</span>
           </h1>
-          <p className="text-sm sm:text-base md:text-lg text-brand-cream/90 mb-6 max-w-xl font-medium drop-shadow-md">
+          <p className="text-sm sm:text-base md:text-lg text-brand-cream/90 mb-6 max-w-xl font-medium drop-shadow-md text-justify [text-align-last:center]">
             Soft comfort, a flexible woven elastic waistband, a secure pocket, and a polished finish—everything you need in one modern mundu.
           </p>
           <div className="flex gap-4 flex-col sm:flex-row">
@@ -195,42 +194,6 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* 13. Existing Remaining Section: Size & Fit Banner */}
-      <section className="bg-brand-charcoal w-full overflow-hidden">
-        <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col md:flex-row">
-            {/* Image Side */}
-            <div className="w-full md:w-1/2 relative min-h-[320px] md:min-h-[420px]">
-              <Image 
-                src="/images/size-guide-banner.jpg" 
-                alt="Tailoring a Kasavu Mundu" 
-                fill 
-                className="object-cover" 
-                sizes="(max-width: 768px) 100vw, 50vw"
-              />
-            </div>
-            {/* Text Side */}
-            <div className="w-full md:w-1/2 flex flex-col justify-center px-6 py-10 sm:px-8 sm:py-12 md:p-14 lg:p-16 text-brand-cream">
-              <span className="text-brand-gold text-[10px] sm:text-xs uppercase font-bold tracking-widest block mb-1.5">Tailored Precision</span>
-              <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold mb-4 tracking-tight">
-                Find Your <span className="text-brand-gold italic">Perfect Fit.</span>
-              </h2>
-              <div className="w-12 h-0.5 bg-brand-gold mb-4" />
-              <p className="text-brand-cream/80 mb-6 md:mb-8 text-xs sm:text-sm md:text-base leading-relaxed max-w-md">
-                Unlike traditional one-size-fits-all, our mundus are meticulously tailored by waist size. Experience a flawless drape without the excess bulk, designed for the modern silhouette.
-              </p>
-              <div>
-                <Link 
-                  href="/category/all" 
-                  className="inline-block bg-brand-gold text-brand-charcoal px-7 py-3 rounded-sm font-bold tracking-wider uppercase text-xs hover:bg-yellow-600 transition-colors shadow-lg"
-                >
-                  Shop The Collection
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Celebrity Review Storytelling Carousel (Matching WhatsApp Video Reference) */}
       <CelebrityReviewsSection />

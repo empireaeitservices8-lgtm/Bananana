@@ -11,9 +11,9 @@ export default function CartPage() {
 
   if (cart.length === 0) {
     return (
-      <div className="max-w-7xl mx-auto px-4 py-32 text-center min-h-[60vh]">
-        <h1 className="font-serif text-4xl font-bold text-brand-charcoal mb-6">Your Cart is Empty</h1>
-        <p className="text-brand-charcoal/70 mb-8">Looks like you haven't added anything to your cart yet.</p>
+      <div className="max-w-7xl mx-auto px-4 py-16 sm:py-20 text-center min-h-[50vh]">
+        <h1 className="font-serif text-3xl sm:text-4xl font-bold text-brand-charcoal mb-4">Your Cart is Empty</h1>
+        <p className="text-brand-charcoal/70 mb-6 text-sm sm:text-base">Looks like you haven't added anything to your cart yet.</p>
         <Link href="/category/all" className="inline-block bg-brand-gold text-brand-charcoal px-8 py-3 rounded-sm font-bold tracking-wider uppercase text-sm hover:bg-yellow-600 transition-colors shadow-lg">
           Start Shopping
         </Link>
@@ -22,8 +22,8 @@ export default function CartPage() {
   }
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-16 w-full min-h-[60vh]">
-      <h1 className="font-serif text-4xl font-bold text-brand-charcoal mb-10">Shopping Cart</h1>
+    <div className="max-w-7xl mx-auto px-4 py-8 sm:py-10 w-full min-h-[60vh]">
+      <h1 className="font-serif text-3xl sm:text-4xl font-bold text-brand-charcoal mb-6">Shopping Cart</h1>
       
       <div className="grid lg:grid-cols-3 gap-12">
         {/* Cart Items */}

@@ -144,7 +144,7 @@ export default function CheckoutPage() {
 
   if (cart.length === 0) {
     return (
-      <div className="max-w-7xl mx-auto px-4 py-32 text-center min-h-[60vh]">
+      <div className="max-w-7xl mx-auto px-4 py-16 sm:py-20 text-center min-h-[50vh]">
         <h1 className="font-serif text-3xl mb-4">Nothing to checkout</h1>
         <Link href="/category/all" className="text-brand-gold underline">Go back to shop</Link>
       </div>
@@ -152,8 +152,8 @@ export default function CheckoutPage() {
   }
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-16 w-full min-h-[70vh]">
-      <h1 className="font-serif text-4xl font-bold text-brand-charcoal mb-10">Checkout</h1>
+    <div className="max-w-7xl mx-auto px-4 py-8 sm:py-10 w-full min-h-[70vh]">
+      <h1 className="font-serif text-3xl sm:text-4xl font-bold text-brand-charcoal mb-6">Checkout</h1>
       
       <div className="grid lg:grid-cols-2 gap-12">
         

@@ -63,9 +63,9 @@ export default function TrackOrderPage() {
   };
 
   return (
-    <div className="max-w-3xl mx-auto px-4 py-16 w-full min-h-[70vh]">
-      <h1 className="font-serif text-4xl font-bold text-brand-charcoal mb-4 text-center">Track Your Order</h1>
-      <p className="text-center text-brand-charcoal/70 mb-12">
+    <div className="max-w-3xl mx-auto px-4 py-8 sm:py-10 w-full min-h-[70vh]">
+      <h1 className="font-serif text-3xl sm:text-4xl font-bold text-brand-charcoal mb-3 text-center">Track Your Order</h1>
+      <p className="text-center text-brand-charcoal/70 mb-6 text-sm sm:text-base">
         To track your order please enter your Order ID in the box below and press the "Track" button. 
         This was given to you on your receipt and in the confirmation email you should have received.
       </p>
