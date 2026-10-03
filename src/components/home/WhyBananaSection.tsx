@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
+import { headingSerif } from "@/lib/fonts";
 
 export default function WhyBananaSection() {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -12,7 +13,7 @@ export default function WhyBananaSection() {
         {/* Intro Header */}
         <div className="max-w-3xl mx-auto">
           <div className="text-center">
-            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-brand-charcoal tracking-tight mb-2.5">
+            <h2 className={`${headingSerif.className} text-3xl md:text-4xl lg:text-5xl font-bold text-brand-charcoal tracking-tight mb-2.5`}>
               Why Bananana?
             </h2>
             <div className="w-12 h-0.5 bg-brand-gold mx-auto mb-4" />

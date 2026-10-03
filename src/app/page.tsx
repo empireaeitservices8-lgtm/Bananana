@@ -5,6 +5,7 @@ import WhyBananaSection from "@/components/home/WhyBananaSection";
 import ConcernCareSection from "@/components/home/ConcernCareSection";
 import CuratedCollectionsSection, { CuratedCollectionItem } from "@/components/home/CuratedCollectionsSection";
 import CelebrityReviewsSection from "@/components/home/CelebrityReviewsSection";
+import { headingSerif } from "@/lib/fonts";
 
 export default async function Home() {
   // Fetch real products, categories, and verified reviews from WooCommerce in parallel
@@ -137,7 +138,7 @@ export default async function Home() {
         />
         <div className="absolute inset-0 bg-gradient-to-t from-brand-charcoal/80 to-transparent" />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
-          <h1 className="font-serif text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-brand-cream mb-4 tracking-tight max-w-4xl drop-shadow-lg">
+          <h1 className={`${headingSerif.className} text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-brand-cream mb-4 tracking-tight max-w-4xl drop-shadow-lg`}>
             A Mundu That <span className="text-brand-gold">Moves With You</span>
           </h1>
           <p className="text-sm sm:text-base md:text-lg text-brand-cream/90 mb-6 max-w-xl font-medium drop-shadow-md text-justify [text-align-last:center]">
