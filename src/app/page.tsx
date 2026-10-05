@@ -5,6 +5,7 @@ import WhyBananaSection from "@/components/home/WhyBananaSection";
 import ConcernCareSection from "@/components/home/ConcernCareSection";
 import CuratedCollectionsSection, { CuratedCollectionItem } from "@/components/home/CuratedCollectionsSection";
 import CelebrityReviewsSection from "@/components/home/CelebrityReviewsSection";
+import TrendingProductsSection from "@/components/home/TrendingProductsSection";
 import { headingSerif } from "@/lib/fonts";
 
 export default async function Home() {
@@ -44,9 +45,9 @@ export default async function Home() {
     {
       key: "left-side-mund",
       displayName: "Left side mund",
-      searchTerms: ["left", "left-side", "left-side-mund"],
+      searchTerms: ["left", "left-side", "left-side-mund", "tribal"],
       defaultDescription: "Made for Your Left-Side Style.",
-      fallbackImage: "/images/bananana_hero_banner_1787382262199.jpg",
+      fallbackImage: "https://lightcoral-vulture-629273.hostingersite.com/wp-content/uploads/2026/09/DSC09958-scaled.jpg",
       fallbackSlug: "all"
     },
     {
@@ -164,36 +165,8 @@ export default async function Home() {
       {/* 6, 7, 8, 9. Curated Collections + Seamless Infinite Auto-Scroll Carousel */}
       <CuratedCollectionsSection collections={curatedCollections} />
 
-      {/* 11. Existing Remaining Section: Trending Now (Bestsellers) */}
-      <section className="bg-brand-offwhite py-12 md:py-16">
-        <div className="max-w-7xl mx-auto px-4 w-full">
-          <div className="text-center mb-8 md:mb-10">
-            <span className="text-brand-gold text-[10px] sm:text-xs uppercase font-bold tracking-widest block mb-1.5">Most Wanted</span>
-            <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-brand-charcoal mb-3">Trending Now</h2>
-            <div className="w-12 h-0.5 bg-brand-gold mx-auto mb-3" />
-            <p className="text-brand-charcoal/70 max-w-2xl mx-auto text-xs sm:text-sm md:text-base">
-              Discover our most loved pieces, handpicked for their exceptional quality and timeless style.
-            </p>
-          </div>
-          <div className="flex overflow-x-auto gap-4 sm:gap-6 snap-x snap-mandatory pb-4 scroll-smooth [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
-            {products && products.length > 0 ? (
-              products.map((product: any) => (
-                <div key={product.id} className="flex-none w-[70vw] sm:w-[42vw] md:w-[260px] lg:w-[280px] snap-start">
-                  <ProductCard 
-                    title={product.name} 
-                    price={product.price || product.regular_price} 
-                    imageSrc={product.images?.[0]?.src || "/images/placeholder.png"} 
-                    slug={product.slug} 
-                    id={product.id}
-                  />
-                </div>
-              ))
-            ) : (
-              <p className="w-full text-center py-8 text-brand-charcoal/60">Loading products...</p>
-            )}
-          </div>
-        </div>
-      </section>
+      {/* Trending / Bestselling Products Section (2 images initially + Explore Now expand button) */}
+      <TrendingProductsSection products={products} />
 
 
       {/* Celebrity Review Storytelling Carousel (Matching WhatsApp Video Reference) */}

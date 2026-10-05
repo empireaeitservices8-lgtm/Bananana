@@ -7,7 +7,7 @@ export default function ShippingPolicyPage() {
       <div className="prose prose-lg max-w-none text-brand-charcoal/80 space-y-6">
         <p>We are committed to delivering your Bananana mundu safely and promptly.</p>
         <h2 className="font-serif text-2xl font-bold text-brand-charcoal mt-8">Processing Time</h2>
-        <p>Orders are processed and dispatched within 1–2 business days of payment confirmation.</p>
+        <p>Orders are processed and dispatched within 3–5 business days of payment confirmation.</p>
         <h2 className="font-serif text-2xl font-bold text-brand-charcoal mt-8">Shipping Rates</h2>
         <p>We offer flat-rate shipping of ₹50 across India. Free shipping may be available on orders above a certain amount — check our latest promotions.</p>
         <h2 className="font-serif text-2xl font-bold text-brand-charcoal mt-8">Delivery Time</h2>

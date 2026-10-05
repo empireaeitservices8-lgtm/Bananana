@@ -12,9 +12,10 @@ interface ProductCardProps {
   slug: string;
   label?: string;
   id?: number;
+  aspectRatio?: string;
 }
 
-export default function ProductCard({ title, price, imageSrc, slug, label, id }: ProductCardProps) {
+export default function ProductCard({ title, price, imageSrc, slug, label, id, aspectRatio }: ProductCardProps) {
   const { addToCart } = useCart();
 
   const handleAddToCart = (e: React.MouseEvent) => {
@@ -37,7 +38,10 @@ export default function ProductCard({ title, price, imageSrc, slug, label, id }:
 
   return (
     <Link href={`/product/${slug}`} className="group block cursor-pointer">
-      <div className="relative aspect-[3/4] bg-brand-offwhite rounded-sm overflow-hidden mb-3">
+      <div 
+        className="relative bg-brand-offwhite rounded-sm overflow-hidden mb-3"
+        style={{ aspectRatio: aspectRatio || "3/4" }}
+      >
         {label && (
           <div className="absolute top-2 left-2 z-10 bg-brand-charcoal text-brand-cream text-[10px] uppercase font-bold tracking-wider px-2 py-1 rounded-sm">
             {label}

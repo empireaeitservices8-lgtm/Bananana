@@ -1,34 +1,36 @@
 "use client";
 
-import { useEffect, useRef, useState, useCallback } from "react";
+import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
+import { ArrowLeft, ArrowRight } from "lucide-react";
 
-interface TextSlide {
-  type: "text";
+interface ReviewCardItem {
   id: string;
-  category: string;
-  title: string;
-  lead: string;
-  description: string;
-  highlight: string;
+  type: "image" | "description";
+  // Image properties
+  imageSrc?: string;
+  overlayTitle?: string;
+  overlaySubtitle?: string;
+  // Description properties
+  category?: string;
+  title?: string;
+  lead?: string;
+  description?: string;
+  highlight?: string;
 }
 
-interface ImageSlide {
-  type: "image";
-  id: string;
-  src: string;
-  overlayTitle: string;
-  overlaySubtitle: string;
-}
-
-type StorySlide = TextSlide | ImageSlide;
-
-// Alternating Description and Celebrity Image slides
-const STORY_SLIDES: StorySlide[] = [
-  // 1. Description 1: Comfort
+const REVIEW_CARDS: ReviewCardItem[] = [
+  // --- PAIR 1 ---
   {
-    type: "text",
-    id: "desc-comfort",
+    id: "card-1-img",
+    type: "image",
+    imageSrc: "/images/celebrity-1.jpg",
+    overlayTitle: "Comfort In Every Move",
+    overlaySubtitle: "Lightweight Breathable Knit & Flawless Drape",
+  },
+  {
+    id: "card-1-desc",
+    type: "description",
     category: "Signature Comfort",
     title: "COMFORT IN EVERY WEAR",
     lead: "Purposefully Developed for Everyday Ease:",
@@ -37,18 +39,18 @@ const STORY_SLIDES: StorySlide[] = [
     highlight:
       "Right fabric, right balance—engineered to keep you cool and relaxed from morning rituals to evening celebrations.",
   },
-  // 2. Celebrity Image 1
+
+  // --- PAIR 2 ---
   {
+    id: "card-2-img",
     type: "image",
-    id: "img-celeb-1",
-    src: "/images/celebrity-1.jpg",
-    overlayTitle: "Comfort In Every Move",
-    overlaySubtitle: "Lightweight Breathable Knit & Flawless Drape",
+    imageSrc: "/images/celebrity-2.jpg",
+    overlayTitle: "Convenient Pocket",
+    overlaySubtitle: "Deep Functional Storage in Authentic Kerala Attire",
   },
-  // 3. Description 2: Pocket (Celebrity image hides here)
   {
-    type: "text",
-    id: "desc-pocket",
+    id: "card-2-desc",
+    type: "description",
     category: "Modern Utility",
     title: "CONVENIENT POCKET",
     lead: "Carry Easy, Worry Less:",
@@ -57,18 +59,18 @@ const STORY_SLIDES: StorySlide[] = [
     highlight:
       "Deep, secure, and seamlessly integrated into the inner fold so your silhouette stays perfectly neat.",
   },
-  // 4. Celebrity Image 2
+
+  // --- PAIR 3 ---
   {
+    id: "card-3-img",
     type: "image",
-    id: "img-celeb-2",
-    src: "/images/celebrity-2.jpg",
-    overlayTitle: "Convenient Pocket",
-    overlaySubtitle: "Deep Functional Storage in Authentic Kerala Attire",
+    imageSrc: "/images/celebrity-3.jpg",
+    overlayTitle: "Product Quality",
+    overlaySubtitle: "Precision Stitching & Rigorously Checked Finish",
   },
-  // 5. Description 3: Product Quality (Celebrity image hides here)
   {
-    type: "text",
-    id: "desc-quality",
+    id: "card-3-desc",
+    type: "description",
     category: "Master Craftsmanship",
     title: "PRODUCT QUALITY",
     lead: "Checked Before It Reaches You:",
@@ -77,18 +79,18 @@ const STORY_SLIDES: StorySlide[] = [
     highlight:
       "Reinforced borders and premium yarns designed to endure frequent wear and repeated washes with zero distortion.",
   },
-  // 6. Celebrity Image 3
+
+  // --- PAIR 4 ---
   {
+    id: "card-4-img",
     type: "image",
-    id: "img-celeb-3",
-    src: "/images/celebrity-3.jpg",
-    overlayTitle: "Product Quality",
-    overlaySubtitle: "Precision Stitching & Rigorously Checked Finish",
+    imageSrc: "/images/celebrity-4.jpg",
+    overlayTitle: "Elastic Waistband",
+    overlaySubtitle: "Flexible Zero-Roll Fit That Adapts To Your Day",
   },
-  // 7. Description 4: Elastic Waistband (Celebrity image hides here)
   {
-    type: "text",
-    id: "desc-waistband",
+    id: "card-4-desc",
+    type: "description",
     category: "Engineered Fit",
     title: "ELASTIC WAISTBAND",
     lead: "Zero Roll, All-Day Comfort:",
@@ -97,181 +99,214 @@ const STORY_SLIDES: StorySlide[] = [
     highlight:
       "Never constantly re-tie or adjust. Put it on once and enjoy secure confidence all day long.",
   },
-  // 8. Celebrity Image 4
-  {
-    type: "image",
-    id: "img-celeb-4",
-    src: "/images/celebrity-4.jpg",
-    overlayTitle: "Elastic Waistband",
-    overlaySubtitle: "Flexible Zero-Roll Fit That Adapts To Your Day",
-  },
 ];
 
 export default function CelebrityReviewsSection() {
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [direction, setDirection] = useState<"next" | "prev">("next");
+  const [activeIndex, setActiveIndex] = useState(0);
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
   const touchStartX = useRef<number | null>(null);
-  const touchStartY = useRef<number | null>(null);
 
-  const total = STORY_SLIDES.length;
+  const total = REVIEW_CARDS.length;
 
-  const goToNext = useCallback(() => {
-    setDirection("next");
-    setCurrentIndex((prev) => (prev + 1) % total);
-  }, [total]);
+  const scrollToIndex = (index: number) => {
+    const newIdx = Math.max(0, Math.min(total - 1, index));
+    setActiveIndex(newIdx);
 
-  const goToPrev = useCallback(() => {
-    setDirection("prev");
-    setCurrentIndex((prev) => (prev - 1 + total) % total);
-  }, [total]);
+    if (scrollContainerRef.current) {
+      const children = scrollContainerRef.current.children;
+      if (children[newIdx]) {
+        (children[newIdx] as HTMLElement).scrollIntoView({
+          behavior: "smooth",
+          block: "nearest",
+          inline: "center",
+        });
+      }
+    }
+  };
 
-  // Smooth continuous auto-scroll every 3.8 seconds
-  useEffect(() => {
-    const timer = setInterval(() => {
-      goToNext();
-    }, 3800);
+  const handleNext = () => {
+    scrollToIndex((activeIndex + 1) % total);
+  };
 
-    return () => clearInterval(timer);
-  }, [goToNext]);
+  const handlePrev = () => {
+    scrollToIndex((activeIndex - 1 + total) % total);
+  };
 
-  // Optional Touch Swipe support on Mobile
+  // Detect active card on manual scroll
+  const handleScroll = () => {
+    if (!scrollContainerRef.current) return;
+    const container = scrollContainerRef.current;
+    const children = Array.from(container.children) as HTMLElement[];
+    const containerCenter = container.scrollLeft + container.clientWidth / 2;
+
+    let closestIdx = 0;
+    let minDistance = Infinity;
+
+    children.forEach((child, idx) => {
+      const childCenter = child.offsetLeft + child.clientWidth / 2;
+      const distance = Math.abs(containerCenter - childCenter);
+      if (distance < minDistance) {
+        minDistance = distance;
+        closestIdx = idx;
+      }
+    });
+
+    if (closestIdx !== activeIndex) {
+      setActiveIndex(closestIdx);
+    }
+  };
+
+  // Touch swipe support for mobile
   const handleTouchStart = (e: React.TouchEvent) => {
     touchStartX.current = e.touches[0].clientX;
-    touchStartY.current = e.touches[0].clientY;
   };
 
   const handleTouchEnd = (e: React.TouchEvent) => {
-    if (touchStartX.current === null || touchStartY.current === null) return;
+    if (touchStartX.current === null) return;
     const deltaX = e.changedTouches[0].clientX - touchStartX.current;
-    const deltaY = e.changedTouches[0].clientY - touchStartY.current;
-
-    if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 35) {
+    if (Math.abs(deltaX) > 35) {
       if (deltaX < 0) {
-        goToNext();
+        handleNext();
       } else {
-        goToPrev();
+        handlePrev();
       }
     }
     touchStartX.current = null;
-    touchStartY.current = null;
   };
 
   return (
-    <section className="bg-[#243329] py-14 md:py-20 px-4 w-full overflow-hidden text-brand-cream">
-      <div className="max-w-5xl mx-auto">
-        {/* Section Header */}
-        <div className="text-center mb-8 md:mb-12">
-          <span className="text-brand-gold text-[11px] sm:text-xs uppercase tracking-[0.25em] font-semibold block mb-2 opacity-90">
-            Where Tradition Meets Modern Comfort
-          </span>
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight uppercase">
-            Celebrity Review
+    <section className="bg-[#384B32] py-12 md:py-18 px-3 sm:px-4 w-full overflow-hidden text-brand-cream relative">
+      <div className="max-w-7xl mx-auto">
+        {/* Section Heading */}
+        <div className="text-center mb-6 md:mb-10">
+          <h2 className="font-serif text-2xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight uppercase">
+            Celebrity Reviews
           </h2>
-          <div className="w-16 h-0.5 bg-brand-gold mx-auto mt-4" />
+          <div className="w-14 h-0.5 bg-brand-gold mx-auto mt-2.5" />
         </div>
 
-        {/* 
-          Fixed Stage Viewport with Auto-Scroll:
-          - Automatically cycles between Description and Celebrity Image.
-          - On Description state: Image is completely hidden.
-          - On Image state: Celebrity photo appears with overlay badge.
-          - No "Next" button, no "Swipe for photo", no "Read More" button.
-        */}
-        <div
-          onTouchStart={handleTouchStart}
-          onTouchEnd={handleTouchEnd}
-          className="relative w-full max-w-sm sm:max-w-md md:max-w-lg mx-auto h-[460px] sm:h-[500px] select-none"
-        >
-          {STORY_SLIDES.map((slide, idx) => {
-            const isActive = idx === currentIndex;
+        {/* Alternating Storytelling Horizontal Track */}
+        <div className="relative w-full">
+          <div
+            ref={scrollContainerRef}
+            onScroll={handleScroll}
+            onTouchStart={handleTouchStart}
+            onTouchEnd={handleTouchEnd}
+            className="flex gap-4 sm:gap-6 md:gap-8 overflow-x-auto pb-8 pt-2 snap-x snap-mandatory scroll-smooth [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] px-4 sm:px-14 md:px-20 items-center"
+          >
+            {REVIEW_CARDS.map((card, idx) => {
+              const isActive = idx === activeIndex;
 
-            return (
-              <div
-                key={slide.id}
-                aria-hidden={!isActive}
-                className={`absolute inset-0 w-full h-full transition-all duration-500 ease-in-out ${
-                  isActive
-                    ? "opacity-100 translate-x-0 z-10 pointer-events-auto"
-                    : "opacity-0 pointer-events-none z-0 " +
-                      (direction === "next" ? "-translate-x-6" : "translate-x-6")
-                }`}
-              >
-                {slide.type === "text" ? (
-                  /* 1. DESCRIPTION CARD (Clean editorial layout, image hidden) */
-                  <div className="w-full h-full bg-white text-brand-charcoal rounded-xl shadow-2xl p-5 sm:p-8 md:p-10 flex flex-col justify-center border border-black/5 overflow-y-auto">
-                    {/* Category Tag */}
-                    <span className="text-[10px] sm:text-xs uppercase tracking-[0.2em] font-bold text-brand-gold block mb-2.5">
-                      {slide.category}
-                    </span>
+              return (
+                <div
+                  key={card.id}
+                  onClick={() => scrollToIndex(idx)}
+                  className={`flex-none snap-center transition-all duration-500 rounded-2xl overflow-hidden cursor-pointer ${
+                    isActive
+                      ? "opacity-100 scale-100 shadow-2xl z-10 ring-1 ring-white/20"
+                      : "opacity-40 scale-95 pointer-events-auto z-0"
+                  }`}
+                  style={{
+                    width: "min(85vw, 440px)",
+                    height: "min(68vh, 480px)",
+                  }}
+                >
+                  {card.type === "image" ? (
+                    /* CELEBRITY IMAGE CARD (Matching Screenshot 1 & 3) */
+                    <div className="relative w-full h-full bg-brand-charcoal overflow-hidden group">
+                      <Image
+                        src={card.imageSrc!}
+                        alt={card.overlayTitle!}
+                        fill
+                        className={`object-cover object-top transition-transform duration-700 ${
+                          isActive ? "group-hover:scale-105" : ""
+                        }`}
+                        sizes="(max-width: 768px) 85vw, 440px"
+                        priority={idx === 0}
+                      />
 
-                    {/* Bold Uppercase Title */}
-                    <h3 className="font-serif text-2xl sm:text-3xl font-bold uppercase tracking-tight text-brand-charcoal mb-4 leading-tight">
-                      {slide.title}
-                    </h3>
+                      {/* Gradient & Bottom Overlay Badge */}
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent pointer-events-none" />
+                      <div className="absolute bottom-4 left-4 right-4 z-10 bg-black/70 backdrop-blur-md p-4 rounded-xl border-l-4 border-brand-gold text-white shadow-xl">
+                        <h4 className="text-xs sm:text-sm font-bold uppercase tracking-wide text-brand-gold mb-1">
+                          {card.overlayTitle}
+                        </h4>
+                        <p className="text-xs font-medium text-white/90 leading-snug">
+                          {card.overlaySubtitle}
+                        </p>
+                      </div>
 
-                    {/* Bold Sub-heading */}
-                    <p className="font-bold text-xs sm:text-sm text-brand-charcoal mb-3 leading-relaxed">
-                      {slide.lead}
-                    </p>
-
-                    {/* Main Paragraph Description */}
-                    <p className="text-brand-charcoal/80 text-xs sm:text-sm leading-relaxed mb-4">
-                      {slide.description}
-                    </p>
-
-                    {/* Secondary Highlight Note */}
-                    <p className="text-brand-charcoal/65 text-xs sm:text-[13px] leading-relaxed italic border-l-2 border-brand-gold/60 pl-3">
-                      {slide.highlight}
-                    </p>
-                  </div>
-                ) : (
-                  /* 2. CELEBRITY IMAGE CARD (Fixed Frame, full photo with object-top, bottom overlay badge) */
-                  <div className="w-full h-full rounded-xl overflow-hidden shadow-2xl relative bg-brand-charcoal border border-white/10">
-                    {/* Celebrity Photo */}
-                    <Image
-                      src={slide.src}
-                      alt={slide.overlayTitle}
-                      fill
-                      className="object-cover object-top transition-transform duration-700"
-                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 480px, 520px"
-                      priority
-                    />
-
-                    {/* Subtle dark gradient overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/25 to-transparent pointer-events-none" />
-
-                    {/* Bottom-Left Overlay Badge with Gold Bar */}
-                    <div className="absolute bottom-5 left-5 right-5 z-10 bg-black/65 backdrop-blur-md p-4 rounded-lg border-l-4 border-brand-gold text-white shadow-xl">
-                      <h4 className="text-xs sm:text-sm font-bold uppercase tracking-wide text-brand-gold mb-1">
-                        {slide.overlayTitle}
-                      </h4>
-                      <p className="text-[11px] sm:text-xs font-medium text-white/90 leading-snug line-clamp-2">
-                        {slide.overlaySubtitle}
-                      </p>
+                      {/* DULL Overlay for non-active cards */}
+                      {!isActive && (
+                        <div className="absolute inset-0 bg-[#384B32]/80 backdrop-blur-[2px] transition-opacity duration-500 pointer-events-none" />
+                      )}
                     </div>
-                  </div>
-                )}
-              </div>
-            );
-          })}
+                  ) : (
+                    /* WHITE EDITORIAL DESCRIPTION CARD (Matching Screenshot 2) */
+                    <div className="relative w-full h-full bg-white text-brand-charcoal p-6 sm:p-8 md:p-10 flex flex-col justify-between border border-black/5">
+                      <div>
+                        <span className="text-[10px] sm:text-xs uppercase tracking-[0.22em] font-bold text-brand-gold block mb-2 sm:mb-3">
+                          {card.category}
+                        </span>
+                        <h3 className="font-serif text-xl sm:text-2xl md:text-3xl font-bold uppercase tracking-tight text-[#2B3E2D] mb-3 leading-tight">
+                          {card.title}
+                        </h3>
+                        <p className="font-bold text-xs sm:text-sm text-brand-charcoal mb-2 leading-relaxed">
+                          {card.lead}
+                        </p>
+                        <p className="text-brand-charcoal/80 text-xs sm:text-sm leading-relaxed mb-4 line-clamp-4 sm:line-clamp-5">
+                          {card.description}
+                        </p>
+                      </div>
+
+                      <div>
+                        <p className="text-brand-charcoal/70 text-xs sm:text-[13px] leading-relaxed italic border-l-2 border-brand-gold pl-3 bg-brand-offwhite/60 py-2 pr-2 rounded-r-md">
+                          "{card.highlight}"
+                        </p>
+                      </div>
+
+                      {/* DULL Overlay for non-active cards */}
+                      {!isActive && (
+                        <div className="absolute inset-0 bg-[#384B32]/75 backdrop-blur-[2px] transition-opacity duration-500 pointer-events-none" />
+                      )}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+
+          {/* Floating Vertical Navigation Pill on the Right (Exact match to screenshots 1, 2, 3!) */}
+          <div className="flex absolute right-2 sm:right-4 md:right-6 top-1/2 -translate-y-1/2 z-30 flex-col bg-white text-brand-charcoal rounded-full shadow-2xl p-1 border border-black/10">
+            <button
+              onClick={handlePrev}
+              aria-label="Previous Review Card"
+              className="p-2.5 sm:p-3 hover:bg-brand-offwhite rounded-full transition-colors cursor-pointer text-brand-charcoal hover:text-brand-gold"
+            >
+              <ArrowLeft className="w-4 h-4 sm:w-5 sm:h-5 stroke-[2.5]" />
+            </button>
+            <div className="w-full h-px bg-black/10 my-0.5" />
+            <button
+              onClick={handleNext}
+              aria-label="Next Review Card"
+              className="p-2.5 sm:p-3 hover:bg-brand-offwhite rounded-full transition-colors cursor-pointer text-brand-charcoal hover:text-brand-gold"
+            >
+              <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 stroke-[2.5]" />
+            </button>
+          </div>
         </div>
 
-        {/* Minimalist Progress Indicators for the 8-Step Storytelling Cycle */}
-        <div className="flex justify-center items-center gap-1.5 mt-8">
-          {STORY_SLIDES.map((slide, idx) => (
+        {/* Minimalist Progress Indicators at bottom */}
+        <div className="flex justify-center items-center gap-2 mt-5">
+          {REVIEW_CARDS.map((_, idx) => (
             <button
-              key={slide.id}
-              onClick={() => {
-                setDirection(idx > currentIndex ? "next" : "prev");
-                setCurrentIndex(idx);
-              }}
-              aria-label={`Go to slide ${idx + 1}`}
+              key={idx}
+              onClick={() => scrollToIndex(idx)}
+              aria-label={`Go to review card ${idx + 1}`}
               className={`h-1.5 rounded-full transition-all duration-300 cursor-pointer ${
-                idx === currentIndex
+                idx === activeIndex
                   ? "w-8 bg-brand-gold"
-                  : slide.type === "text"
-                  ? "w-2 bg-white/40 hover:bg-white/70"
-                  : "w-2 bg-brand-gold/40 hover:bg-brand-gold/70"
+                  : "w-2 bg-white/30 hover:bg-white/60"
               }`}
             />
           ))}

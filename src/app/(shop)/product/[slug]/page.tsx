@@ -10,6 +10,57 @@ import { getProductBySlug, getProducts, getProductReviews } from "@/lib/woocomme
 import { notFound } from "next/navigation";
 import { ShieldCheck, RefreshCcw } from "lucide-react";
 
+function stripImagesFromHtml(html?: string): string {
+  if (!html) return "";
+  return html
+    .replace(/<img[^>]*>/gi, "")
+    .replace(/<p>\s*<\/p>/gi, "")
+    .trim();
+}
+
+function extractAndOrderProductImages(product: any) {
+  const images: { id: number; src: string; alt: string }[] = [];
+  const addedSrcs = new Set<string>();
+
+  // 1. Add primary images from product.images array
+  if (product.images && Array.isArray(product.images)) {
+    product.images.forEach((img: any, i: number) => {
+      const src = img.src || "";
+      if (src && !addedSrcs.has(src)) {
+        addedSrcs.add(src);
+        images.push({
+          id: img.id || i + 1,
+          src: src,
+          alt: img.alt || product.name,
+        });
+      }
+    });
+  }
+
+  // 2. Extract additional gallery images from product.description HTML if available
+  if (product.description) {
+    const imgRegex = /src=["']([^"']+)["']/gi;
+    let match;
+    let idx = 100;
+    while ((match = imgRegex.exec(product.description)) !== null) {
+      const rawSrc = match[1];
+      // Convert thumbnail URLs (e.g. -200x300.jpg) to crisp high-res version (-scaled.jpg or original)
+      const cleanSrc = rawSrc.replace(/-\d+x\d+(\.(jpg|jpeg|png|webp))/gi, '-scaled$1');
+      
+      if (!addedSrcs.has(cleanSrc) && !addedSrcs.has(rawSrc)) {
+        addedSrcs.add(cleanSrc);
+        images.push({
+          id: idx++,
+          src: cleanSrc,
+          alt: product.name,
+        });
+      }
+    }
+  }
+
+  return images;
+}
+
 export default async function ProductDetailPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const product = await getProductBySlug(slug);
@@ -27,6 +78,10 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
   // Filter out size attribute to pass the rest as product details
   const detailsAttributes = product.attributes?.filter((attr: any) => !attr.name.toLowerCase().includes('size')) || [];
 
+  const galleryImages = extractAndOrderProductImages(product);
+  const cleanShortDesc = stripImagesFromHtml(product.short_description || product.description);
+  const cleanFullDesc = stripImagesFromHtml(product.description);
+
   return (
     <div className="max-w-7xl mx-auto px-4 py-5 sm:py-7 w-full">
       {/* Breadcrumb */}
@@ -41,7 +96,7 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
       <div className="grid md:grid-cols-2 gap-12 lg:gap-16 mb-24">
         {/* Left: Interactive Image Gallery */}
         <ProductImageGallery
-          images={product.images || []}
+          images={galleryImages}
           productName={product.name}
         />
 
@@ -58,10 +113,12 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
             )}
           </div>
 
-          <div 
-            className="text-brand-charcoal/70 mb-8 leading-relaxed prose prose-sm max-w-none"
-            dangerouslySetInnerHTML={{ __html: product.short_description || product.description }}
-          />
+          {cleanShortDesc && (
+            <div 
+              className="text-brand-charcoal/70 mb-8 leading-relaxed prose prose-sm max-w-none"
+              dangerouslySetInnerHTML={{ __html: cleanShortDesc }}
+            />
+          )}
 
           <AddToCartForm 
             product={{
@@ -93,14 +150,14 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
           {/* Accordions */}
           <ProductDetailsAccordion attributes={detailsAttributes} product={product} />
           
-          {product.description && (
+          {cleanFullDesc && (
             <Accordion title="Full Description">
-              <div dangerouslySetInnerHTML={{ __html: product.description }} />
+              <div className="prose prose-sm max-w-none text-brand-charcoal/80" dangerouslySetInnerHTML={{ __html: cleanFullDesc }} />
             </Accordion>
           )}
           
           <Accordion title="Shipping & Returns">
-            <p className="mb-2"><strong>Shipping:</strong> We offer flat-rate shipping of ₹50 across India. Orders are processed and dispatched within 1-2 business days via Shiprocket.</p>
+            <p className="mb-2"><strong>Shipping:</strong> We offer flat-rate shipping of ₹50 across India. Orders are processed and dispatched within 3-5 business days via Shiprocket.</p>
             <p><strong>Returns:</strong> We accept returns within 7 days of delivery. Items must be unworn, unwashed, and in their original condition with all tags attached.</p>
           </Accordion>
         </div>

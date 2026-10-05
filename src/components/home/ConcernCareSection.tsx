@@ -63,38 +63,19 @@ export default function ConcernCareSection() {
   };
 
   return (
-    <section className="bg-white py-16 md:py-24 w-full overflow-hidden">
-      {/* 
-        ==================================================
-        SECTION HEADER
-        ==================================================
-        ROOTED IN NATURE
-        YOUR CONCERN, OUR CARE
-      */}
-      <div className="max-w-4xl mx-auto px-4 text-center mb-10 md:mb-16">
-        <span className="block text-xs sm:text-sm font-semibold tracking-[0.25em] text-brand-gold uppercase mb-2.5">
+    <section className="bg-white py-10 md:py-14 w-full overflow-hidden">
+      {/* SECTION HEADER */}
+      <div className="max-w-4xl mx-auto px-4 text-center mb-6 md:mb-10">
+        <span className="block text-xs sm:text-sm font-semibold tracking-[0.25em] text-brand-gold uppercase mb-2">
           ROOTED IN NATURE
         </span>
-        <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-brand-charcoal tracking-tight uppercase">
+        <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-brand-charcoal tracking-tight uppercase">
           YOUR CONCERN, OUR CARE
         </h2>
-        <div className="w-14 h-0.5 bg-brand-gold mx-auto mt-4" />
+        <div className="w-14 h-0.5 bg-brand-gold mx-auto mt-3" />
       </div>
 
-      {/* 
-        ==================================================
-        LARGE PORTRAIT CARDS CAROUSEL
-        ==================================================
-        - Tall vertical portrait cards (large width & height)
-        - Rounded corners
-        - Images occupy the entire card
-        - Bottom dark gradient overlay for effortless readability
-        - Title positioned near the bottom of each image
-        - Part of next card visible on the right side
-        - NO AUTOPLAY / NO AUTO-SCROLL (Stationary until customer interacts)
-        - NO < > BUTTONS / NO ARROWS / NO NUMBER INDICATORS
-        - Manual touch swipe on mobile & drag/scroll on desktop
-      */}
+      {/* CAROUSEL TRACK WITH REDUCED IMAGE SIZES */}
       <div className="w-full">
         <div
           ref={containerRef}
@@ -102,16 +83,16 @@ export default function ConcernCareSection() {
           onMouseLeave={handleMouseLeave}
           onMouseUp={handleMouseUp}
           onMouseMove={handleMouseMove}
-          className={`flex gap-6 md:gap-8 overflow-x-auto scrollbar-none snap-x snap-mandatory scroll-smooth px-6 sm:px-10 md:px-14 lg:px-20 pb-4 select-none ${
+          className={`flex gap-4 md:gap-6 overflow-x-auto scrollbar-none snap-x snap-mandatory scroll-smooth px-4 sm:px-8 md:px-12 lg:px-16 pb-4 select-none ${
             isDragging ? "cursor-grabbing" : "cursor-grab"
           } [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden`}
         >
           {CONCERN_CARDS.map((card) => (
             <div
               key={card.id}
-              className="relative shrink-0 snap-start rounded-2xl md:rounded-3xl overflow-hidden shadow-lg group transition-all duration-300 w-[84vw] sm:w-[65vw] md:w-[460px] lg:w-[500px] h-[520px] sm:h-[580px] md:h-[620px] lg:h-[660px]"
+              className="relative shrink-0 snap-start rounded-xl sm:rounded-2xl overflow-hidden shadow-md group transition-all duration-300 w-[68vw] sm:w-[48vw] md:w-[320px] lg:w-[360px] h-[280px] sm:h-[340px] md:h-[380px]"
             >
-              {/* Full-bleed Portrait Image */}
+              {/* Image */}
               <Image
                 src={card.image}
                 alt={card.title}
@@ -119,18 +100,25 @@ export default function ConcernCareSection() {
                 draggable={false}
                 className="object-cover transition-transform duration-700 group-hover:scale-105 pointer-events-none"
                 style={{ objectPosition: card.objectPosition }}
-                sizes="(max-width: 640px) 84vw, (max-width: 1024px) 65vw, 500px"
+                sizes="(max-width: 640px) 68vw, (max-width: 1024px) 48vw, 360px"
                 priority
               />
 
-              {/* Bottom Soft/Dark Gradient Overlay */}
-              <div className="absolute inset-x-0 bottom-0 h-52 sm:h-64 bg-gradient-to-t from-black/90 via-black/45 to-transparent pointer-events-none" />
+              {/* Gradient Overlay */}
+              <div className="absolute inset-x-0 bottom-0 h-36 sm:h-44 bg-gradient-to-t from-black/85 via-black/35 to-transparent pointer-events-none" />
 
-              {/* Bottom Large White Title */}
-              <div className="absolute bottom-0 inset-x-0 p-6 sm:p-8 md:p-10 pointer-events-none">
-                <h3 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-white tracking-wide drop-shadow-md">
+              {/* Title */}
+              <div className="absolute bottom-0 inset-x-0 p-4 sm:p-5 md:p-6 pointer-events-none">
+                <h3
+                  className="text-xl sm:text-2xl md:text-3xl font-medium text-white tracking-wide drop-shadow-lg"
+                  style={{
+                    fontFamily: "'Italiana', 'Playfair Display', var(--font-cormorant-garamond), serif",
+                    letterSpacing: "0.02em",
+                  }}
+                >
                   {card.title}
                 </h3>
+                <div className="w-8 h-0.5 bg-brand-gold mt-2 transition-all duration-300 group-hover:w-14" />
               </div>
             </div>
           ))}

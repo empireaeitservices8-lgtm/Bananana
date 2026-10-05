@@ -38,13 +38,13 @@ export default function CuratedCollectionsSection({ collections }: CuratedCollec
     setCurrentIndex((prev) => (prev - 1 + total) % total);
   }, [total]);
 
-  // Seamless auto-scroll: advances to next collection every 2 seconds continuously
+  // Seamless auto-scroll: advances to next collection every 6 seconds continuously
   useEffect(() => {
     if (total <= 1) return;
 
     const timer = setInterval(() => {
       goToNext();
-    }, 2000);
+    }, 6000);
 
     return () => clearInterval(timer);
   }, [total, goToNext]);
@@ -103,19 +103,19 @@ export default function CuratedCollectionsSection({ collections }: CuratedCollec
   return (
     <section className="py-10 md:py-14 px-4 w-full overflow-hidden bg-brand-offwhite/40">
       <div className="max-w-6xl mx-auto">
-        {/* Section Header - Clean and minimal with NO arrow navigation buttons */}
-        <div className="mb-5 md:mb-6">
+        {/* Section Header */}
+        <div className="mb-5 md:mb-6 text-center sm:text-left">
           <h2
-            className="text-3xl sm:text-4xl md:text-5xl font-normal text-brand-charcoal"
+            className="text-2xl sm:text-3xl md:text-4xl font-normal text-brand-charcoal tracking-tight uppercase"
             style={{
-              fontFamily: "'Playfair Display', 'Italiana', var(--font-serif), Georgia, serif",
-              letterSpacing: "-0.015em",
-              lineHeight: 1.15,
+              fontFamily: "'Italiana', 'Playfair Display', var(--font-cormorant-garamond), serif",
+              letterSpacing: "0.02em",
+              lineHeight: 1.1,
             }}
           >
             Curated Collections
           </h2>
-          <div className="w-12 h-0.5 bg-brand-gold mt-2.5" />
+          <div className="w-14 h-0.5 bg-brand-gold mt-2.5 mx-auto sm:mx-0" />
         </div>
 
         {/* Automatic Showcase Carousel: Seamlessly Loops, Zero Arrow Buttons, Touch/Drag Supported */}
