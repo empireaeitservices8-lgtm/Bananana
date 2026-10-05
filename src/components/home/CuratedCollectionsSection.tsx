@@ -20,7 +20,6 @@ interface CuratedCollectionsProps {
 
 export default function CuratedCollectionsSection({ collections }: CuratedCollectionsProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const isHoveredRef = useRef(false);
   const touchStartX = useRef<number | null>(null);
   const touchStartY = useRef<number | null>(null);
   const mouseStartX = useRef<number | null>(null);

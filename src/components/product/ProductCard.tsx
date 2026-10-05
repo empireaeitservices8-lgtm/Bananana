@@ -11,7 +11,7 @@ interface ProductCardProps {
   imageSrc: string;
   slug: string;
   label?: string;
-  id?: number;
+  id?: number | string;
   aspectRatio?: string;
 }
 

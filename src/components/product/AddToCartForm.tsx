@@ -23,8 +23,8 @@ const STANDARD_BANANANA_SIZES = [
   "XL - 34-36"
 ];
 
-export default function AddToCartForm({ product }: AddToCartFormProps) {
-  const displaySizes = STANDARD_BANANANA_SIZES;
+export default function AddToCartForm({ product, sizes }: AddToCartFormProps) {
+  const displaySizes = sizes && sizes.length > 0 ? sizes : STANDARD_BANANANA_SIZES;
 
   const [quantity, setQuantity] = useState(1);
   const [selectedSize, setSelectedSize] = useState<string | null>(null);
