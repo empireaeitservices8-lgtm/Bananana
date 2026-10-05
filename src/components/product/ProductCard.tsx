@@ -22,18 +22,21 @@ export default function ProductCard({ title, price, imageSrc, slug, label, id, a
     e.preventDefault();
     e.stopPropagation();
     
-    if (id) {
-      addToCart({
-        id,
-        name: title,
-        price: price.toString(),
-        imageSrc,
-        slug
-      });
-      toast.success(`${title} added to cart!`);
-    } else {
-      toast.error("Cannot add product without ID");
+    if (id !== undefined) {
+      const numericId = typeof id === "number" ? id : parseInt(id, 10);
+      if (!isNaN(numericId)) {
+        addToCart({
+          id: numericId,
+          name: title,
+          price: price.toString(),
+          imageSrc,
+          slug
+        });
+        toast.success(`${title} added to cart!`);
+        return;
+      }
     }
+    toast.error("Cannot add product without ID");
   };
 
   return (
