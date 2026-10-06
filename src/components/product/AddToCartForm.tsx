@@ -17,14 +17,15 @@ interface AddToCartFormProps {
   sizes?: string[];
 }
 
-const STANDARD_BANANANA_SIZES = [
+export const STANDARD_BANANANA_SIZES = [
   "S - 26-28",
   "L - 30-32",
   "XL - 34-36"
 ];
 
-export default function AddToCartForm({ product, sizes }: AddToCartFormProps) {
-  const displaySizes = sizes && sizes.length > 0 ? sizes : STANDARD_BANANANA_SIZES;
+export default function AddToCartForm({ product }: AddToCartFormProps) {
+  // All products strictly use standard brand sizes: S - 26-28, L - 30-32, XL - 34-36
+  const displaySizes = STANDARD_BANANANA_SIZES;
 
   const [quantity, setQuantity] = useState(1);
   const [selectedSize, setSelectedSize] = useState<string | null>(null);
@@ -117,7 +118,7 @@ export default function AddToCartForm({ product, sizes }: AddToCartFormProps) {
           type="button"
           onClick={handleAddToCart}
           disabled={isSizeRequiredButNotSelected}
-          className="flex-1 bg-brand-charcoal text-brand-cream font-bold tracking-wider uppercase text-sm rounded-sm hover:bg-black transition-colors shadow-md disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
+          className="flex-1 bg-brand-forest text-brand-cream font-bold tracking-wider uppercase text-sm rounded-sm hover:bg-brand-darkgreen transition-colors shadow-md disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
         >
           Add to Cart
         </button>
@@ -125,7 +126,7 @@ export default function AddToCartForm({ product, sizes }: AddToCartFormProps) {
           type="button"
           onClick={handleBuyNow}
           disabled={isSizeRequiredButNotSelected}
-          className="flex-1 bg-brand-gold text-brand-charcoal font-bold tracking-wider uppercase text-sm rounded-sm hover:bg-yellow-600 transition-colors shadow-md disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
+          className="flex-1 bg-brand-gold text-brand-darkgreen font-bold tracking-wider uppercase text-sm rounded-sm hover:bg-[#d4982e] transition-colors shadow-md disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
         >
           Buy Now
         </button>

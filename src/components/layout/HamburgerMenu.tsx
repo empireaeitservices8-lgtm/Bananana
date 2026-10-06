@@ -44,7 +44,7 @@ export default function HamburgerMenu({ categories }: HamburgerMenuProps) {
       onClick={close}
       target={external ? "_blank" : undefined}
       rel={external ? "noopener noreferrer" : undefined}
-      className="block text-[15px] font-medium text-brand-charcoal/90 hover:text-brand-charcoal transition-colors"
+      className="block text-[15px] font-medium text-brand-charcoal/90 hover:text-brand-gold transition-colors"
     >
       {label}
     </Link>
@@ -75,12 +75,12 @@ export default function HamburgerMenu({ categories }: HamburgerMenuProps) {
       <nav
         id="mobile-nav-drawer"
         aria-label="Navigation drawer"
-        className={`fixed top-0 left-0 h-full w-[85vw] max-w-sm z-50 bg-[#FCF8F2] shadow-2xl transform transition-transform duration-300 ease-in-out flex flex-col ${
+        className={`fixed top-0 left-0 h-full w-[85vw] max-w-sm z-50 bg-brand-cream shadow-2xl transform transition-transform duration-300 ease-in-out flex flex-col ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
         <div className="flex items-center justify-between px-6 py-5 border-b border-brand-charcoal/10">
-          <Link href="/" onClick={close} className="font-serif text-2xl font-bold tracking-tight text-brand-charcoal">
+          <Link href="/" onClick={close} className="font-serif text-2xl font-bold tracking-tight text-brand-forest">
             Bananana
           </Link>
           <button

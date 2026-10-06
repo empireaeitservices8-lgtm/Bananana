@@ -63,26 +63,6 @@ export default function ProductDetailsAccordion({ attributes, product }: Product
     addSpec("PRODUCT CODE", product.sku);
   }
 
-  // 4. Dimensions / Length
-  if (product?.dimensions) {
-    const { length, width, height } = product.dimensions;
-    const parts = [
-      length ? `${length} cm (L)` : null,
-      width ? `${width} cm (W)` : null,
-      height ? `${height} cm (H)` : null,
-    ].filter(Boolean);
-    if (parts.length > 0) {
-      addSpec("DIMENSIONS", parts.join(" × "));
-    }
-  }
-
-  // 5. Weight
-  if (product?.weight) {
-    const num = parseFloat(product.weight);
-    const formatted = !isNaN(num) && num < 10 ? `${num * 1000}g` : `${product.weight}g`;
-    addSpec("WEIGHT", formatted);
-  }
-
   // 6. Custom meta data fields (ACF / WooCommerce meta)
   if (product?.meta_data && Array.isArray(product.meta_data)) {
     const KNOWN_SPEC_KEYS: Record<string, string> = {

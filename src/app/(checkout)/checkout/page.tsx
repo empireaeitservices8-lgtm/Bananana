@@ -7,6 +7,22 @@ import Image from "next/image";
 import toast from "react-hot-toast";
 import Link from "next/link";
 
+function toTitleCase(str: string): string {
+  if (!str) return "";
+  const isAllUpper = str === str.toUpperCase();
+  if (!isAllUpper) return str;
+  return str
+    .toLowerCase()
+    .split(" ")
+    .map((word, idx) => {
+      if (idx > 0 && ["with", "and", "or", "in", "of", "to", "for", "a", "an", "the"].includes(word)) {
+        return word;
+      }
+      return word.charAt(0).toUpperCase() + word.slice(1);
+    })
+    .join(" ");
+}
+
 export default function CheckoutPage() {
   const { cart, cartTotal, clearCart } = useCart();
   const router = useRouter();
@@ -217,7 +233,16 @@ export default function CheckoutPage() {
                      <Image src={item.imageSrc} alt={item.name} fill className="object-cover" />
                   </div>
                   <div className="flex-grow">
-                    <p className="font-medium text-brand-charcoal">{item.name}</p>
+                    <p
+                      className="font-bold text-brand-charcoal"
+                      style={{
+                        fontFamily: 'var(--font-plus-jakarta), "Plus Jakarta Sans", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+                        fontWeight: 700,
+                        letterSpacing: "-0.015em",
+                      }}
+                    >
+                      {toTitleCase(item.name)}
+                    </p>
                     {item.size && <p className="text-xs text-brand-charcoal/70">Size: {item.size}</p>}
                     <p className="text-sm text-brand-charcoal/70">Qty: {item.quantity}</p>
                   </div>
@@ -245,7 +270,7 @@ export default function CheckoutPage() {
               type="submit"
               form="checkout-form"
               disabled={loading}
-              className="w-full bg-brand-gold text-brand-charcoal py-4 rounded-sm font-bold tracking-wider uppercase text-sm hover:bg-yellow-600 transition-colors disabled:opacity-50"
+              className="w-full bg-brand-gold text-brand-darkgreen py-4 rounded-sm font-bold tracking-wider uppercase text-sm hover:bg-[#d4982e] transition-colors disabled:opacity-50 cursor-pointer"
             >
               {loading ? "Processing..." : "Pay Securely with Razorpay"}
             </button>

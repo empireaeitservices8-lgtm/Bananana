@@ -36,9 +36,9 @@ export default function ServicesPage() {
   ];
 
   return (
-    <div className="flex flex-col gap-12 md:gap-16 pb-16">
+    <div className="flex flex-col gap-8 md:gap-10 pb-12">
       {/* Hero Section */}
-      <section className="relative h-[42vh] min-h-[300px] w-full bg-brand-charcoal overflow-hidden">
+      <section className="relative h-[42vh] min-h-[300px] w-full bg-brand-forest overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1650632782277-0d089b0ce7fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
           alt="Bananana Services"
@@ -46,7 +46,7 @@ export default function ServicesPage() {
           className="object-cover opacity-60"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-brand-charcoal/80 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-brand-darkgreen/90 to-transparent" />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
           <h1 className="font-serif text-4xl md:text-5xl font-bold text-brand-cream mb-4 tracking-tight drop-shadow-lg">
             Our Services
@@ -63,7 +63,7 @@ export default function ServicesPage() {
           {services.map((service, index) => (
             <div key={index} className="bg-brand-offwhite p-10 rounded-sm hover:shadow-xl transition-shadow border border-brand-charcoal/5 group">
               <div className="text-4xl mb-6 transform group-hover:scale-110 transition-transform origin-left">{service.icon}</div>
-              <h3 className="font-serif text-xl font-bold text-brand-charcoal mb-4">{service.title}</h3>
+              <h3 className="font-serif text-xl font-bold text-brand-forest mb-4">{service.title}</h3>
               <p className="text-brand-charcoal/70 leading-relaxed text-sm">
                 {service.desc}
               </p>
@@ -72,7 +72,7 @@ export default function ServicesPage() {
         </div>
         
         <div className="flex justify-center mt-16">
-          <Link href="/category/all" className="bg-brand-gold text-brand-charcoal px-8 py-3 rounded-sm font-bold tracking-wider uppercase text-sm hover:bg-yellow-600 transition-colors shadow-lg">
+          <Link href="/category/all" className="bg-brand-gold text-brand-darkgreen px-8 py-3 rounded-sm font-bold tracking-wider uppercase text-sm hover:bg-[#d4982e] transition-colors shadow-lg">
             Shop The Collection
           </Link>
         </div>

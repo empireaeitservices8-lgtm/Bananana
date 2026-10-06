@@ -8,12 +8,12 @@ export default function WhyBananaSection() {
   const [isExpanded, setIsExpanded] = useState(false);
 
   return (
-    <section className="bg-brand-offwhite/50 border-y border-brand-charcoal/10 py-10 md:py-14 px-4 w-full">
+    <section className="bg-brand-cream border-y border-brand-charcoal/10 py-10 md:py-14 px-4 w-full">
       <div className="max-w-5xl mx-auto">
         {/* Intro Header */}
         <div className="max-w-3xl mx-auto">
           <div className="text-center">
-            <h2 className={`${headingSerif.className} text-3xl md:text-4xl lg:text-5xl font-bold text-brand-charcoal tracking-tight mb-2.5`}>
+            <h2 className={`${headingSerif.className} text-3xl md:text-4xl lg:text-5xl font-bold text-brand-forest tracking-tight mb-2.5`}>
               Why Bananana?
             </h2>
             <div className="w-12 h-0.5 bg-brand-gold mx-auto mb-4" />
@@ -27,7 +27,7 @@ export default function WhyBananaSection() {
           <div className="text-center">
             <button
               onClick={() => setIsExpanded(!isExpanded)}
-              className="inline-flex items-center gap-2 bg-brand-charcoal text-brand-cream px-6 py-2.5 rounded-sm font-bold tracking-wider uppercase text-xs hover:bg-black transition-all duration-300 shadow-xs hover:shadow-sm"
+              className="inline-flex items-center gap-2 bg-brand-forest text-white px-6 py-2.5 rounded-sm font-bold tracking-wider uppercase text-xs hover:bg-brand-darkgreen transition-all duration-300 shadow-xs hover:shadow-sm"
               aria-expanded={isExpanded}
               aria-controls="mundu-different-content"
             >
@@ -52,7 +52,7 @@ export default function WhyBananaSection() {
         >
           <div className="overflow-hidden">
             <div className="text-center mb-6">
-              <h3 className="font-serif text-2xl md:text-3xl font-bold text-brand-charcoal mb-2">
+              <h3 className="font-serif text-2xl md:text-3xl font-bold text-brand-forest mb-2">
                 What Makes Our Mundu Different?
               </h3>
               <p className="text-brand-charcoal/60 text-sm max-w-xl mx-auto text-justify">

@@ -5,6 +5,22 @@ import Link from "next/link";
 import { useCart } from "@/context/CartContext";
 import { useRouter } from "next/navigation";
 
+function toTitleCase(str: string): string {
+  if (!str) return "";
+  const isAllUpper = str === str.toUpperCase();
+  if (!isAllUpper) return str;
+  return str
+    .toLowerCase()
+    .split(" ")
+    .map((word, idx) => {
+      if (idx > 0 && ["with", "and", "or", "in", "of", "to", "for", "a", "an", "the"].includes(word)) {
+        return word;
+      }
+      return word.charAt(0).toUpperCase() + word.slice(1);
+    })
+    .join(" ");
+}
+
 export default function CartPage() {
   const { cart, removeFromCart, updateQuantity, cartTotal } = useCart();
   const router = useRouter();
@@ -14,7 +30,7 @@ export default function CartPage() {
       <div className="max-w-7xl mx-auto px-4 py-16 sm:py-20 text-center min-h-[50vh]">
         <h1 className="font-serif text-3xl sm:text-4xl font-bold text-brand-charcoal mb-4">Your Cart is Empty</h1>
         <p className="text-brand-charcoal/70 mb-6 text-sm sm:text-base">Looks like you haven't added anything to your cart yet.</p>
-        <Link href="/category/all" className="inline-block bg-brand-gold text-brand-charcoal px-8 py-3 rounded-sm font-bold tracking-wider uppercase text-sm hover:bg-yellow-600 transition-colors shadow-lg">
+        <Link href="/category/all" className="inline-block bg-brand-gold text-brand-darkgreen px-8 py-3 rounded-sm font-bold tracking-wider uppercase text-sm hover:bg-[#d4982e] transition-colors shadow-lg">
           Start Shopping
         </Link>
       </div>
@@ -22,7 +38,7 @@ export default function CartPage() {
   }
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8 sm:py-10 w-full min-h-[60vh]">
+    <div className="max-w-7xl mx-auto px-4 pt-3 pb-8 sm:pt-4 sm:pb-10 w-full min-h-[60vh]">
       <h1 className="font-serif text-3xl sm:text-4xl font-bold text-brand-charcoal mb-6">Shopping Cart</h1>
       
       <div className="grid lg:grid-cols-3 gap-12">
@@ -37,11 +53,19 @@ export default function CartPage() {
               <div className="flex-grow flex flex-col justify-between py-2">
                 <div className="flex justify-between items-start">
                   <div>
-                    <Link href={`/product/${item.slug}`} className="font-serif text-lg text-brand-charcoal hover:text-brand-gold transition-colors block mb-1">
-                      {item.name}
+                    <Link
+                      href={`/product/${item.slug}`}
+                      className="font-bold text-base sm:text-lg text-brand-charcoal hover:text-[#D99B26] transition-colors block mb-1"
+                      style={{
+                        fontFamily: 'var(--font-plus-jakarta), "Plus Jakarta Sans", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+                        fontWeight: 700,
+                        letterSpacing: "-0.015em",
+                      }}
+                    >
+                      {toTitleCase(item.name)}
                     </Link>
                     {item.size && <p className="text-sm text-brand-charcoal/70 mb-1">Size: {item.size}</p>}
-                    <p className="text-brand-charcoal/70 font-bold">₹{item.price}</p>
+                    <p className="font-sans font-bold text-brand-charcoal">₹{item.price}</p>
                   </div>
                   <button 
                     onClick={() => removeFromCart(item.cartItemId)}
@@ -99,7 +123,7 @@ export default function CartPage() {
             
             <button 
               onClick={() => router.push('/checkout')}
-              className="w-full bg-brand-charcoal text-brand-cream py-4 rounded-sm font-bold tracking-wider uppercase text-sm hover:bg-black transition-colors"
+              className="w-full bg-brand-forest text-brand-cream py-4 rounded-sm font-bold tracking-wider uppercase text-sm hover:bg-brand-darkgreen transition-colors"
             >
               Proceed to Checkout
             </button>

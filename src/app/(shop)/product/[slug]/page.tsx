@@ -14,8 +14,28 @@ function stripImagesFromHtml(html?: string): string {
   if (!html) return "";
   return html
     .replace(/<img[^>]*>/gi, "")
+    .replace(/<p[^>]*>[\s\S]*?waist[\s\S]*?size[\s\S]*?<\/p>/gi, "")
+    .replace(/<[^>]*>[\s\S]*?waist[\s\S]*?size[\s\S]*?<\/[^>]*>/gi, "")
+    .replace(/waist[\s\S]*?size[^\n<.]*(?:0nly|only)?[^\n<.]*available[^\n<.]*/gi, "")
+    .replace(/waist\s*size\s*28\s*-\s*32\s*(?:0nly|only)?\s*available/gi, "")
     .replace(/<p>\s*<\/p>/gi, "")
     .trim();
+}
+
+function toTitleCase(str: string): string {
+  if (!str) return "";
+  const isAllUpper = str === str.toUpperCase();
+  if (!isAllUpper) return str;
+  return str
+    .toLowerCase()
+    .split(" ")
+    .map((word, idx) => {
+      if (idx > 0 && ["with", "and", "or", "in", "of", "to", "for", "a", "an", "the"].includes(word)) {
+        return word;
+      }
+      return word.charAt(0).toUpperCase() + word.slice(1);
+    })
+    .join(" ");
 }
 
 function extractAndOrderProductImages(product: any) {
@@ -80,17 +100,59 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
 
   const galleryImages = extractAndOrderProductImages(product);
   const cleanShortDesc = stripImagesFromHtml(product.short_description || product.description);
-  const cleanFullDesc = stripImagesFromHtml(product.description);
+
+  // Custom Full Description based on category type
+  const textToSearch = [
+    product?.name || "",
+    product?.slug || "",
+    ...(product?.categories?.map((c: any) => `${c.name} ${c.slug}`) || []),
+  ].join(" ").toLowerCase();
+
+  const isKasavuOrDaily =
+    textToSearch.includes("kasavu") ||
+    textToSearch.includes("daily") ||
+    textToSearch.includes("classic");
+
+  const fullDescriptionPoints = isKasavuOrDaily
+    ? [
+        "Premium cotton fabric",
+        "Traditional starch cotton finish",
+        "Double mund construction",
+        "Elastic rib waistband",
+        "Functional pocket",
+        "Comfortable everyday fit",
+        "Traditional Kasavu look with modern functionality.",
+      ]
+    : [
+        "Specially woven knit fabric",
+        "Unique BANANANA design",
+        "Single mund",
+        "Lightweight & comfortable",
+        "Silicone wash finish",
+        "Bio wash finish",
+        "Elastic rib waistband",
+        "Functional pocket",
+        "Designed for everyday wear.",
+      ];
+
+  const isAsmrProduct =
+    (product?.name || "").toLowerCase().includes("asmr") ||
+    (product?.name || "").toLowerCase().includes("t-shirt");
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-5 sm:py-7 w-full">
+    <div className="max-w-7xl mx-auto px-4 pt-3 pb-8 sm:pt-4 sm:pb-10 w-full">
       {/* Breadcrumb */}
       <div className="flex items-center gap-2 text-xs sm:text-sm text-brand-charcoal/60 mb-5 sm:mb-6">
         <Link href="/" className="hover:text-brand-charcoal transition-colors">Home</Link>
         <span>/</span>
         <Link href="/category/all" className="hover:text-brand-charcoal transition-colors">Shop</Link>
         <span>/</span>
-        <span className="text-brand-charcoal font-serif">{product.name}</span>
+        <span 
+          className="text-brand-charcoal font-medium"
+          style={{ fontFamily: 'var(--font-plus-jakarta), "Plus Jakarta Sans", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}
+        >
+          {toTitleCase(product.name)}
+        </span>
       </div>
 
       <div className="grid md:grid-cols-2 gap-12 lg:gap-16 mb-24">
@@ -102,12 +164,26 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
 
         {/* Right: Product Info */}
         <div className="flex flex-col">
-          <h1 className="font-serif text-3xl md:text-4xl font-bold text-brand-charcoal mb-2">{product.name}</h1>
+          <h1
+            className="text-2xl sm:text-3xl md:text-4xl font-bold text-brand-charcoal mb-2 leading-tight"
+            style={{
+              fontFamily: 'var(--font-plus-jakarta), "Plus Jakarta Sans", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+              fontWeight: 700,
+              letterSpacing: "-0.015em",
+            }}
+          >
+            {toTitleCase(product.name)}
+          </h1>
           <div className="flex items-baseline gap-4 mb-6">
-            <span className="text-2xl font-bold text-brand-charcoal">₹{product.price}</span>
+            <span
+              className="text-2xl sm:text-3xl font-bold text-brand-charcoal"
+              style={{ fontFamily: "var(--font-sans), 'Outfit', 'Plus Jakarta Sans', sans-serif" }}
+            >
+              ₹ {product.price}
+            </span>
             {product.regular_price !== product.price && (
               <>
-                <span className="text-sm text-brand-charcoal/50 line-through">₹{product.regular_price}</span>
+                <span className="text-sm text-brand-charcoal/50 line-through">₹ {product.regular_price}</span>
                 <span className="text-xs font-bold text-green-700 bg-green-100 px-2 py-1 rounded-sm uppercase tracking-wider">On Sale</span>
               </>
             )}
@@ -128,7 +204,6 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
               imageSrc: product.images?.[0]?.src || "/images/placeholder.png",
               slug: product.slug,
             }}
-            sizes={product.attributes?.find((a: any) => a.name.toLowerCase().includes('size'))?.options}
           />
 
           {/* Trust Badges */}
@@ -150,11 +225,16 @@ export default async function ProductDetailPage({ params }: { params: Promise<{ 
           {/* Accordions */}
           <ProductDetailsAccordion attributes={detailsAttributes} product={product} />
           
-          {cleanFullDesc && (
-            <Accordion title="Full Description">
-              <div className="prose prose-sm max-w-none text-brand-charcoal/80" dangerouslySetInnerHTML={{ __html: cleanFullDesc }} />
-            </Accordion>
-          )}
+          <Accordion title="Full Description">
+            <ul className="space-y-2 text-sm text-brand-charcoal/85 leading-relaxed py-1">
+              {fullDescriptionPoints.map((item, idx) => (
+                <li key={idx} className="flex items-start gap-2.5">
+                  <span className="text-brand-gold font-bold shrink-0 mt-0.5">•</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </Accordion>
           
           <Accordion title="Shipping & Returns">
             <p className="mb-2"><strong>Shipping:</strong> We offer flat-rate shipping of ₹50 across India. Orders are processed and dispatched within 3-5 business days via Shiprocket.</p>

@@ -19,16 +19,16 @@ const CONCERN_CARDS: ConcernCard[] = [
     objectPosition: "center center",
   },
   {
-    id: "elastic",
-    title: "Elastic",
+    id: "elastic-rib",
+    title: "Elastic Rib",
     image: "/images/wc_samples/Daily-Wear-Mund8.jpeg",
     objectPosition: "58% 22%", // Direct focus on the premium woven elastic waistband & drawstring
   },
   {
-    id: "rib",
-    title: "Rib",
-    image: "/images/wc_samples/Daily-Wear-Mund11.jpeg",
-    objectPosition: "42% 46%", // Direct focus on the distinct ribbed knit waistband structure
+    id: "convenient-pocket",
+    title: "Convenient Pocket",
+    image: "/images/concern-convenient-pocket.jpg",
+    objectPosition: "center 28%", // Direct focus on the convenient functional pocket with phone
   },
 ];
 
@@ -63,34 +63,45 @@ export default function ConcernCareSection() {
   };
 
   return (
-    <section className="bg-white py-10 md:py-14 w-full overflow-hidden">
+    <section className="bg-brand-cream pt-10 md:pt-14 pb-4 md:pb-6 w-full overflow-hidden">
       {/* SECTION HEADER */}
       <div className="max-w-4xl mx-auto px-4 text-center mb-6 md:mb-10">
-        <span className="block text-xs sm:text-sm font-semibold tracking-[0.25em] text-brand-gold uppercase mb-2">
+        <span 
+          className="block text-xs sm:text-sm font-bold tracking-[0.25em] text-brand-gold-muted uppercase mb-2"
+          style={{ fontFamily: '"Montserrat", "Plus Jakarta Sans", "Inter", sans-serif' }}
+        >
           ROOTED IN NATURE
         </span>
-        <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-brand-charcoal tracking-tight uppercase">
+        <h2 
+          className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-brand-forest tracking-wide uppercase"
+          style={{
+            fontFamily: '"Montserrat", "Plus Jakarta Sans", "Inter", sans-serif',
+            fontWeight: 700,
+            letterSpacing: "0.04em",
+            lineHeight: 1.25,
+          }}
+        >
           YOUR CONCERN, OUR CARE
         </h2>
-        <div className="w-14 h-0.5 bg-brand-gold mx-auto mt-3" />
+        <div className="w-12 h-0.5 bg-brand-gold mx-auto mt-2.5" />
       </div>
 
-      {/* CAROUSEL TRACK WITH REDUCED IMAGE SIZES */}
-      <div className="w-full">
+      {/* FULLY RESPONSIVE CONTAINER: 3-COL GRID ON LAPTOP/DESKTOP, SMOOTH PEEK CAROUSEL ON MOBILE */}
+      <div className="max-w-6xl mx-auto w-full px-4 sm:px-6">
         <div
           ref={containerRef}
           onMouseDown={handleMouseDown}
           onMouseLeave={handleMouseLeave}
           onMouseUp={handleMouseUp}
           onMouseMove={handleMouseMove}
-          className={`flex gap-4 md:gap-6 overflow-x-auto scrollbar-none snap-x snap-mandatory scroll-smooth px-4 sm:px-8 md:px-12 lg:px-16 pb-4 select-none ${
-            isDragging ? "cursor-grabbing" : "cursor-grab"
+          className={`flex md:grid md:grid-cols-3 gap-4 sm:gap-5 lg:gap-6 overflow-x-auto md:overflow-visible scrollbar-none snap-x snap-mandatory scroll-smooth pb-3 md:pb-0 select-none ${
+            isDragging ? "cursor-grabbing" : "cursor-grab md:cursor-default"
           } [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden`}
         >
           {CONCERN_CARDS.map((card) => (
             <div
               key={card.id}
-              className="relative shrink-0 snap-start rounded-xl sm:rounded-2xl overflow-hidden shadow-md group transition-all duration-300 w-[68vw] sm:w-[48vw] md:w-[320px] lg:w-[360px] h-[280px] sm:h-[340px] md:h-[380px]"
+              className="relative shrink-0 md:shrink snap-center rounded-xl sm:rounded-2xl overflow-hidden shadow-md group transition-all duration-300 w-[78vw] sm:w-[52vw] md:w-full aspect-[4/5] sm:aspect-[3/4] md:aspect-[4/5] max-h-[460px]"
             >
               {/* Image */}
               <Image
@@ -100,7 +111,7 @@ export default function ConcernCareSection() {
                 draggable={false}
                 className="object-cover transition-transform duration-700 group-hover:scale-105 pointer-events-none"
                 style={{ objectPosition: card.objectPosition }}
-                sizes="(max-width: 640px) 68vw, (max-width: 1024px) 48vw, 360px"
+                sizes="(max-width: 640px) 78vw, (max-width: 1024px) 33vw, 360px"
                 priority
               />
 
@@ -110,10 +121,10 @@ export default function ConcernCareSection() {
               {/* Title */}
               <div className="absolute bottom-0 inset-x-0 p-4 sm:p-5 md:p-6 pointer-events-none">
                 <h3
-                  className="text-xl sm:text-2xl md:text-3xl font-medium text-white tracking-wide drop-shadow-lg"
+                  className="text-lg sm:text-xl md:text-2xl font-bold text-white tracking-wide drop-shadow-lg"
                   style={{
-                    fontFamily: "'Italiana', 'Playfair Display', var(--font-cormorant-garamond), serif",
-                    letterSpacing: "0.02em",
+                    fontFamily: '"Montserrat", "Plus Jakarta Sans", "Inter", sans-serif',
+                    letterSpacing: "-0.01em",
                   }}
                 >
                   {card.title}
@@ -123,8 +134,28 @@ export default function ConcernCareSection() {
             </div>
           ))}
 
-          {/* Spacer to preserve right margin when scrolled to the end */}
-          <div className="shrink-0 w-4 md:w-8" aria-hidden="true" />
+          {/* Mobile Spacer only */}
+          <div className="shrink-0 w-3 md:hidden" aria-hidden="true" />
+        </div>
+
+        {/* Mobile Indicator Dots (Mobile Only) */}
+        <div className="flex md:hidden justify-center items-center gap-1.5 mt-3 pt-1">
+          {CONCERN_CARDS.map((card, idx) => (
+            <button
+              key={card.id}
+              type="button"
+              onClick={() => {
+                if (containerRef.current) {
+                  const cardEl = containerRef.current.children[idx] as HTMLElement;
+                  if (cardEl) {
+                    containerRef.current.scrollTo({ left: cardEl.offsetLeft - 16, behavior: "smooth" });
+                  }
+                }
+              }}
+              className="w-2 h-2 rounded-full bg-brand-forest/20 active:bg-brand-gold transition-colors cursor-pointer"
+              aria-label={`View ${card.title}`}
+            />
+          ))}
         </div>
       </div>
     </section>

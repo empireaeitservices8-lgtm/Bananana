@@ -20,7 +20,7 @@ export default function SearchBar() {
   return (
     <div 
       className={`relative flex items-center transition-all duration-300 ease-in-out ${
-        isOpen ? "w-[220px] bg-white border border-brand-charcoal/20 rounded-full shadow-sm pl-4" : "w-10 bg-transparent border-transparent"
+        isOpen ? "w-[150px] sm:w-[200px] md:w-[220px] bg-white border border-brand-charcoal/20 rounded-full shadow-sm pl-3 sm:pl-4" : "w-10 bg-transparent border-transparent"
       }`}
     >
       <form 

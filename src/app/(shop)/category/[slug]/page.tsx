@@ -20,7 +20,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
   const categoryDescription = category?.description || `Explore our curated collection of premium ${categoryName.toLowerCase()}, crafted with traditional techniques and designed for the modern man.`;
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-5 sm:py-7 w-full">
+    <div className="max-w-7xl mx-auto px-4 pt-3 pb-8 sm:pt-4 sm:pb-10 w-full">
       {/* Main Product Grid */}
       <div className="w-full">
         <div className="mb-6">
@@ -35,7 +35,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ slug:
               </>
             )}
           </div>
-          <h1 className="font-serif text-3xl md:text-4xl font-bold text-brand-charcoal mb-2.5 capitalize">
+          <h1 className="font-serif text-3xl md:text-4xl font-bold text-brand-forest mb-2.5 capitalize">
             {categoryName}
           </h1>
           <p 

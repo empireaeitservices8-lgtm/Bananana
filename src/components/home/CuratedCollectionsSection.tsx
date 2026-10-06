@@ -37,13 +37,13 @@ export default function CuratedCollectionsSection({ collections }: CuratedCollec
     setCurrentIndex((prev) => (prev - 1 + total) % total);
   }, [total]);
 
-  // Seamless auto-scroll: advances to next collection every 6 seconds continuously
+  // Auto-scroll: advances to next collection continuously at normal smooth speed (3s)
   useEffect(() => {
     if (total <= 1) return;
 
     const timer = setInterval(() => {
       goToNext();
-    }, 6000);
+    }, 3000);
 
     return () => clearInterval(timer);
   }, [total, goToNext]);
@@ -100,93 +100,114 @@ export default function CuratedCollectionsSection({ collections }: CuratedCollec
   const currentCol = collections[currentIndex];
 
   return (
-    <section className="py-10 md:py-14 px-4 w-full overflow-hidden bg-brand-offwhite/40">
+    <section className="pt-0 md:pt-2 pb-10 md:pb-14 px-4 w-full overflow-hidden bg-brand-cream">
       <div className="max-w-6xl mx-auto">
-        {/* Section Header */}
-        <div className="mb-5 md:mb-6 text-center sm:text-left">
+        {/* Section Header: Exact Classical Roman Luxury Serif Matching Reference */}
+        <div className="mb-4 sm:mb-5 md:mb-6 text-center">
           <h2
-            className="text-2xl sm:text-3xl md:text-4xl font-normal text-brand-charcoal tracking-tight uppercase"
+            className="text-2xl sm:text-3xl md:text-4xl text-brand-forest uppercase font-normal"
             style={{
-              fontFamily: "'Italiana', 'Playfair Display', var(--font-cormorant-garamond), serif",
-              letterSpacing: "0.02em",
-              lineHeight: 1.1,
+              fontFamily: 'var(--font-cormorant-garamond), "Cormorant Garamond", Garamond, Georgia, serif',
+              fontWeight: 400,
+              letterSpacing: "0.14em",
+              lineHeight: 1.2,
             }}
           >
-            Curated Collections
+            CURATED COLLECTIONS
           </h2>
-          <div className="w-14 h-0.5 bg-brand-gold mt-2.5 mx-auto sm:mx-0" />
+          <div className="w-8 h-0.5 bg-brand-gold mt-1.5 mx-auto" />
         </div>
 
-        {/* Automatic Showcase Carousel: Seamlessly Loops, Zero Arrow Buttons, Touch/Drag Supported */}
-        <div
-          onMouseLeave={handleMouseUp}
-          onTouchStart={handleTouchStart}
-          onTouchEnd={handleTouchEnd}
-          onMouseDown={handleMouseDown}
-          onMouseMove={handleMouseMove}
-          onMouseUp={handleMouseUp}
-          className="relative bg-white rounded-sm border border-brand-charcoal/10 overflow-hidden shadow-xs p-4 sm:p-5 md:p-6 select-none cursor-grab active:cursor-grabbing"
-        >
-          <div className="grid md:grid-cols-12 gap-5 lg:gap-8 items-center">
-            {/* Prominent Large Collection Image */}
-            <div className="md:col-span-7 relative h-[280px] sm:h-[360px] md:h-[400px] lg:h-[440px] rounded-sm overflow-hidden bg-brand-offwhite group">
-              <Image
-                key={currentCol.imageSrc}
-                src={currentCol.imageSrc}
-                alt={currentCol.name}
-                fill
-                className="object-cover transition-transform duration-700 group-hover:scale-105"
-                sizes="(max-width: 768px) 100vw, 60vw"
-                priority
-              />
-              <div className="absolute top-3 left-3 bg-brand-charcoal/80 text-brand-cream text-[10px] sm:text-xs uppercase font-bold tracking-widest px-2.5 py-1 rounded-sm backdrop-blur-xs">
-                {String(currentIndex + 1).padStart(2, "0")} / {String(total).padStart(2, "0")}
+        {/* Showcase Card: Side-by-Side on Laptop (Image on Left, Text & CTA on Right), Stacked on Mobile */}
+        <div className="max-w-md sm:max-w-lg md:max-w-3xl lg:max-w-4xl mx-auto">
+          <div
+            onMouseLeave={handleMouseUp}
+            onTouchStart={handleTouchStart}
+            onTouchEnd={handleTouchEnd}
+            onMouseDown={handleMouseDown}
+            onMouseMove={handleMouseMove}
+            onMouseUp={handleMouseUp}
+            className="relative bg-white rounded-2xl border border-brand-charcoal/10 overflow-hidden shadow-sm p-3.5 sm:p-4 md:p-5 select-none cursor-grab active:cursor-grabbing"
+          >
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-2.5 sm:gap-3.5 md:gap-5 lg:gap-6 items-center">
+              {/* Left Column on Laptop: Collection Image */}
+              <div className="relative h-[280px] sm:h-[320px] md:h-[360px] lg:h-[390px] w-full rounded-xl overflow-hidden bg-brand-offwhite group">
+                <Image
+                  key={currentCol.imageSrc}
+                  src={currentCol.imageSrc}
+                  alt={currentCol.name}
+                  fill
+                  className="object-cover transition-transform duration-700 group-hover:scale-105"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 520px"
+                  quality={100}
+                  unoptimized
+                  priority
+                />
+                <div className="absolute top-3 left-3 bg-brand-darkgreen/80 text-brand-cream text-[10px] sm:text-xs uppercase font-bold tracking-widest px-2.5 py-1 rounded-sm backdrop-blur-xs">
+                  {String(currentIndex + 1).padStart(2, "0")} / {String(total).padStart(2, "0")}
+                </div>
               </div>
-            </div>
 
-            {/* Collection Details */}
-            <div className="md:col-span-5 flex flex-col justify-center px-1 sm:px-3 md:px-4">
-              <span className="text-brand-gold text-[10px] sm:text-xs uppercase font-bold tracking-widest block mb-1.5">
-                Featured Collection
-              </span>
-              <h3 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold text-brand-charcoal mb-2 tracking-tight">
-                {currentCol.name}
-              </h3>
-              <div className="w-12 h-0.5 bg-brand-gold mb-3" />
-              <p
-                className="text-base sm:text-lg text-brand-charcoal/75 italic leading-relaxed mb-6"
-                style={{
-                  fontFamily: "'Playfair Display', var(--font-serif), Georgia, serif",
-                }}
-              >
-                {currentCol.description}
-              </p>
-              <div>
-                <Link
-                  href={currentCol.linkUrl}
-                  className="inline-flex items-center justify-center gap-2.5 w-full sm:w-auto bg-brand-charcoal text-brand-cream px-7 py-3 rounded-sm font-bold tracking-wider uppercase text-xs hover:bg-brand-gold hover:text-brand-charcoal transition-all duration-300 shadow-xs"
+              {/* Right Column on Laptop: Collection Details & Full-Width / Inline CTA */}
+              <div className="flex flex-col justify-center py-0.5 sm:py-1 md:py-2 px-0.5 sm:px-1">
+                <span 
+                  className="text-brand-gold-muted text-[9px] sm:text-[10px] md:text-[11px] uppercase font-bold tracking-[0.18em] block mb-0.5 sm:mb-1"
+                  style={{ fontFamily: 'var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}
                 >
-                  <span>Shop Mund</span>
-                  <ArrowRight className="w-3.5 h-3.5" />
-                </Link>
+                  {currentCol.name.toLowerCase().includes("mund") ? "PREMIUM MUNDU" : "FEATURED COLLECTION"}
+                </span>
+                <h3
+                  className="text-xl sm:text-2xl text-brand-forest font-semibold leading-snug mb-1"
+                  style={{
+                    fontFamily: 'var(--font-cormorant-garamond), "Cormorant Garamond", Garamond, Georgia, serif',
+                    fontWeight: 600,
+                    letterSpacing: "-0.01em",
+                  }}
+                >
+                  {currentCol.name}
+                </h3>
+                <p
+                  className="text-xs sm:text-sm text-brand-charcoal/70 leading-relaxed mb-2.5 sm:mb-3 font-normal"
+                  style={{
+                    fontFamily: 'var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+                    fontWeight: 400,
+                    letterSpacing: "0.01em",
+                  }}
+                >
+                  {currentCol.description}
+                </p>
+                <div className="pt-1">
+                  <Link
+                    href={currentCol.linkUrl}
+                    className="flex md:inline-flex w-full md:w-auto items-center justify-center gap-2 bg-[#D99B26] hover:bg-brand-gold text-brand-forest font-bold py-2.5 sm:py-3 px-6 sm:px-7 rounded-md uppercase tracking-wider text-xs sm:text-[13px] shadow-xs hover:shadow-md hover:scale-[1.01] active:scale-[0.99] transition-all duration-200 cursor-pointer group"
+                    style={{
+                      fontFamily: 'var(--font-plus-jakarta), "Outfit", sans-serif',
+                      fontWeight: 700,
+                      letterSpacing: "0.08em"
+                    }}
+                  >
+                    <span>Shop Now</span>
+                    <ArrowRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 shrink-0 transition-transform duration-200 group-hover:translate-x-0.5" />
+                  </Link>
+                </div>
               </div>
             </div>
-          </div>
 
-          {/* Minimalist Progress Indicators (Zero Arrow Buttons) */}
-          <div className="flex justify-center items-center gap-2 mt-5 pt-3 border-t border-brand-charcoal/10">
-            {collections.map((col, idx) => (
-              <button
-                key={col.id}
-                onClick={() => setCurrentIndex(idx)}
-                aria-label={`Go to ${col.name}`}
-                className={`h-1.5 rounded-full transition-all duration-300 cursor-pointer ${
-                  idx === currentIndex
-                    ? "w-8 bg-brand-gold"
-                    : "w-2 bg-brand-charcoal/20 hover:bg-brand-charcoal/40"
-                }`}
-              />
-            ))}
+            {/* Minimalist Progress Indicators */}
+            <div className="flex justify-center items-center gap-2 mt-4 md:mt-6 pt-3 md:pt-4 border-t border-brand-charcoal/10">
+              {collections.map((col, idx) => (
+                <button
+                  key={col.id}
+                  onClick={() => setCurrentIndex(idx)}
+                  aria-label={`Go to ${col.name}`}
+                  className={`h-1.5 rounded-full transition-all duration-300 cursor-pointer ${
+                    idx === currentIndex
+                      ? "w-8 bg-brand-gold"
+                      : "w-2 bg-brand-forest/20 hover:bg-brand-forest/40"
+                  }`}
+                />
+              ))}
+            </div>
           </div>
         </div>
       </div>

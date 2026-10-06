@@ -63,7 +63,7 @@ export default function TrackOrderPage() {
   };
 
   return (
-    <div className="max-w-3xl mx-auto px-4 py-8 sm:py-10 w-full min-h-[70vh]">
+    <div className="max-w-3xl mx-auto px-4 pt-3 pb-8 sm:pt-4 sm:pb-10 w-full min-h-[70vh]">
       <h1 className="font-serif text-3xl sm:text-4xl font-bold text-brand-charcoal mb-3 text-center">Track Your Order</h1>
       <p className="text-center text-brand-charcoal/70 mb-6 text-sm sm:text-base">
         To track your order please enter your Order ID in the box below and press the "Track" button. 
@@ -98,7 +98,7 @@ export default function TrackOrderPage() {
         <button 
           type="submit" 
           disabled={loading}
-          className="w-full bg-brand-charcoal text-white font-bold tracking-widest uppercase text-sm py-4 rounded-sm hover:bg-brand-gold transition-colors disabled:opacity-50"
+          className="w-full bg-brand-forest text-white font-bold tracking-widest uppercase text-sm py-4 rounded-sm hover:bg-brand-darkgreen transition-colors disabled:opacity-50 cursor-pointer"
         >
           {loading ? "Locating Order..." : "Track Order"}
         </button>
@@ -106,7 +106,7 @@ export default function TrackOrderPage() {
 
       {order && (
         <div className="border border-brand-charcoal/10 rounded-sm overflow-hidden shadow-sm">
-          <div className="bg-brand-charcoal text-brand-cream p-6">
+          <div className="bg-brand-forest text-brand-cream p-6">
             <div className="flex justify-between items-center mb-2">
               <h2 className="text-lg font-bold">Order #{order.id}</h2>
               <span className={`px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider ${getStatusColor(order.status)}`}>
@@ -136,7 +136,7 @@ export default function TrackOrderPage() {
               <ul className="space-y-3">
                 {order.items.map((item, idx) => (
                   <li key={idx} className="flex justify-between text-sm">
-                    <span className="text-brand-charcoal/80">{item.name} <span className="font-bold">x {item.quantity}</span></span>
+                    <span className="text-brand-charcoal/80"><span className="font-bold" style={{ fontFamily: 'var(--font-plus-jakarta), "Plus Jakarta Sans", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif' }}>{item.name}</span> <span className="font-bold">x {item.quantity}</span></span>
                   </li>
                 ))}
               </ul>

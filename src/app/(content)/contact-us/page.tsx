@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function ContactPage() {
   return (
-    <div className="flex flex-col gap-12 md:gap-16 pb-16">
+    <div className="flex flex-col gap-8 md:gap-10 pb-12">
       {/* Hero Section */}
-      <section className="relative h-[40vh] min-h-[280px] w-full bg-brand-charcoal overflow-hidden">
+      <section className="relative h-[40vh] min-h-[280px] w-full bg-brand-forest overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1650632782979-30efe0e526ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080"
           alt="Bananana Contact Us"
@@ -13,7 +13,7 @@ export default function ContactPage() {
           className="object-cover opacity-60"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-brand-charcoal/80 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-brand-darkgreen/90 to-transparent" />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-center px-4">
           <h1 className="font-serif text-4xl md:text-5xl font-bold text-brand-cream mb-4 tracking-tight drop-shadow-lg">
             Contact Us
@@ -103,7 +103,7 @@ export default function ContactPage() {
               </div>
               <button 
                 type="button" 
-                className="w-full bg-brand-charcoal text-brand-cream font-bold tracking-wider uppercase text-sm py-4 rounded-sm hover:bg-black transition-colors shadow-md"
+                className="w-full bg-brand-forest text-brand-cream font-bold tracking-wider uppercase text-sm py-4 rounded-sm hover:bg-brand-darkgreen transition-colors shadow-md cursor-pointer"
               >
                 Send Message
               </button>

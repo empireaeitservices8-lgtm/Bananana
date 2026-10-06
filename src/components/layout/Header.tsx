@@ -29,27 +29,28 @@ export default async function Header() {
       <div className="absolute inset-0 bg-brand-cream/90 backdrop-blur-md -z-10" />
 
       {/* ── MOBILE layout (< md) ── */}
-      <div className="relative md:hidden max-w-7xl mx-auto px-4 h-14 flex items-center">
+      <div className="relative md:hidden max-w-7xl mx-auto px-3 sm:px-4 h-14 flex items-center">
         {/* Left — Hamburger (mobile only) */}
-        <div className="flex items-center z-10">
+        <div className="flex items-center z-10 shrink-0">
           <HamburgerMenu categories={uniqueCategories} />
         </div>
 
         {/* Center — Logo absolutely centered (mobile only) */}
-        <div className="absolute left-1/2 -translate-x-1/2 flex items-center">
-          <Link href="/" className="relative h-11 w-28 flex items-center overflow-hidden">
+        <div className="absolute left-1/2 -translate-x-1/2 flex items-center justify-center pointer-events-none">
+          <Link href="/" className="relative h-9 w-28 sm:h-10 sm:w-32 flex items-center justify-center pointer-events-auto">
             <Image
               src="/images/logo.png"
               alt="Bananana"
               fill
-              className="object-contain object-center scale-110"
+              sizes="(max-width: 640px) 130px, 160px"
+              className="object-contain object-center"
               priority
             />
           </Link>
         </div>
 
         {/* Right — Search + Cart */}
-        <div className="flex items-center gap-3 ml-auto z-10">
+        <div className="flex items-center gap-1.5 sm:gap-2.5 ml-auto z-10 shrink-0">
           <SearchBar />
           <CartIcon />
         </div>
@@ -57,7 +58,7 @@ export default async function Header() {
 
       {/* ── DESKTOP layout (≥ md) — logo centered ── */}
       <div className="hidden md:block max-w-7xl mx-auto px-4">
-        <div className="relative h-16 flex items-center">
+        <div className="relative h-18 flex items-center">
           {/* Left — Hamburger + Nav links */}
           <div className="flex items-center gap-5 z-10">
             <HamburgerMenu categories={uniqueCategories} />
@@ -69,9 +70,16 @@ export default async function Header() {
           </div>
 
           {/* Center — Logo absolutely centered */}
-          <div className="absolute left-1/2 -translate-x-1/2 flex items-center">
-            <Link href="/" className="relative h-13 w-36 flex items-center overflow-hidden">
-              <Image src="/images/logo.png" alt="Bananana" fill className="object-contain object-center scale-110" priority />
+          <div className="absolute left-1/2 -translate-x-1/2 flex items-center justify-center">
+            <Link href="/" className="relative h-15 w-48 flex items-center justify-center">
+              <Image 
+                src="/images/logo.png" 
+                alt="Bananana" 
+                fill 
+                sizes="220px" 
+                className="object-contain object-center scale-140" 
+                priority 
+              />
             </Link>
           </div>
 
