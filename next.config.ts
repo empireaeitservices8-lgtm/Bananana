@@ -2,6 +2,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "standalone",
+  experimental: {
+    turbopackPluginRuntimeStrategy: "workerThreads",
+  } as any,
   images: {
     remotePatterns: [
       {
