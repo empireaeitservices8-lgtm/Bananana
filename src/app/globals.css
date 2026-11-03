@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@500;600;700;800&family=Anton&family=Bebas+Neue&family=Oswald:wght@400;500;600;700&family=Italiana&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Outfit:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme inline {
+  --color-brand-cream: #FAF7F2;
+  --color-brand-charcoal: #12261B;
+  --color-brand-forest: #0D3826;
+  --color-brand-darkgreen: #0B2D1F;
+  --color-brand-gold: #E5A93C;
+  --color-brand-gold-muted: #C59239;
+  --color-brand-gold-light: #EEDDBE;
+  --color-brand-maroon: #7B0F19;
+  --color-brand-sage: #9CAF88;
+  --color-brand-offwhite: #F5EFE6;
+
+  --font-sans: "Outfit", var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-serif: var(--font-cormorant-garamond), Georgia, serif;
+  --font-display: "Playfair Display", var(--font-cormorant-garamond), Georgia, serif;
+  --font-fashion: "Outfit", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-condensed: "Oswald", "Bebas Neue", sans-serif;
+  --font-product: var(--font-plus-jakarta), "Plus Jakarta Sans", "Montserrat", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-helvetica: var(--font-plus-jakarta), "Plus Jakarta Sans", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  --background-image-gold-gradient: linear-gradient(135deg, #E5A93C 0%, #C59239 100%);
+  --radius-sm: 4px;
+}
+
+:root {
+  --background: #FAF7F2;
+  --foreground: #12261B;
+}
+
+@layer base {
+  body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+  }
+}
+
+/* Hide native input clear buttons */
+input::-ms-clear,
+input::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
